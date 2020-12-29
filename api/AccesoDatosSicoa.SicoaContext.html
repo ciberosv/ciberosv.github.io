@@ -1,0 +1,2671 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SicoaContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SicoaContext
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AccesoDatosSicoa.SicoaContext">
+  
+  
+  <h1 id="AccesoDatosSicoa_SicoaContext" data-uid="AccesoDatosSicoa.SicoaContext" class="text-break">Class SicoaContext
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Data.Entity.DbContext</span></div>
+    <div class="level2"><span class="xref">SicoaContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set&lt;TEntity&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.GetValidationErrors()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary&lt;System.Object, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Database</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ChangeTracker</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AccesoDatosSicoa.html">AccesoDatosSicoa</a></h6>
+  <h6><strong>Assembly</strong>: AccesoDatosSicoa.dll</h6>
+  <h5 id="AccesoDatosSicoa_SicoaContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SicoaContext : DbContext, IDisposable, IObjectContextAdapter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext__ctor_" data-uid="AccesoDatosSicoa.SicoaContext.#ctor*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext__ctor" data-uid="AccesoDatosSicoa.SicoaContext.#ctor">SicoaContext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SicoaContext()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_ACTA_CALIFICACIONES_" data-uid="AccesoDatosSicoa.SicoaContext.ACTA_CALIFICACIONES*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_ACTA_CALIFICACIONES" data-uid="AccesoDatosSicoa.SicoaContext.ACTA_CALIFICACIONES">ACTA_CALIFICACIONES</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;ACTA_CALIFICACIONES&gt; ACTA_CALIFICACIONES { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.ACTA_CALIFICACIONES.html">ACTA_CALIFICACIONES</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_ASIGNATURA_" data-uid="AccesoDatosSicoa.SicoaContext.ASIGNATURA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_ASIGNATURA" data-uid="AccesoDatosSicoa.SicoaContext.ASIGNATURA">ASIGNATURA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;ASIGNATURA&gt; ASIGNATURA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.ASIGNATURA.html">ASIGNATURA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_BE_ResultadoBusquedaBecadosView_" data-uid="AccesoDatosSicoa.SicoaContext.BE_ResultadoBusquedaBecadosView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_BE_ResultadoBusquedaBecadosView" data-uid="AccesoDatosSicoa.SicoaContext.BE_ResultadoBusquedaBecadosView">BE_ResultadoBusquedaBecadosView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;BE_ResultadoBusquedaBecadosView&gt; BE_ResultadoBusquedaBecadosView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.BE_ResultadoBusquedaBecadosView.html">BE_ResultadoBusquedaBecadosView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_CANTON_" data-uid="AccesoDatosSicoa.SicoaContext.CANTON*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_CANTON" data-uid="AccesoDatosSicoa.SicoaContext.CANTON">CANTON</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;CANTON&gt; CANTON { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.CANTON.html">CANTON</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_CargoDireccionAcademica_" data-uid="AccesoDatosSicoa.SicoaContext.CargoDireccionAcademica*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_CargoDireccionAcademica" data-uid="AccesoDatosSicoa.SicoaContext.CargoDireccionAcademica">CargoDireccionAcademica</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;CargoDireccionAcademica&gt; CargoDireccionAcademica { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.CargoDireccionAcademica.html">CargoDireccionAcademica</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_CARRERA_" data-uid="AccesoDatosSicoa.SicoaContext.CARRERA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_CARRERA" data-uid="AccesoDatosSicoa.SicoaContext.CARRERA">CARRERA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;CARRERA&gt; CARRERA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.CARRERA.html">CARRERA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_CARRERA_TIEMPO_TITULACION_" data-uid="AccesoDatosSicoa.SicoaContext.CARRERA_TIEMPO_TITULACION*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_CARRERA_TIEMPO_TITULACION" data-uid="AccesoDatosSicoa.SicoaContext.CARRERA_TIEMPO_TITULACION">CARRERA_TIEMPO_TITULACION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;CARRERA_TIEMPO_TITULACION&gt; CARRERA_TIEMPO_TITULACION { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.CARRERA_TIEMPO_TITULACION.html">CARRERA_TIEMPO_TITULACION</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DenominacionPuesto_" data-uid="AccesoDatosSicoa.SicoaContext.DenominacionPuesto*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DenominacionPuesto" data-uid="AccesoDatosSicoa.SicoaContext.DenominacionPuesto">DenominacionPuesto</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DenominacionPuesto&gt; DenominacionPuesto { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DenominacionPuesto.html">DenominacionPuesto</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE">DOCENTE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE&gt; DOCENTE { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE.html">DOCENTE</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_CATEGORIA_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_CATEGORIA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE_CATEGORIA" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_CATEGORIA">DOCENTE_CATEGORIA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE_CATEGORIA&gt; DOCENTE_CATEGORIA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE_CATEGORIA.html">DOCENTE_CATEGORIA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_CONTRATO_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_CONTRATO*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE_CONTRATO" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_CONTRATO">DOCENTE_CONTRATO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE_CONTRATO&gt; DOCENTE_CONTRATO { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE_CONTRATO.html">DOCENTE_CONTRATO</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_DISTRIBUTIVO_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_DISTRIBUTIVO*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE_DISTRIBUTIVO" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_DISTRIBUTIVO">DOCENTE_DISTRIBUTIVO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE_DISTRIBUTIVO&gt; DOCENTE_DISTRIBUTIVO { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE_DISTRIBUTIVO.html">DOCENTE_DISTRIBUTIVO</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_HORARIOS_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_HORARIOS*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE_HORARIOS" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_HORARIOS">DOCENTE_HORARIOS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE_HORARIOS&gt; DOCENTE_HORARIOS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE_HORARIOS.html">DOCENTE_HORARIOS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_DOCENTE_TITULOS_" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_TITULOS*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_DOCENTE_TITULOS" data-uid="AccesoDatosSicoa.SicoaContext.DOCENTE_TITULOS">DOCENTE_TITULOS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DOCENTE_TITULOS&gt; DOCENTE_TITULOS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DOCENTE_TITULOS.html">DOCENTE_TITULOS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_ESCUELA_" data-uid="AccesoDatosSicoa.SicoaContext.ESCUELA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_ESCUELA" data-uid="AccesoDatosSicoa.SicoaContext.ESCUELA">ESCUELA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;ESCUELA&gt; ESCUELA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.ESCUELA.html">ESCUELA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVAsignaturasByPeriodoCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.EVAsignaturasByPeriodoCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVAsignaturasByPeriodoCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.EVAsignaturasByPeriodoCarreraView">EVAsignaturasByPeriodoCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVAsignaturasByPeriodoCarreraView&gt; EVAsignaturasByPeriodoCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVAsignaturasByPeriodoCarreraView.html">EVAsignaturasByPeriodoCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVCargosDireccionMujeresView_" data-uid="AccesoDatosSicoa.SicoaContext.EVCargosDireccionMujeresView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVCargosDireccionMujeresView" data-uid="AccesoDatosSicoa.SicoaContext.EVCargosDireccionMujeresView">EVCargosDireccionMujeresView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVCargosDireccionMujeresView&gt; EVCargosDireccionMujeresView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVCargosDireccionMujeresView.html">EVCargosDireccionMujeresView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVContratosByDocenteView_" data-uid="AccesoDatosSicoa.SicoaContext.EVContratosByDocenteView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVContratosByDocenteView" data-uid="AccesoDatosSicoa.SicoaContext.EVContratosByDocenteView">EVContratosByDocenteView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVContratosByDocenteView&gt; EVContratosByDocenteView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVContratosByDocenteView.html">EVContratosByDocenteView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVDocentesByPeriodoCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.EVDocentesByPeriodoCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVDocentesByPeriodoCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.EVDocentesByPeriodoCarreraView">EVDocentesByPeriodoCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVDocentesByPeriodoCarreraView&gt; EVDocentesByPeriodoCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVDocentesByPeriodoCarreraView.html">EVDocentesByPeriodoCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVEstudiantesByAsignaturaParalelo_" data-uid="AccesoDatosSicoa.SicoaContext.EVEstudiantesByAsignaturaParalelo*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVEstudiantesByAsignaturaParalelo" data-uid="AccesoDatosSicoa.SicoaContext.EVEstudiantesByAsignaturaParalelo">EVEstudiantesByAsignaturaParalelo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVEstudiantesByAsignaturaParalelo&gt; EVEstudiantesByAsignaturaParalelo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVEstudiantesByAsignaturaParalelo.html">EVEstudiantesByAsignaturaParalelo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVEventosCapacitacionByServidorView_" data-uid="AccesoDatosSicoa.SicoaContext.EVEventosCapacitacionByServidorView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVEventosCapacitacionByServidorView" data-uid="AccesoDatosSicoa.SicoaContext.EVEventosCapacitacionByServidorView">EVEventosCapacitacionByServidorView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVEventosCapacitacionByServidorView&gt; EVEventosCapacitacionByServidorView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVEventosCapacitacionByServidorView.html">EVEventosCapacitacionByServidorView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVMujeresTitularesView_" data-uid="AccesoDatosSicoa.SicoaContext.EVMujeresTitularesView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVMujeresTitularesView" data-uid="AccesoDatosSicoa.SicoaContext.EVMujeresTitularesView">EVMujeresTitularesView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVMujeresTitularesView&gt; EVMujeresTitularesView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVMujeresTitularesView.html">EVMujeresTitularesView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVRemuneracionMTTPView_" data-uid="AccesoDatosSicoa.SicoaContext.EVRemuneracionMTTPView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVRemuneracionMTTPView" data-uid="AccesoDatosSicoa.SicoaContext.EVRemuneracionMTTPView">EVRemuneracionMTTPView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVRemuneracionMTTPView&gt; EVRemuneracionMTTPView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVRemuneracionMTTPView.html">EVRemuneracionMTTPView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVRemuneracionTCView_" data-uid="AccesoDatosSicoa.SicoaContext.EVRemuneracionTCView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVRemuneracionTCView" data-uid="AccesoDatosSicoa.SicoaContext.EVRemuneracionTCView">EVRemuneracionTCView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVRemuneracionTCView&gt; EVRemuneracionTCView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVRemuneracionTCView.html">EVRemuneracionTCView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVSilaboByAsignaturaView_" data-uid="AccesoDatosSicoa.SicoaContext.EVSilaboByAsignaturaView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVSilaboByAsignaturaView" data-uid="AccesoDatosSicoa.SicoaContext.EVSilaboByAsignaturaView">EVSilaboByAsignaturaView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVSilaboByAsignaturaView&gt; EVSilaboByAsignaturaView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVSilaboByAsignaturaView.html">EVSilaboByAsignaturaView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVTitulosAcademicosByServidorView_" data-uid="AccesoDatosSicoa.SicoaContext.EVTitulosAcademicosByServidorView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVTitulosAcademicosByServidorView" data-uid="AccesoDatosSicoa.SicoaContext.EVTitulosAcademicosByServidorView">EVTitulosAcademicosByServidorView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVTitulosAcademicosByServidorView&gt; EVTitulosAcademicosByServidorView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVTitulosAcademicosByServidorView.html">EVTitulosAcademicosByServidorView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVTutoresPracticasView_" data-uid="AccesoDatosSicoa.SicoaContext.EVTutoresPracticasView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVTutoresPracticasView" data-uid="AccesoDatosSicoa.SicoaContext.EVTutoresPracticasView">EVTutoresPracticasView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVTutoresPracticasView&gt; EVTutoresPracticasView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVTutoresPracticasView.html">EVTutoresPracticasView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_EVTutoresView_" data-uid="AccesoDatosSicoa.SicoaContext.EVTutoresView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_EVTutoresView" data-uid="AccesoDatosSicoa.SicoaContext.EVTutoresView">EVTutoresView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EVTutoresView&gt; EVTutoresView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EVTutoresView.html">EVTutoresView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_FACULTAD_" data-uid="AccesoDatosSicoa.SicoaContext.FACULTAD*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_FACULTAD" data-uid="AccesoDatosSicoa.SicoaContext.FACULTAD">FACULTAD</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;FACULTAD&gt; FACULTAD { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.FACULTAD.html">FACULTAD</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_INVArticuloRevistaView_" data-uid="AccesoDatosSicoa.SicoaContext.INVArticuloRevistaView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_INVArticuloRevistaView" data-uid="AccesoDatosSicoa.SicoaContext.INVArticuloRevistaView">INVArticuloRevistaView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;INVArticuloRevistaView&gt; INVArticuloRevistaView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.INVArticuloRevistaView.html">INVArticuloRevistaView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_INVCapitulosLibrosView_" data-uid="AccesoDatosSicoa.SicoaContext.INVCapitulosLibrosView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_INVCapitulosLibrosView" data-uid="AccesoDatosSicoa.SicoaContext.INVCapitulosLibrosView">INVCapitulosLibrosView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;INVCapitulosLibrosView&gt; INVCapitulosLibrosView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.INVCapitulosLibrosView.html">INVCapitulosLibrosView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_INVLibrosPublicadosView_" data-uid="AccesoDatosSicoa.SicoaContext.INVLibrosPublicadosView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_INVLibrosPublicadosView" data-uid="AccesoDatosSicoa.SicoaContext.INVLibrosPublicadosView">INVLibrosPublicadosView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;INVLibrosPublicadosView&gt; INVLibrosPublicadosView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.INVLibrosPublicadosView.html">INVLibrosPublicadosView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_INVPonenciasView_" data-uid="AccesoDatosSicoa.SicoaContext.INVPonenciasView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_INVPonenciasView" data-uid="AccesoDatosSicoa.SicoaContext.INVPonenciasView">INVPonenciasView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;INVPonenciasView&gt; INVPonenciasView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.INVPonenciasView.html">INVPonenciasView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_Jefe_" data-uid="AccesoDatosSicoa.SicoaContext.Jefe*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_Jefe" data-uid="AccesoDatosSicoa.SicoaContext.Jefe">Jefe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;Jefe&gt; Jefe { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.Jefe.html">Jefe</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_JefesByUnidadOrganicaView_" data-uid="AccesoDatosSicoa.SicoaContext.JefesByUnidadOrganicaView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_JefesByUnidadOrganicaView" data-uid="AccesoDatosSicoa.SicoaContext.JefesByUnidadOrganicaView">JefesByUnidadOrganicaView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;JefesByUnidadOrganicaView&gt; JefesByUnidadOrganicaView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.JefesByUnidadOrganicaView.html">JefesByUnidadOrganicaView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_NIVEL_" data-uid="AccesoDatosSicoa.SicoaContext.NIVEL*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_NIVEL" data-uid="AccesoDatosSicoa.SicoaContext.NIVEL">NIVEL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;NIVEL&gt; NIVEL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.NIVEL.html">NIVEL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOAsignaturaByPeriodoCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OOAsignaturaByPeriodoCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOAsignaturaByPeriodoCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OOAsignaturaByPeriodoCarreraView">OOAsignaturaByPeriodoCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;OOAsignaturaByPeriodoCarreraView&gt; OOAsignaturaByPeriodoCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.OOAsignaturaByPeriodoCarreraView.html">OOAsignaturaByPeriodoCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOAsignaturasCarrerasView_" data-uid="AccesoDatosSicoa.SicoaContext.OOAsignaturasCarrerasView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOAsignaturasCarrerasView" data-uid="AccesoDatosSicoa.SicoaContext.OOAsignaturasCarrerasView">OOAsignaturasCarrerasView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AsignaturasCarrerasView&gt; OOAsignaturasCarrerasView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.AsignaturasCarrerasView.html">AsignaturasCarrerasView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODetalleEstudiantesNivelView_" data-uid="AccesoDatosSicoa.SicoaContext.OODetalleEstudiantesNivelView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODetalleEstudiantesNivelView" data-uid="AccesoDatosSicoa.SicoaContext.OODetalleEstudiantesNivelView">OODetalleEstudiantesNivelView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;OODetalleEstudiantesNivelView&gt; OODetalleEstudiantesNivelView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.OODetalleEstudiantesNivelView.html">OODetalleEstudiantesNivelView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocenteRelacionLaboralCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocenteRelacionLaboralCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocenteRelacionLaboralCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OODocenteRelacionLaboralCarreraView">OODocenteRelacionLaboralCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocenteRelacionLaboralCarreraView&gt; OODocenteRelacionLaboralCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocenteRelacionLaboralCarreraView.html">DocenteRelacionLaboralCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocenteRelacionLaboralView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocenteRelacionLaboralView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocenteRelacionLaboralView" data-uid="AccesoDatosSicoa.SicoaContext.OODocenteRelacionLaboralView">OODocenteRelacionLaboralView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocenteRelacionLaboralView&gt; OODocenteRelacionLaboralView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocenteRelacionLaboralView.html">DocenteRelacionLaboralView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesMTCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesMTCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesMTCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesMTCarreraView">OODocentesMTCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesMTCarreraView&gt; OODocentesMTCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesMTCarreraView.html">DocentesMTCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesMTView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesMTView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesMTView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesMTView">OODocentesMTView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesMTView&gt; OODocentesMTView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesMTView.html">DocentesMTView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesTCCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTCCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesTCCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTCCarreraView">OODocentesTCCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesTCCarreraView&gt; OODocentesTCCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesTCCarreraView.html">DocentesTCCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesTCView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTCView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesTCView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTCView">OODocentesTCView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesTCView&gt; OODocentesTCView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesTCView.html">DocentesTCView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesTitularesTiempoCompletoView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTitularesTiempoCompletoView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesTitularesTiempoCompletoView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTitularesTiempoCompletoView">OODocentesTitularesTiempoCompletoView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesTitularesTiempoCompletoView&gt; OODocentesTitularesTiempoCompletoView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesTitularesTiempoCompletoView.html">DocentesTitularesTiempoCompletoView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesTPCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTPCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesTPCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTPCarreraView">OODocentesTPCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesTPCarreraView&gt; OODocentesTPCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesTPCarreraView.html">DocentesTPCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODocentesTPView_" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTPView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODocentesTPView" data-uid="AccesoDatosSicoa.SicoaContext.OODocentesTPView">OODocentesTPView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DocentesTPView&gt; OODocentesTPView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DocentesTPView.html">DocentesTPView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OODoctoresTCView_" data-uid="AccesoDatosSicoa.SicoaContext.OODoctoresTCView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OODoctoresTCView" data-uid="AccesoDatosSicoa.SicoaContext.OODoctoresTCView">OODoctoresTCView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;DoctoresTCView&gt; OODoctoresTCView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.DoctoresTCView.html">DoctoresTCView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOEstudiantesCarrerasView_" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesCarrerasView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOEstudiantesCarrerasView" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesCarrerasView">OOEstudiantesCarrerasView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EstudiantesCarrerasView&gt; OOEstudiantesCarrerasView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesCarrerasView.html">EstudiantesCarrerasView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOEstudiantesModalidadView_" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesModalidadView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOEstudiantesModalidadView" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesModalidadView">OOEstudiantesModalidadView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EstudiantesModalidadView&gt; OOEstudiantesModalidadView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesModalidadView.html">EstudiantesModalidadView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOEstudiantesView_" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOEstudiantesView" data-uid="AccesoDatosSicoa.SicoaContext.OOEstudiantesView">OOEstudiantesView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;EstudiantesView&gt; OOEstudiantesView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesView.html">EstudiantesView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOFacultadPeriodoView_" data-uid="AccesoDatosSicoa.SicoaContext.OOFacultadPeriodoView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOFacultadPeriodoView" data-uid="AccesoDatosSicoa.SicoaContext.OOFacultadPeriodoView">OOFacultadPeriodoView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;FacultadPeriodoView&gt; OOFacultadPeriodoView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.FacultadPeriodoView.html">FacultadPeriodoView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOFormacionPosgradoInstView_" data-uid="AccesoDatosSicoa.SicoaContext.OOFormacionPosgradoInstView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOFormacionPosgradoInstView" data-uid="AccesoDatosSicoa.SicoaContext.OOFormacionPosgradoInstView">OOFormacionPosgradoInstView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;FormacionPosgradoInstView&gt; OOFormacionPosgradoInstView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.FormacionPosgradoInstView.html">FormacionPosgradoInstView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOFormacionPostgradoView_" data-uid="AccesoDatosSicoa.SicoaContext.OOFormacionPostgradoView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOFormacionPostgradoView" data-uid="AccesoDatosSicoa.SicoaContext.OOFormacionPostgradoView">OOFormacionPostgradoView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;OOFormacionPostgradoView&gt; OOFormacionPostgradoView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.OOFormacionPostgradoView.html">OOFormacionPostgradoView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OONumeroDocentesPeriodoCarreraView_" data-uid="AccesoDatosSicoa.SicoaContext.OONumeroDocentesPeriodoCarreraView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OONumeroDocentesPeriodoCarreraView" data-uid="AccesoDatosSicoa.SicoaContext.OONumeroDocentesPeriodoCarreraView">OONumeroDocentesPeriodoCarreraView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;NumeroDocentesPeriodoCarreraView&gt; OONumeroDocentesPeriodoCarreraView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.NumeroDocentesPeriodoCarreraView.html">NumeroDocentesPeriodoCarreraView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OONumeroDocentesPeriodoView_" data-uid="AccesoDatosSicoa.SicoaContext.OONumeroDocentesPeriodoView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OONumeroDocentesPeriodoView" data-uid="AccesoDatosSicoa.SicoaContext.OONumeroDocentesPeriodoView">OONumeroDocentesPeriodoView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;NumeroDocentesPeriodoView&gt; OONumeroDocentesPeriodoView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.NumeroDocentesPeriodoView.html">NumeroDocentesPeriodoView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOPeriodoAcademicoFullView_" data-uid="AccesoDatosSicoa.SicoaContext.OOPeriodoAcademicoFullView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOPeriodoAcademicoFullView" data-uid="AccesoDatosSicoa.SicoaContext.OOPeriodoAcademicoFullView">OOPeriodoAcademicoFullView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;OOPeriodoAcademicoFullView&gt; OOPeriodoAcademicoFullView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.OOPeriodoAcademicoFullView.html">OOPeriodoAcademicoFullView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOPeriodoAcademicoMinView_" data-uid="AccesoDatosSicoa.SicoaContext.OOPeriodoAcademicoMinView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOPeriodoAcademicoMinView" data-uid="AccesoDatosSicoa.SicoaContext.OOPeriodoAcademicoMinView">OOPeriodoAcademicoMinView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;OOPeriodoAcademicoMinView&gt; OOPeriodoAcademicoMinView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.OOPeriodoAcademicoMinView.html">OOPeriodoAcademicoMinView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OOUnidadAcademicaView_" data-uid="AccesoDatosSicoa.SicoaContext.OOUnidadAcademicaView*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OOUnidadAcademicaView" data-uid="AccesoDatosSicoa.SicoaContext.OOUnidadAcademicaView">OOUnidadAcademicaView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;UnidadAcademicaView&gt; OOUnidadAcademicaView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.UnidadAcademicaView.html">UnidadAcademicaView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_PERIODO_" data-uid="AccesoDatosSicoa.SicoaContext.PERIODO*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_PERIODO" data-uid="AccesoDatosSicoa.SicoaContext.PERIODO">PERIODO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;PERIODO&gt; PERIODO { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.PERIODO.html">PERIODO</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_PERIODO_UA_SE_" data-uid="AccesoDatosSicoa.SicoaContext.PERIODO_UA_SE*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_PERIODO_UA_SE" data-uid="AccesoDatosSicoa.SicoaContext.PERIODO_UA_SE">PERIODO_UA_SE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;PERIODO_UA_SE&gt; PERIODO_UA_SE { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.PERIODO_UA_SE.html">PERIODO_UA_SE</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_QREncuestaTemp_" data-uid="AccesoDatosSicoa.SicoaContext.QREncuestaTemp*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_QREncuestaTemp" data-uid="AccesoDatosSicoa.SicoaContext.QREncuestaTemp">QREncuestaTemp</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;QREncuestaTemp&gt; QREncuestaTemp { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.QREncuestaTemp.html">QREncuestaTemp</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_RELACION_LABORAL_" data-uid="AccesoDatosSicoa.SicoaContext.RELACION_LABORAL*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_RELACION_LABORAL" data-uid="AccesoDatosSicoa.SicoaContext.RELACION_LABORAL">RELACION_LABORAL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;RELACION_LABORAL&gt; RELACION_LABORAL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.RELACION_LABORAL.html">RELACION_LABORAL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SERVIDOR_" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SERVIDOR" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR">SERVIDOR</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SERVIDOR&gt; SERVIDOR { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SERVIDOR.html">SERVIDOR</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_ACADEMICA_" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_ACADEMICA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_ACADEMICA" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_ACADEMICA">SERVIDOR_INFORMACION_ACADEMICA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SERVIDOR_INFORMACION_ACADEMICA&gt; SERVIDOR_INFORMACION_ACADEMICA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SERVIDOR_INFORMACION_ACADEMICA.html">SERVIDOR_INFORMACION_ACADEMICA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_CAPACITACION_" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_CAPACITACION*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_CAPACITACION" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_CAPACITACION">SERVIDOR_INFORMACION_CAPACITACION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SERVIDOR_INFORMACION_CAPACITACION&gt; SERVIDOR_INFORMACION_CAPACITACION { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SERVIDOR_INFORMACION_CAPACITACION.html">SERVIDOR_INFORMACION_CAPACITACION</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_PERSONAL_" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_PERSONAL*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SERVIDOR_INFORMACION_PERSONAL" data-uid="AccesoDatosSicoa.SicoaContext.SERVIDOR_INFORMACION_PERSONAL">SERVIDOR_INFORMACION_PERSONAL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SERVIDOR_INFORMACION_PERSONAL&gt; SERVIDOR_INFORMACION_PERSONAL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SERVIDOR_INFORMACION_PERSONAL.html">SERVIDOR_INFORMACION_PERSONAL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_ServidorInformacionPuesto_" data-uid="AccesoDatosSicoa.SicoaContext.ServidorInformacionPuesto*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_ServidorInformacionPuesto" data-uid="AccesoDatosSicoa.SicoaContext.ServidorInformacionPuesto">ServidorInformacionPuesto</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;ServidorInformacionPuesto&gt; ServidorInformacionPuesto { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.ServidorInformacionPuesto.html">ServidorInformacionPuesto</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_ServidorRelacionLaboral_" data-uid="AccesoDatosSicoa.SicoaContext.ServidorRelacionLaboral*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_ServidorRelacionLaboral" data-uid="AccesoDatosSicoa.SicoaContext.ServidorRelacionLaboral">ServidorRelacionLaboral</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;ServidorRelacionLaboral&gt; ServidorRelacionLaboral { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.ServidorRelacionLaboral.html">ServidorRelacionLaboral</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SGDT_SILABO_" data-uid="AccesoDatosSicoa.SicoaContext.SGDT_SILABO*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SGDT_SILABO" data-uid="AccesoDatosSicoa.SicoaContext.SGDT_SILABO">SGDT_SILABO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SGDT_SILABO&gt; SGDT_SILABO { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SGDT_SILABO.html">SGDT_SILABO</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_SISTEMA_ESTUDIOS_" data-uid="AccesoDatosSicoa.SicoaContext.SISTEMA_ESTUDIOS*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_SISTEMA_ESTUDIOS" data-uid="AccesoDatosSicoa.SicoaContext.SISTEMA_ESTUDIOS">SISTEMA_ESTUDIOS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;SISTEMA_ESTUDIOS&gt; SISTEMA_ESTUDIOS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.SISTEMA_ESTUDIOS.html">SISTEMA_ESTUDIOS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_CursosGenerales_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_CursosGenerales*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_CursosGenerales" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_CursosGenerales">TH_CV_CursosGenerales</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_CursosGenerales&gt; TH_CV_CursosGenerales { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_CursosGenerales.html">TH_CV_CursosGenerales</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_CursosUnach_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_CursosUnach*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_CursosUnach" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_CursosUnach">TH_CV_CursosUnach</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_CursosUnach&gt; TH_CV_CursosUnach { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_CursosUnach.html">TH_CV_CursosUnach</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_Experiencia_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Experiencia*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_Experiencia" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Experiencia">TH_CV_Experiencia</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_Experiencia&gt; TH_CV_Experiencia { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_Experiencia.html">TH_CV_Experiencia</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_Idiomas_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Idiomas*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_Idiomas" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Idiomas">TH_CV_Idiomas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_Idiomas&gt; TH_CV_Idiomas { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_Idiomas.html">TH_CV_Idiomas</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_Publicaciones_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Publicaciones*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_Publicaciones" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_Publicaciones">TH_CV_Publicaciones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_Publicaciones&gt; TH_CV_Publicaciones { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_Publicaciones.html">TH_CV_Publicaciones</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TH_CV_TitulosAcademicos_" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_TitulosAcademicos*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TH_CV_TitulosAcademicos" data-uid="AccesoDatosSicoa.SicoaContext.TH_CV_TitulosAcademicos">TH_CV_TitulosAcademicos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;TH_CV_TitulosAcademicos&gt; TH_CV_TitulosAcademicos { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.TH_CV_TitulosAcademicos.html">TH_CV_TitulosAcademicos</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_UNIDAD_ACADEMICA_" data-uid="AccesoDatosSicoa.SicoaContext.UNIDAD_ACADEMICA*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_UNIDAD_ACADEMICA" data-uid="AccesoDatosSicoa.SicoaContext.UNIDAD_ACADEMICA">UNIDAD_ACADEMICA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;UNIDAD_ACADEMICA&gt; UNIDAD_ACADEMICA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.UNIDAD_ACADEMICA.html">UNIDAD_ACADEMICA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_UnidadDepartamento_" data-uid="AccesoDatosSicoa.SicoaContext.UnidadDepartamento*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_UnidadDepartamento" data-uid="AccesoDatosSicoa.SicoaContext.UnidadDepartamento">UnidadDepartamento</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;UnidadDepartamento&gt; UnidadDepartamento { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.UnidadDepartamento.html">UnidadDepartamento</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_UnidadOrganica_" data-uid="AccesoDatosSicoa.SicoaContext.UnidadOrganica*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_UnidadOrganica" data-uid="AccesoDatosSicoa.SicoaContext.UnidadOrganica">UnidadOrganica</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;UnidadOrganica&gt; UnidadOrganica { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="AccesoDatosSicoa.UnidadOrganica.html">UnidadOrganica</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_F20_spListadoEstudiantesTasaTitulacionIESGraduados_" data-uid="AccesoDatosSicoa.SicoaContext.F20_spListadoEstudiantesTasaTitulacionIESGraduados*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_F20_spListadoEstudiantesTasaTitulacionIESGraduados_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_DateTime__" data-uid="AccesoDatosSicoa.SicoaContext.F20_spListadoEstudiantesTasaTitulacionIESGraduados(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime})">F20_spListadoEstudiantesTasaTitulacionIESGraduados(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;EstudiantesTasaTitulacionIESGraduados&gt; F20_spListadoEstudiantesTasaTitulacionIESGraduados(int? periodoInicial, int? sistemaEstudiosID, DateTime? fechaMaximaGrado)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoInicial</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">sistemaEstudiosID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">fechaMaximaGrado</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesTasaTitulacionIESGraduados.html">EstudiantesTasaTitulacionIESGraduados</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel_" data-uid="AccesoDatosSicoa.SicoaContext.F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AccesoDatosSicoa.SicoaContext.F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel(System.Nullable{System.Int32},System.Nullable{System.Int32})">F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;EstudiantesTasaTitulacionIESPrimerNivel&gt; F20_spListadoEstudiantesTasaTitulacionIESPrimerNivel(int? periodoInicial, int? sistemaEstudiosID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoInicial</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">sistemaEstudiosID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesTasaTitulacionIESPrimerNivel.html">EstudiantesTasaTitulacionIESPrimerNivel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_OnModelCreating_" data-uid="AccesoDatosSicoa.SicoaContext.OnModelCreating*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_OnModelCreating_System_Data_Entity_DbModelBuilder_" data-uid="AccesoDatosSicoa.SicoaContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">OnModelCreating(DbModelBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(DbModelBuilder modelBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbModelBuilder</span></td>
+        <td><span class="parametername">modelBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)</span></div>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaRetencion_" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaRetencion*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaRetencion_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaRetencion(System.Nullable{System.Int32},System.Nullable{System.Int32})">spListadoEstudiantesTasaRetencion(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;ListadoEstudiantesTasaRetencion&gt; spListadoEstudiantesTasaRetencion(int? periodoEvaluacion, int? carreraID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoEvaluacion</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">carreraID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.ListadoEstudiantesTasaRetencion.html">ListadoEstudiantesTasaRetencion</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaRetencionIES_" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaRetencionIES*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaRetencionIES_System_Nullable_System_Int32__" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaRetencionIES(System.Nullable{System.Int32})">spListadoEstudiantesTasaRetencionIES(Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;EstudiantesTasaRetencionIES&gt; spListadoEstudiantesTasaRetencionIES(int? periodoEvaluacion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoEvaluacion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesTasaRetencionIES.html">EstudiantesTasaRetencionIES</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaTitulacion_" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaTitulacion*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaTitulacion_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_DateTime__" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaTitulacion(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime})">spListadoEstudiantesTasaTitulacion(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;ListadoEstudiantesTasaTitulacion&gt; spListadoEstudiantesTasaTitulacion(int? periodoInicial, int? carreraID, int? sistemaEstudiosID, DateTime? fechaEvaluacion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoInicial</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">carreraID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">sistemaEstudiosID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">fechaEvaluacion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.ListadoEstudiantesTasaTitulacion.html">ListadoEstudiantesTasaTitulacion</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaTitulacionDetalle_" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaTitulacionDetalle*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_spListadoEstudiantesTasaTitulacionDetalle_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_DateTime__" data-uid="AccesoDatosSicoa.SicoaContext.spListadoEstudiantesTasaTitulacionDetalle(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime})">spListadoEstudiantesTasaTitulacionDetalle(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;ListadoEstudiantesTasaTitulacionDetalle&gt; spListadoEstudiantesTasaTitulacionDetalle(int? periodoInicial, int? carreraID, int? sistemaEstudiosID, DateTime? fechaEvaluacion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoInicial</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">carreraID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">sistemaEstudiosID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">fechaEvaluacion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.ListadoEstudiantesTasaTitulacionDetalle.html">ListadoEstudiantesTasaTitulacionDetalle</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TasaTitulacion_spEstudiantesCarrerasFechas_" data-uid="AccesoDatosSicoa.SicoaContext.TasaTitulacion_spEstudiantesCarrerasFechas*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TasaTitulacion_spEstudiantesCarrerasFechas_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AccesoDatosSicoa.SicoaContext.TasaTitulacion_spEstudiantesCarrerasFechas(System.Nullable{System.Int32},System.Nullable{System.Int32})">TasaTitulacion_spEstudiantesCarrerasFechas(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;EstudiantesCarrerasFechas&gt; TasaTitulacion_spEstudiantesCarrerasFechas(int? periodoID, int? carreraID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">carreraID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesCarrerasFechas.html">EstudiantesCarrerasFechas</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AccesoDatosSicoa_SicoaContext_TasaTitulacion_spEstudiantesIESFechas_" data-uid="AccesoDatosSicoa.SicoaContext.TasaTitulacion_spEstudiantesIESFechas*"></a>
+  <h4 id="AccesoDatosSicoa_SicoaContext_TasaTitulacion_spEstudiantesIESFechas_System_Nullable_System_Int32__" data-uid="AccesoDatosSicoa.SicoaContext.TasaTitulacion_spEstudiantesIESFechas(System.Nullable{System.Int32})">TasaTitulacion_spEstudiantesIESFechas(Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ObjectResult&lt;EstudiantesIESFechas&gt; TasaTitulacion_spEstudiantesIESFechas(int? periodoInicial)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">periodoInicial</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="AccesoDatosSicoa.EstudiantesIESFechas.html">EstudiantesIESFechas</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
