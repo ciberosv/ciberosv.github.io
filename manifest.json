@@ -5,30 +5,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Codesi.Msdn.Dath.Postulacion.Class1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Codesi.Msdn.Dath.Postulacion.Class1.html",
-          "hash": "QZ6P4//UBQhRy+GV5liE+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Codesi.Msdn.Dath.Postulacion.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Codesi.Msdn.Dath.Postulacion.html",
-          "hash": "Gjrjlc/hwtv4YfB1brfStg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.yml",
       "output": {
         ".html": {
@@ -2296,6 +2272,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/SqlServerTypes.Utilities.yml",
       "output": {
@@ -2313,7 +2292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Postulacion/Website/SqlServerTypes.html",
-          "hash": "8wrWZDC7iQBN/bZGtU/udA=="
+          "hash": "MkpiFfe2Kdh4+9hwMeqX0Q=="
         }
       },
       "is_incremental": false,
@@ -2356,6 +2335,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ForgotPassword.yml",
       "output": {
@@ -2404,6 +2386,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ManagePassword.yml",
       "output": {
@@ -2416,6 +2401,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.OpenAuthProviders.yml",
       "output": {
@@ -2428,6 +2416,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.RegisterExternalLogin.yml",
       "output": {
@@ -2440,6 +2431,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ResetPassword.yml",
       "output": {
@@ -2464,6 +2458,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.TwoFactorAuthenticationSignIn.yml",
       "output": {
@@ -2488,6 +2485,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.yml",
       "output": {
@@ -2500,6 +2500,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.AdminSite.yml",
       "output": {
@@ -2524,6 +2527,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.DefinirTiempos.yml",
       "output": {
@@ -2536,6 +2542,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.yml",
       "output": {
@@ -2548,6 +2557,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.yml",
       "output": {
@@ -2560,6 +2572,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.yml",
       "output": {
@@ -2584,6 +2599,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.yml",
       "output": {
@@ -2601,7 +2619,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.html",
-          "hash": "LNnyccxzi++obRw+m+0BWg=="
+          "hash": "TRIWxpilKoaS/sjt7vIi6A=="
         }
       },
       "is_incremental": false,
@@ -2644,6 +2662,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Contact.yml",
       "output": {
@@ -2716,6 +2737,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.yml",
       "output": {
@@ -2728,6 +2752,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.RouteConfig.yml",
       "output": {
@@ -2740,6 +2767,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Aplicar.yml",
       "output": {
@@ -2752,6 +2782,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.yml",
       "output": {
@@ -2776,6 +2809,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.yml",
       "output": {
@@ -2824,6 +2860,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.yml",
       "output": {
@@ -2836,6 +2875,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.yml",
       "output": {
@@ -2848,6 +2890,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.yml",
       "output": {
@@ -2860,6 +2905,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.yml",
       "output": {
@@ -2872,6 +2920,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.yml",
       "output": {
@@ -2884,6 +2935,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.yml",
       "output": {
@@ -2968,6 +3022,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.yml",
       "output": {
@@ -2980,6 +3037,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.yml",
       "output": {
@@ -3016,6 +3076,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.yml",
       "output": {
@@ -3028,6 +3091,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.yml",
       "output": {
@@ -3040,12 +3106,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.yml",
       "output": {
         ".html": {
           "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.html",
-          "hash": "7EnQgBUSAeaCnHJlAARt7Q=="
+          "hash": "91dl/rKov44bPy+DW7afAg=="
         }
       },
       "is_incremental": false,
@@ -3064,6 +3133,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SmsService.yml",
       "output": {
@@ -3076,6 +3148,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.yml",
       "output": {
@@ -3088,6 +3163,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.yml",
       "output": {
@@ -3124,6 +3202,924 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SqlServerTypes.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SqlServerTypes.Utilities.html",
+          "hash": "ik/5bcUq+67l7G5ycfFYcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/SqlServerTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SqlServerTypes.html",
+          "hash": "MoTr6mCHweQ8Fyj/od6xYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.About.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.About.html",
+          "hash": "xCB+1x/ZkGRTgCoFdg807A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.AddPhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.AddPhoneNumber.html",
+          "hash": "xQFzfQ/SkLbeQZHvMpxi/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Confirm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Confirm.html",
+          "hash": "WYlj8ZR8bOT1Y9DqHCZ9ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ForgotPassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ForgotPassword.html",
+          "hash": "YJzDN7bZmESp6snPcI8u+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Lockout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Lockout.html",
+          "hash": "DRiKBOyQp+FGifMuNR+BOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Manage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.Manage.html",
+          "hash": "/t6//bwRIlDKeuidLzhnSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ManageLogins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ManageLogins.html",
+          "hash": "8hfqJWbuNZOFm0BWmabZng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ManagePassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ManagePassword.html",
+          "hash": "ZJrF2hsHopX/6m6YDzgnLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.OpenAuthProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.OpenAuthProviders.html",
+          "hash": "ubfu210yDK1POdjs6qmLDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.RegisterExternalLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.RegisterExternalLogin.html",
+          "hash": "sh0JWaUYDfC8gIjpayF3aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ResetPassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ResetPassword.html",
+          "hash": "5B+4KO5d/kvS9ppD5CI57Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ResetPasswordConfirmation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.ResetPasswordConfirmation.html",
+          "hash": "oCAGSEq6IH6N1h9ho66xJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.TwoFactorAuthenticationSignIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.TwoFactorAuthenticationSignIn.html",
+          "hash": "eSAlej3oB6Lt/7hWQbGcqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.VerifyPhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.VerifyPhoneNumber.html",
+          "hash": "sf3D4RXAeBZexQrqS+Ojeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Account.html",
+          "hash": "EhNi2vd0vLOOZWK1eLyIYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.AdminSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.AdminSite.html",
+          "hash": "qKRHEaYFXS7vcDjzCRwVyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Default.html",
+          "hash": "vDJP0HvDPiLHsdvKWxT2kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.DefinirTiempos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.DefinirTiempos.html",
+          "hash": "fqtzvUE9KBVr6nTZSbaWCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.html",
+          "hash": "jRkqRcpmFg2ZJmbWeCoIRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html",
+          "hash": "2IP3CpEaLYA8CXjvo9DOnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html",
+          "hash": "Y83PkeqxRwHlMMIqM9rqBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html",
+          "hash": "wLxZznmqHKgZcpIiSSBJSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.html",
+          "hash": "bt7IeJmzYs04wa2e2SNI5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Admin.html",
+          "hash": "EdmGSC/eh2dEmVCLfTFEQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html",
+          "hash": "uZzK+I5Bg2NyxRS7e21DVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html",
+          "hash": "I4MtRyIJRo9Om5BPl6uCtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.BundleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.BundleConfig.html",
+          "hash": "537ub0AOuAC0XzzeFHqydA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Contact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Contact.html",
+          "hash": "wXyEnVIgB9Bk6KpN6VIuUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.EmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.EmailService.html",
+          "hash": "UVTtX7A+UQX1ZNSSpNOCbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Global.html",
+          "hash": "rU+wKmJdDqKTeV/ldvIwjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.IdentityHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.IdentityHelper.html",
+          "hash": "7+r5utgi0BIV5DvZanUVeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.ApplicationDbContext.html",
+          "hash": "MHc833Vpmnjl3L2AS+jIlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.html",
+          "hash": "7gIlnaTRuYr9wusmC05FOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Models.html",
+          "hash": "2Rj6yM/zMVoNuL5r/0iJ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.RouteConfig.html",
+          "hash": "yDn0B3ufQ2KgbLhtFLslOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Aplicar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Aplicar.html",
+          "hash": "0SgYYwQYcnVNdkdbi6kmzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.html",
+          "hash": "pAhn2xuwE62ZFk7CzPVLTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.html",
+          "hash": "Y+NqLvMpn92pRiJsh8eJMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.html",
+          "hash": "eF1VUp8ADubdueqWEyuEBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.html",
+          "hash": "xGZOZhJHryOngTdXfWZv8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.html",
+          "hash": "3mf2aow5ltVmPkveUWW5Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.html",
+          "hash": "MQd8ECackS/aZP79mS4dNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.html",
+          "hash": "7tKLzgIXoxTjRsrUl2cd7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.html",
+          "hash": "KZbTMCfcNjDzaXDFN4XGcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.html",
+          "hash": "VAfleasX6OemkxTxuUoFXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.html",
+          "hash": "Zh9dtwA5/Xgrc275CIsf5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.html",
+          "hash": "dJ7kMsbtqGSbCAqQoU4MeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.html",
+          "hash": "05ZSrqgG8Lh5fwnJnvd32w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.html",
+          "hash": "MQjmhHY0jKLbi2d1heCH2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.TitulosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.TitulosUserControl.html",
+          "hash": "36DVSa38PkIYeV9ekQIXLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.html",
+          "hash": "apBBDqM6aIfruhD0tkEGfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Default.html",
+          "hash": "c8XttiL2pATAUyJ2PJn3fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html",
+          "hash": "/ie40/+8Abzv8Cayo65w9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Download.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Download.html",
+          "hash": "w889ZGBSU3pp1S/PIkmOrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.html",
+          "hash": "gOImoUwLuNUFou1+fNuvOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html",
+          "hash": "dhToD+a9n4TYTo7M2T7qng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html",
+          "hash": "zgzb0xm/YIZFqhnKGdsUCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html",
+          "hash": "QTxV6u07ogIHbRO0lXHgkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html",
+          "hash": "KZb7LngtkNf8DAPDLs3fMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.html",
+          "hash": "VdVJFlBpNNYpntAqYp2AbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Sandbox.html",
+          "hash": "hUTFG9/ypXQ6FZzhWQ2AFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.SiteMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.SiteMaster.html",
+          "hash": "tQI1bamoAkF0Cciy5LdRuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.SmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.SmsService.html",
+          "hash": "uUsFapqiWiD1DxTMkfnHmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.Startup.html",
+          "hash": "JE3sRi1mr590xyo1pye61Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite._Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite._Default.html",
+          "hash": "86II16BjQjmuQ+yTeMNIXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unach.Dath.Postulacion.WebSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unach.Dath.Postulacion.WebSite.html",
+          "hash": "RyKwVcLV7YNvkcYWBY9i3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -3141,7 +4137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZCTWN7dqED6PeeZYBJ6ihQ=="
+          "hash": "mkjHk5turweVJNI698kWzQ=="
         }
       },
       "is_incremental": false,
@@ -3216,7 +4212,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 257,
+          "total_file_count": 323,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

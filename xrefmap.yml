@@ -1,18 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Codesi.Msdn.Dath.Postulacion
-  name: Codesi.Msdn.Dath.Postulacion
-  href: api/Codesi.Msdn.Dath.Postulacion.html
-  commentId: N:Codesi.Msdn.Dath.Postulacion
-  fullName: Codesi.Msdn.Dath.Postulacion
-  nameWithType: Codesi.Msdn.Dath.Postulacion
-- uid: Codesi.Msdn.Dath.Postulacion.Class1
-  name: Class1
-  href: api/Codesi.Msdn.Dath.Postulacion.Class1.html
-  commentId: T:Codesi.Msdn.Dath.Postulacion.Class1
-  fullName: Codesi.Msdn.Dath.Postulacion.Class1
-  nameWithType: Class1
 - uid: SqlServerTypes
   name: SqlServerTypes
   href: api/Postulacion/Website/SqlServerTypes.html
