@@ -110,11 +110,12 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_SERVIDOR_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract(Name = &quot;SERVIDOR&quot;, Namespace = &quot;http://schemas.datacontract.org/2004/07/Unach.Dath.Gestion.Persistencia&quot;)]
+[Serializable]
+public class SERVIDOR : IExtensibleDataObject, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +127,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnalistaFacultad[] AnalistaFacultad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public AnalistaFacultad[] AnalistaFacultad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +153,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Aval[] Aval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Aval[] Aval { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +179,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CapacitacionExterna[] CapacitacionExterna { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public CapacitacionExterna[] CapacitacionExterna { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +205,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CapacitacionInterna[] CapacitacionInterna { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public CapacitacionInterna[] CapacitacionInterna { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +231,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DispositivoBiometricoServidor[] DispositivoBiometricoServidor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DispositivoBiometricoServidor[] DispositivoBiometricoServidor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +257,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DOCENTE[] DOCENTE { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DOCENTE[] DOCENTE { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +283,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnFormacion[] EnFormacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public EnFormacion[] EnFormacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +309,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Estado { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool Estado { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +335,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EvaluacionRendimiento[] EvaluacionRendimiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public EvaluacionRendimiento[] EvaluacionRendimiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +361,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Experto[] Experto { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Experto[] Experto { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +387,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtensionDataObject ExtensionData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ExtensionDataObject ExtensionData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +413,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FamiliarSustituto[] FamiliarSustituto { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public FamiliarSustituto[] FamiliarSustituto { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +439,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FormacionBasica[] FormacionBasica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public FormacionBasica[] FormacionBasica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,7 +465,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FormacionUniversitaria[] FormacionUniversitaria { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public FormacionUniversitaria[] FormacionUniversitaria { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,7 +491,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HorarioServidor[] HorarioServidor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public HorarioServidor[] HorarioServidor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -501,7 +517,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? IdUnidadDepartamento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? IdUnidadDepartamento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,7 +543,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Integrante[] Integrante { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Integrante[] Integrante { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,7 +569,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Jefe[] Jefe { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Jefe[] Jefe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -576,7 +595,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LoginUsuario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string LoginUsuario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -601,7 +621,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MovimientoPersonal[] MovimientoPersonal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public MovimientoPersonal[] MovimientoPersonal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,7 +647,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OfertaCapacitacion[] OfertaCapacitacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public OfertaCapacitacion[] OfertaCapacitacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -651,7 +673,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PermisoServidor[] PermisoServidor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public PermisoServidor[] PermisoServidor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -676,7 +699,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegistroAsistencia[] RegistroAsistencia { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public RegistroAsistencia[] RegistroAsistencia { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -701,7 +725,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RolUsuarioSIU[] RolUsuarioSIU { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public RolUsuarioSIU[] RolUsuarioSIU { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -726,7 +751,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_ACADEMICA[] SERVIDOR_INFORMACION_ACADEMICA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_ACADEMICA[] SERVIDOR_INFORMACION_ACADEMICA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -751,7 +777,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_BANCARIA[] SERVIDOR_INFORMACION_BANCARIA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_BANCARIA[] SERVIDOR_INFORMACION_BANCARIA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -776,7 +803,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_CONYUGE[] SERVIDOR_INFORMACION_CONYUGE { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_CONYUGE[] SERVIDOR_INFORMACION_CONYUGE { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -801,7 +829,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_FAMILIAR[] SERVIDOR_INFORMACION_FAMILIAR { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_FAMILIAR[] SERVIDOR_INFORMACION_FAMILIAR { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -826,7 +855,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION[] SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION[] SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -851,7 +881,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_INFORMACION_PERSONAL[] SERVIDOR_INFORMACION_PERSONAL { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_INFORMACION_PERSONAL[] SERVIDOR_INFORMACION_PERSONAL { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -876,7 +907,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR_TRAYECTORIA_LABORAL[] SERVIDOR_TRAYECTORIA_LABORAL { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR_TRAYECTORIA_LABORAL[] SERVIDOR_TRAYECTORIA_LABORAL { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -901,7 +933,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorCondicionSocioeconomica[] ServidorCondicionSocioeconomica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorCondicionSocioeconomica[] ServidorCondicionSocioeconomica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -926,7 +959,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorCredo[] ServidorCredo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorCredo[] ServidorCredo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -951,7 +985,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorCurso[] ServidorCurso { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorCurso[] ServidorCurso { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -976,7 +1011,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorDiscapacidad[] ServidorDiscapacidad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorDiscapacidad[] ServidorDiscapacidad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1001,7 +1037,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorEnfermedad[] ServidorEnfermedad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorEnfermedad[] ServidorEnfermedad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1026,7 +1063,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorGestacion[] ServidorGestacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorGestacion[] ServidorGestacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1051,7 +1089,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorGrupoContrato[] ServidorGrupoContrato { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorGrupoContrato[] ServidorGrupoContrato { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1076,7 +1115,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ServidorID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int ServidorID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1101,7 +1141,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorIdentidadCultural[] ServidorIdentidadCultural { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorIdentidadCultural[] ServidorIdentidadCultural { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1126,7 +1167,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorIdioma[] ServidorIdioma { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorIdioma[] ServidorIdioma { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1151,7 +1193,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorInformacionPuesto[] ServidorInformacionPuesto { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorInformacionPuesto[] ServidorInformacionPuesto { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1176,7 +1219,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorLactancia[] ServidorLactancia { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorLactancia[] ServidorLactancia { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1201,7 +1245,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorPreferenciaPolitica[] ServidorPreferenciaPolitica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorPreferenciaPolitica[] ServidorPreferenciaPolitica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1226,7 +1271,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorPublicaciones[] ServidorPublicaciones { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorPublicaciones[] ServidorPublicaciones { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1251,7 +1297,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorRelacionLaboral[] ServidorRelacionLaboral { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorRelacionLaboral[] ServidorRelacionLaboral { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1276,7 +1323,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServidorUnidad[] ServidorUnidad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ServidorUnidad[] ServidorUnidad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1301,7 +1349,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_SERVIDOR TIPO_SERVIDOR { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_SERVIDOR TIPO_SERVIDOR { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1326,7 +1375,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int TipoServidorID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int TipoServidorID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1351,7 +1401,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vacaciones[] Vacaciones { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Vacaciones[] Vacaciones { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1376,7 +1427,8 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValidacionCV[] ValidacionCV { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ValidacionCV[] ValidacionCV { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1431,7 +1483,7 @@ public class SERVIDOR : IExtensibleDataObject, ComponentModel.INotifyPropertyCha
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event ComponentModel.PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

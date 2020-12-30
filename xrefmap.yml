@@ -102,11 +102,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.GetTotalCapacitaciones
   nameWithType: CapacitacionDomain.GetTotalCapacitaciones
-- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Capacitacion)
+- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Capacitacion)
   name: Remove(Capacitacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Remove_Capacitacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Capacitacion)
-  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Capacitacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Remove_Unach_Dath_Postulacion_Persistence_Capacitacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Capacitacion)
+  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Capacitacion)
   nameWithType: CapacitacionDomain.Remove(Capacitacion)
 - uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove*
   name: Remove
@@ -115,11 +115,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Remove
   nameWithType: CapacitacionDomain.Remove
-- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Capacitacion)
+- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Unach.Dath.Postulacion.Persistence.Capacitacion)
   name: Save(Capacitacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Save_Capacitacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Capacitacion)
-  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Capacitacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Save_Unach_Dath_Postulacion_Persistence_Capacitacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Unach.Dath.Postulacion.Persistence.Capacitacion)
+  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save(Unach.Dath.Postulacion.Persistence.Capacitacion)
   nameWithType: CapacitacionDomain.Save(Capacitacion)
 - uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save*
   name: Save
@@ -128,11 +128,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Save
   nameWithType: CapacitacionDomain.Save
-- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Capacitacion)
+- uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Unach.Dath.Postulacion.Persistence.Capacitacion)
   name: Update(Capacitacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Update_Capacitacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Capacitacion)
-  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Capacitacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html#Unach_Dath_Postulacion_Domain_CapacitacionDomain_Update_Unach_Dath_Postulacion_Persistence_Capacitacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Unach.Dath.Postulacion.Persistence.Capacitacion)
+  fullName: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update(Unach.Dath.Postulacion.Persistence.Capacitacion)
   nameWithType: CapacitacionDomain.Update(Capacitacion)
 - uid: Unach.Dath.Postulacion.Domain.CapacitacionDomain.Update*
   name: Update
@@ -3912,11 +3912,11 @@ references:
   fullName: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.DathServiceClient()
   nameWithType: DathServiceClient.DathServiceClient()
 - uid: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)
-  name: DathServiceClient(ServiceModel.Channels.Binding, ServiceModel.EndpointAddress)
+  name: DathServiceClient(Binding, EndpointAddress)
   href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.html#Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_ServiceModel_Channels_Binding_System_ServiceModel_EndpointAddress_
   commentId: M:Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)
   fullName: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.DathServiceClient(System.ServiceModel.Channels.Binding, System.ServiceModel.EndpointAddress)
-  nameWithType: DathServiceClient.DathServiceClient(ServiceModel.Channels.Binding, ServiceModel.EndpointAddress)
+  nameWithType: DathServiceClient.DathServiceClient(Binding, EndpointAddress)
 - uid: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String)
   name: DathServiceClient(String)
   href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.html#Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_
@@ -3924,11 +3924,11 @@ references:
   fullName: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.DathServiceClient(System.String)
   nameWithType: DathServiceClient.DathServiceClient(String)
 - uid: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String,System.ServiceModel.EndpointAddress)
-  name: DathServiceClient(String, ServiceModel.EndpointAddress)
+  name: DathServiceClient(String, EndpointAddress)
   href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.html#Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_System_ServiceModel_EndpointAddress_
   commentId: M:Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String,System.ServiceModel.EndpointAddress)
   fullName: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.DathServiceClient(System.String, System.ServiceModel.EndpointAddress)
-  nameWithType: DathServiceClient.DathServiceClient(String, ServiceModel.EndpointAddress)
+  nameWithType: DathServiceClient.DathServiceClient(String, EndpointAddress)
 - uid: Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String,System.String)
   name: DathServiceClient(String, String)
   href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.html#Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_System_String_
@@ -28137,11 +28137,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.GetTotalExperiencia
   nameWithType: ExperienciaDomain.GetTotalExperiencia
-- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Experiencia)
+- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Unach.Dath.Postulacion.Persistence.Experiencia)
   name: Remove(Experiencia)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Remove_Experiencia_
-  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Experiencia)
-  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Experiencia)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Remove_Unach_Dath_Postulacion_Persistence_Experiencia_
+  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Unach.Dath.Postulacion.Persistence.Experiencia)
+  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove(Unach.Dath.Postulacion.Persistence.Experiencia)
   nameWithType: ExperienciaDomain.Remove(Experiencia)
 - uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove*
   name: Remove
@@ -28150,11 +28150,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Remove
   nameWithType: ExperienciaDomain.Remove
-- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Experiencia)
+- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Unach.Dath.Postulacion.Persistence.Experiencia)
   name: Save(Experiencia)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Save_Experiencia_
-  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Experiencia)
-  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Experiencia)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Save_Unach_Dath_Postulacion_Persistence_Experiencia_
+  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Unach.Dath.Postulacion.Persistence.Experiencia)
+  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save(Unach.Dath.Postulacion.Persistence.Experiencia)
   nameWithType: ExperienciaDomain.Save(Experiencia)
 - uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save*
   name: Save
@@ -28163,11 +28163,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Save
   nameWithType: ExperienciaDomain.Save
-- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Experiencia)
+- uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Unach.Dath.Postulacion.Persistence.Experiencia)
   name: Update(Experiencia)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Update_Experiencia_
-  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Experiencia)
-  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Experiencia)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html#Unach_Dath_Postulacion_Domain_ExperienciaDomain_Update_Unach_Dath_Postulacion_Persistence_Experiencia_
+  commentId: M:Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Unach.Dath.Postulacion.Persistence.Experiencia)
+  fullName: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update(Unach.Dath.Postulacion.Persistence.Experiencia)
   nameWithType: ExperienciaDomain.Update(Experiencia)
 - uid: Unach.Dath.Postulacion.Domain.ExperienciaDomain.Update*
   name: Update
@@ -28195,13 +28195,13 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.ClearFile
   nameWithType: FormacionAcademicaDomain.ClearFile
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List{FormacionAcademica})
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name: DatosFormacionCompletos(List<FormacionAcademica>)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_DatosFormacionCompletos_System_Collections_Generic_List_FormacionAcademica__
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List{FormacionAcademica})
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_DatosFormacionCompletos_System_Collections_Generic_List_Unach_Dath_Postulacion_Persistence_FormacionAcademica__
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name.vb: DatosFormacionCompletos(List(Of FormacionAcademica))
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List<FormacionAcademica>)
-  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List(Of FormacionAcademica))
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List<Unach.Dath.Postulacion.Persistence.FormacionAcademica>)
+  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos(System.Collections.Generic.List(Of Unach.Dath.Postulacion.Persistence.FormacionAcademica))
   nameWithType: FormacionAcademicaDomain.DatosFormacionCompletos(List<FormacionAcademica>)
   nameWithType.vb: FormacionAcademicaDomain.DatosFormacionCompletos(List(Of FormacionAcademica))
 - uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.DatosFormacionCompletos*
@@ -28250,13 +28250,13 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosByUser
   nameWithType: FormacionAcademicaDomain.GetTitulosByUser
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List{FormacionAcademica},System.Collections.Generic.List{FormacionAcademica})
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica},System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name: GetTitulosUnicos(List<FormacionAcademica>, List<FormacionAcademica>)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_GetTitulosUnicos_System_Collections_Generic_List_FormacionAcademica__System_Collections_Generic_List_FormacionAcademica__
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List{FormacionAcademica},System.Collections.Generic.List{FormacionAcademica})
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_GetTitulosUnicos_System_Collections_Generic_List_Unach_Dath_Postulacion_Persistence_FormacionAcademica__System_Collections_Generic_List_Unach_Dath_Postulacion_Persistence_FormacionAcademica__
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica},System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name.vb: GetTitulosUnicos(List(Of FormacionAcademica), List(Of FormacionAcademica))
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List<FormacionAcademica>, System.Collections.Generic.List<FormacionAcademica>)
-  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List(Of FormacionAcademica), System.Collections.Generic.List(Of FormacionAcademica))
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List<Unach.Dath.Postulacion.Persistence.FormacionAcademica>, System.Collections.Generic.List<Unach.Dath.Postulacion.Persistence.FormacionAcademica>)
+  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos(System.Collections.Generic.List(Of Unach.Dath.Postulacion.Persistence.FormacionAcademica), System.Collections.Generic.List(Of Unach.Dath.Postulacion.Persistence.FormacionAcademica))
   nameWithType: FormacionAcademicaDomain.GetTitulosUnicos(List<FormacionAcademica>, List<FormacionAcademica>)
   nameWithType.vb: FormacionAcademicaDomain.GetTitulosUnicos(List(Of FormacionAcademica), List(Of FormacionAcademica))
 - uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTitulosUnicos*
@@ -28279,11 +28279,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.GetTotalTitulos
   nameWithType: FormacionAcademicaDomain.GetTotalTitulos
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(FormacionAcademica)
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
   name: Remove(FormacionAcademica)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Remove_FormacionAcademica_
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(FormacionAcademica)
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(FormacionAcademica)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Remove_Unach_Dath_Postulacion_Persistence_FormacionAcademica_
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
   nameWithType: FormacionAcademicaDomain.Remove(FormacionAcademica)
 - uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove*
   name: Remove
@@ -28292,21 +28292,21 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Remove
   nameWithType: FormacionAcademicaDomain.Remove
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(FormacionAcademica)
-  name: Save(FormacionAcademica)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Save_FormacionAcademica_
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(FormacionAcademica)
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(FormacionAcademica)
-  nameWithType: FormacionAcademicaDomain.Save(FormacionAcademica)
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List{FormacionAcademica})
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name: Save(List<FormacionAcademica>)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Save_System_Collections_Generic_List_FormacionAcademica__
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List{FormacionAcademica})
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Save_System_Collections_Generic_List_Unach_Dath_Postulacion_Persistence_FormacionAcademica__
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List{Unach.Dath.Postulacion.Persistence.FormacionAcademica})
   name.vb: Save(List(Of FormacionAcademica))
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List<FormacionAcademica>)
-  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List(Of FormacionAcademica))
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List<Unach.Dath.Postulacion.Persistence.FormacionAcademica>)
+  fullName.vb: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(System.Collections.Generic.List(Of Unach.Dath.Postulacion.Persistence.FormacionAcademica))
   nameWithType: FormacionAcademicaDomain.Save(List<FormacionAcademica>)
   nameWithType.vb: FormacionAcademicaDomain.Save(List(Of FormacionAcademica))
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
+  name: Save(FormacionAcademica)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Save_Unach_Dath_Postulacion_Persistence_FormacionAcademica_
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
+  nameWithType: FormacionAcademicaDomain.Save(FormacionAcademica)
 - uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save*
   name: Save
   href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Save_
@@ -28314,11 +28314,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Save
   nameWithType: FormacionAcademicaDomain.Save
-- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(FormacionAcademica)
+- uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
   name: Update(FormacionAcademica)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Update_FormacionAcademica_
-  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(FormacionAcademica)
-  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(FormacionAcademica)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html#Unach_Dath_Postulacion_Domain_FormacionAcademicaDomain_Update_Unach_Dath_Postulacion_Persistence_FormacionAcademica_
+  commentId: M:Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
+  fullName: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update(Unach.Dath.Postulacion.Persistence.FormacionAcademica)
   nameWithType: FormacionAcademicaDomain.Update(FormacionAcademica)
 - uid: Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.Update*
   name: Update
@@ -28385,11 +28385,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.GetIdiomasByUsuario
   nameWithType: IdiomaPersonaDomain.GetIdiomasByUsuario
-- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(IdiomaPersona)
+- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   name: Remove(IdiomaPersona)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Remove_IdiomaPersona_
-  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(IdiomaPersona)
-  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(IdiomaPersona)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Remove_Unach_Dath_Postulacion_Persistence_IdiomaPersona_
+  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
+  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   nameWithType: IdiomaPersonaDomain.Remove(IdiomaPersona)
 - uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove*
   name: Remove
@@ -28398,11 +28398,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Remove
   nameWithType: IdiomaPersonaDomain.Remove
-- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(IdiomaPersona)
+- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   name: Save(IdiomaPersona)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Save_IdiomaPersona_
-  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(IdiomaPersona)
-  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(IdiomaPersona)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Save_Unach_Dath_Postulacion_Persistence_IdiomaPersona_
+  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
+  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   nameWithType: IdiomaPersonaDomain.Save(IdiomaPersona)
 - uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save*
   name: Save
@@ -28411,11 +28411,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Save
   nameWithType: IdiomaPersonaDomain.Save
-- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(IdiomaPersona)
+- uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   name: Update(IdiomaPersona)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Update_IdiomaPersona_
-  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(IdiomaPersona)
-  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(IdiomaPersona)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html#Unach_Dath_Postulacion_Domain_IdiomaPersonaDomain_Update_Unach_Dath_Postulacion_Persistence_IdiomaPersona_
+  commentId: M:Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
+  fullName: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update(Unach.Dath.Postulacion.Persistence.IdiomaPersona)
   nameWithType: IdiomaPersonaDomain.Update(IdiomaPersona)
 - uid: Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.Update*
   name: Update
@@ -29079,11 +29079,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.RemoveIncomplete
   nameWithType: PersonaDomain.RemoveIncomplete
-- uid: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Persona)
+- uid: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Unach.Dath.Postulacion.Persistence.Persona)
   name: SaveNew(Persona)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.html#Unach_Dath_Postulacion_Domain_PersonaDomain_SaveNew_Persona_
-  commentId: M:Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Persona)
-  fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Persona)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.html#Unach_Dath_Postulacion_Domain_PersonaDomain_SaveNew_Unach_Dath_Postulacion_Persistence_Persona_
+  commentId: M:Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Unach.Dath.Postulacion.Persistence.Persona)
+  fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew(Unach.Dath.Postulacion.Persistence.Persona)
   nameWithType: PersonaDomain.SaveNew(Persona)
 - uid: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew*
   name: SaveNew
@@ -29092,11 +29092,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.SaveNew
   nameWithType: PersonaDomain.SaveNew
-- uid: Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Persona)
+- uid: Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Unach.Dath.Postulacion.Persistence.Persona)
   name: Update(Persona)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.html#Unach_Dath_Postulacion_Domain_PersonaDomain_Update_Persona_
-  commentId: M:Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Persona)
-  fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Persona)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.html#Unach_Dath_Postulacion_Domain_PersonaDomain_Update_Unach_Dath_Postulacion_Persistence_Persona_
+  commentId: M:Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Unach.Dath.Postulacion.Persistence.Persona)
+  fullName: Unach.Dath.Postulacion.Domain.PersonaDomain.Update(Unach.Dath.Postulacion.Persistence.Persona)
   nameWithType: PersonaDomain.Update(Persona)
 - uid: Unach.Dath.Postulacion.Domain.PersonaDomain.Update*
   name: Update
@@ -29358,11 +29358,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.GetPostulaciones
   nameWithType: PersonaPostulacionDominio.GetPostulaciones
-- uid: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(PersonaPostulacion)
+- uid: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(Unach.Dath.Postulacion.Persistence.PersonaPostulacion)
   name: savePostulacion(PersonaPostulacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.html#Unach_Dath_Postulacion_Domain_PersonaPostulacionDominio_savePostulacion_PersonaPostulacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(PersonaPostulacion)
-  fullName: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(PersonaPostulacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.html#Unach_Dath_Postulacion_Domain_PersonaPostulacionDominio_savePostulacion_Unach_Dath_Postulacion_Persistence_PersonaPostulacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(Unach.Dath.Postulacion.Persistence.PersonaPostulacion)
+  fullName: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion(Unach.Dath.Postulacion.Persistence.PersonaPostulacion)
   nameWithType: PersonaPostulacionDominio.savePostulacion(PersonaPostulacion)
 - uid: Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.savePostulacion*
   name: savePostulacion
@@ -29468,11 +29468,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.GetTotalPublicaciones
   nameWithType: PublicacionDomain.GetTotalPublicaciones
-- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Publicacion)
+- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Publicacion)
   name: Remove(Publicacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Remove_Publicacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Publicacion)
-  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Publicacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Remove_Unach_Dath_Postulacion_Persistence_Publicacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Publicacion)
+  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove(Unach.Dath.Postulacion.Persistence.Publicacion)
   nameWithType: PublicacionDomain.Remove(Publicacion)
 - uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove*
   name: Remove
@@ -29481,11 +29481,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Remove
   nameWithType: PublicacionDomain.Remove
-- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Publicacion)
+- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Unach.Dath.Postulacion.Persistence.Publicacion)
   name: Save(Publicacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Save_Publicacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Publicacion)
-  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Publicacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Save_Unach_Dath_Postulacion_Persistence_Publicacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Unach.Dath.Postulacion.Persistence.Publicacion)
+  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save(Unach.Dath.Postulacion.Persistence.Publicacion)
   nameWithType: PublicacionDomain.Save(Publicacion)
 - uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save*
   name: Save
@@ -29494,11 +29494,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Save
   nameWithType: PublicacionDomain.Save
-- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Publicacion)
+- uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Unach.Dath.Postulacion.Persistence.Publicacion)
   name: Update(Publicacion)
-  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Update_Publicacion_
-  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Publicacion)
-  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Publicacion)
+  href: api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html#Unach_Dath_Postulacion_Domain_PublicacionDomain_Update_Unach_Dath_Postulacion_Persistence_Publicacion_
+  commentId: M:Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Unach.Dath.Postulacion.Persistence.Publicacion)
+  fullName: Unach.Dath.Postulacion.Domain.PublicacionDomain.Update(Unach.Dath.Postulacion.Persistence.Publicacion)
   nameWithType: PublicacionDomain.Update(Publicacion)
 - uid: Unach.Dath.Postulacion.Domain.PublicacionDomain.Update*
   name: Update
@@ -31959,11 +31959,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.Persistence.PostulacionContext.IdiomaPersona
   nameWithType: PostulacionContext.IdiomaPersona
-- uid: Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(DbModelBuilder)
+- uid: Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
   name: OnModelCreating(DbModelBuilder)
-  href: api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PostulacionContext.html#Unach_Dath_Postulacion_Persistence_PostulacionContext_OnModelCreating_DbModelBuilder_
-  commentId: M:Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(DbModelBuilder)
-  fullName: Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(DbModelBuilder)
+  href: api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PostulacionContext.html#Unach_Dath_Postulacion_Persistence_PostulacionContext_OnModelCreating_System_Data_Entity_DbModelBuilder_
+  commentId: M:Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
+  fullName: Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(System.Data.Entity.DbModelBuilder)
   nameWithType: PostulacionContext.OnModelCreating(DbModelBuilder)
 - uid: Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating*
   name: OnModelCreating
@@ -32834,11 +32834,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard
   nameWithType: _Default.registrarRadWizard
 - uid: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_FinishButtonClick(System.Object,Telerik.Web.UI.WizardEventArgs)
-  name: registrarRadWizard_FinishButtonClick(Object, Telerik.Web.UI.WizardEventArgs)
+  name: registrarRadWizard_FinishButtonClick(Object, WizardEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.html#Unach_Dath_Postulacion_WebSite__Default_registrarRadWizard_FinishButtonClick_System_Object_Telerik_Web_UI_WizardEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_FinishButtonClick(System.Object,Telerik.Web.UI.WizardEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_FinishButtonClick(System.Object, Telerik.Web.UI.WizardEventArgs)
-  nameWithType: _Default.registrarRadWizard_FinishButtonClick(Object, Telerik.Web.UI.WizardEventArgs)
+  nameWithType: _Default.registrarRadWizard_FinishButtonClick(Object, WizardEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_FinishButtonClick*
   name: registrarRadWizard_FinishButtonClick
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.html#Unach_Dath_Postulacion_WebSite__Default_registrarRadWizard_FinishButtonClick_
@@ -32847,11 +32847,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_FinishButtonClick
   nameWithType: _Default.registrarRadWizard_FinishButtonClick
 - uid: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_NextButtonClick(System.Object,Telerik.Web.UI.WizardEventArgs)
-  name: registrarRadWizard_NextButtonClick(Object, Telerik.Web.UI.WizardEventArgs)
+  name: registrarRadWizard_NextButtonClick(Object, WizardEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.html#Unach_Dath_Postulacion_WebSite__Default_registrarRadWizard_NextButtonClick_System_Object_Telerik_Web_UI_WizardEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_NextButtonClick(System.Object,Telerik.Web.UI.WizardEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_NextButtonClick(System.Object, Telerik.Web.UI.WizardEventArgs)
-  nameWithType: _Default.registrarRadWizard_NextButtonClick(Object, Telerik.Web.UI.WizardEventArgs)
+  nameWithType: _Default.registrarRadWizard_NextButtonClick(Object, WizardEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite._Default.registrarRadWizard_NextButtonClick*
   name: registrarRadWizard_NextButtonClick
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.html#Unach_Dath_Postulacion_WebSite__Default_registrarRadWizard_NextButtonClick_
@@ -34334,11 +34334,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.IsReusable
   nameWithType: FotoPostulanteHandler.IsReusable
-- uid: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(HttpContext)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(System.Web.HttpContext)
   name: ProcessRequest(HttpContext)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.html#Unach_Dath_Postulacion_WebSite_Admin_FotoPostulanteHandler_ProcessRequest_HttpContext_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(HttpContext)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(HttpContext)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.html#Unach_Dath_Postulacion_WebSite_Admin_FotoPostulanteHandler_ProcessRequest_System_Web_HttpContext_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(System.Web.HttpContext)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest(System.Web.HttpContext)
   nameWithType: FotoPostulanteHandler.ProcessRequest(HttpContext)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.ProcessRequest*
   name: ProcessRequest
@@ -34372,11 +34372,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox
   nameWithType: Ofertas.buscarRadSearchBox
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object,SearchBoxButtonEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
   name: buscarRadSearchBox_ButtonCommand(Object, SearchBoxButtonEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_buscarRadSearchBox_ButtonCommand_System_Object_SearchBoxButtonEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object,SearchBoxButtonEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object, SearchBoxButtonEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_buscarRadSearchBox_ButtonCommand_System_Object_Telerik_Web_UI_SearchBoxButtonEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand(System.Object, Telerik.Web.UI.SearchBoxButtonEventArgs)
   nameWithType: Ofertas.buscarRadSearchBox_ButtonCommand(Object, SearchBoxButtonEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand*
   name: buscarRadSearchBox_ButtonCommand
@@ -34386,11 +34386,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_ButtonCommand
   nameWithType: Ofertas.buscarRadSearchBox_ButtonCommand
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
-  name: buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  name: buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_buscarRadSearchBox_Search_System_Object_Telerik_Web_UI_SearchBoxEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_Search(System.Object, Telerik.Web.UI.SearchBoxEventArgs)
-  nameWithType: Ofertas.buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  nameWithType: Ofertas.buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.buscarRadSearchBox_Search*
   name: buscarRadSearchBox_Search
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_buscarRadSearchBox_Search_
@@ -34455,11 +34455,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid
   nameWithType: Ofertas.ofertasRadGrid
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   name: ofertasRadGrid_ItemCommand(Object, GridCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_ItemCommand_System_Object_GridCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object, GridCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
   nameWithType: Ofertas.ofertasRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand*
   name: ofertasRadGrid_ItemCommand
@@ -34468,11 +34468,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemCommand
   nameWithType: Ofertas.ofertasRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: ofertasRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Ofertas.ofertasRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound*
   name: ofertasRadGrid_ItemDataBound
@@ -34481,11 +34481,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_ItemDataBound
   nameWithType: Ofertas.ofertasRadGrid_ItemDataBound
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   name: ofertasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_NeedDataSource_System_Object_GridNeedDataSourceEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object, GridNeedDataSourceEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html#Unach_Dath_Postulacion_WebSite_Admin_Ofertas_ofertasRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
   nameWithType: Ofertas.ofertasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Ofertas.ofertasRadGrid_NeedDataSource*
   name: ofertasRadGrid_NeedDataSource
@@ -34642,11 +34642,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid
   nameWithType: PerfilPostulante.postulacionesRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: postulacionesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: postulacionesRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: PerfilPostulante.postulacionesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: PerfilPostulante.postulacionesRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemCommand*
   name: postulacionesRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_ItemCommand_
@@ -34655,11 +34655,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemCommand
   nameWithType: PerfilPostulante.postulacionesRadGrid_ItemCommand
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
-  name: postulacionesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  name: postulacionesRadGrid_ItemDataBound(Object, GridItemEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
-  nameWithType: PerfilPostulante.postulacionesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  nameWithType: PerfilPostulante.postulacionesRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemDataBound*
   name: postulacionesRadGrid_ItemDataBound
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_ItemDataBound_
@@ -34668,11 +34668,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_ItemDataBound
   nameWithType: PerfilPostulante.postulacionesRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: postulacionesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: postulacionesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: PerfilPostulante.postulacionesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: PerfilPostulante.postulacionesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.postulacionesRadGrid_NeedDataSource*
   name: postulacionesRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html#Unach_Dath_Postulacion_WebSite_Admin_PerfilPostulante_postulacionesRadGrid_NeedDataSource_
@@ -34729,11 +34729,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox
   nameWithType: Postulantes.buscarRadSearchBox
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object,SearchBoxButtonEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
   name: buscarRadSearchBox_ButtonCommand1(Object, SearchBoxButtonEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_buscarRadSearchBox_ButtonCommand1_System_Object_SearchBoxButtonEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object,SearchBoxButtonEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object, SearchBoxButtonEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_buscarRadSearchBox_ButtonCommand1_System_Object_Telerik_Web_UI_SearchBoxButtonEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1(System.Object, Telerik.Web.UI.SearchBoxButtonEventArgs)
   nameWithType: Postulantes.buscarRadSearchBox_ButtonCommand1(Object, SearchBoxButtonEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1*
   name: buscarRadSearchBox_ButtonCommand1
@@ -34743,11 +34743,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_ButtonCommand1
   nameWithType: Postulantes.buscarRadSearchBox_ButtonCommand1
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
-  name: buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  name: buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_buscarRadSearchBox_Search_System_Object_Telerik_Web_UI_SearchBoxEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_Search(System.Object, Telerik.Web.UI.SearchBoxEventArgs)
-  nameWithType: Postulantes.buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  nameWithType: Postulantes.buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.buscarRadSearchBox_Search*
   name: buscarRadSearchBox_Search
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_buscarRadSearchBox_Search_
@@ -34831,11 +34831,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater
   nameWithType: Postulantes.postulantesRepeater
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object,RepeaterCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object,System.Web.UI.WebControls.RepeaterCommandEventArgs)
   name: postulantesRepeater_ItemCommand(Object, RepeaterCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_postulantesRepeater_ItemCommand_System_Object_RepeaterCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object,RepeaterCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object, RepeaterCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_postulantesRepeater_ItemCommand_System_Object_System_Web_UI_WebControls_RepeaterCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object,System.Web.UI.WebControls.RepeaterCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand(System.Object, System.Web.UI.WebControls.RepeaterCommandEventArgs)
   nameWithType: Postulantes.postulantesRepeater_ItemCommand(Object, RepeaterCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand*
   name: postulantesRepeater_ItemCommand
@@ -34844,11 +34844,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemCommand
   nameWithType: Postulantes.postulantesRepeater_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object,RepeaterItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object,System.Web.UI.WebControls.RepeaterItemEventArgs)
   name: postulantesRepeater_ItemDataBound(Object, RepeaterItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_postulantesRepeater_ItemDataBound_System_Object_RepeaterItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object,RepeaterItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object, RepeaterItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html#Unach_Dath_Postulacion_WebSite_Admin_Postulantes_postulantesRepeater_ItemDataBound_System_Object_System_Web_UI_WebControls_RepeaterItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object,System.Web.UI.WebControls.RepeaterItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound(System.Object, System.Web.UI.WebControls.RepeaterItemEventArgs)
   nameWithType: Postulantes.postulantesRepeater_ItemDataBound(Object, RepeaterItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.Postulantes.postulantesRepeater_ItemDataBound*
   name: postulantesRepeater_ItemDataBound
@@ -34888,13 +34888,13 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.ReportViewerCredentials
   nameWithType: ReportViewerCredentials.ReportViewerCredentials
-- uid: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(Cookie@,System.String@,System.String@,System.String@)
+- uid: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(System.Net.Cookie@,System.String@,System.String@,System.String@)
   name: GetFormsCredentials(out Cookie, out String, out String, out String)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.html#Unach_Dath_Postulacion_WebSite_Admin_ReportViewerCredentials_GetFormsCredentials_Cookie__System_String__System_String__System_String__
-  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(Cookie@,System.String@,System.String@,System.String@)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.html#Unach_Dath_Postulacion_WebSite_Admin_ReportViewerCredentials_GetFormsCredentials_System_Net_Cookie__System_String__System_String__System_String__
+  commentId: M:Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(System.Net.Cookie@,System.String@,System.String@,System.String@)
   name.vb: GetFormsCredentials(ByRef Cookie, ByRef String, ByRef String, ByRef String)
-  fullName: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(out Cookie, out System.String, out System.String, out System.String)
-  fullName.vb: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(ByRef Cookie, ByRef System.String, ByRef System.String, ByRef System.String)
+  fullName: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(out System.Net.Cookie, out System.String, out System.String, out System.String)
+  fullName.vb: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials(ByRef System.Net.Cookie, ByRef System.String, ByRef System.String, ByRef System.String)
   nameWithType: ReportViewerCredentials.GetFormsCredentials(out Cookie, out String, out String, out String)
   nameWithType.vb: ReportViewerCredentials.GetFormsCredentials(ByRef Cookie, ByRef String, ByRef String, ByRef String)
 - uid: Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.GetFormsCredentials*
@@ -34936,11 +34936,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager
   fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager
   nameWithType: ApplicationSignInManager
-- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,IAuthenticationManager)
+- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)
   name: ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__ctor_Unach_Dath_Postulacion_WebSite_ApplicationUserManager_IAuthenticationManager_
-  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,IAuthenticationManager)
-  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.ApplicationSignInManager(Unach.Dath.Postulacion.WebSite.ApplicationUserManager, IAuthenticationManager)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__ctor_Unach_Dath_Postulacion_WebSite_ApplicationUserManager_Microsoft_Owin_Security_IAuthenticationManager_
+  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)
+  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.ApplicationSignInManager(Unach.Dath.Postulacion.WebSite.ApplicationUserManager, Microsoft.Owin.Security.IAuthenticationManager)
   nameWithType: ApplicationSignInManager.ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)
 - uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor*
   name: ApplicationSignInManager
@@ -34949,13 +34949,13 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.ApplicationSignInManager
   nameWithType: ApplicationSignInManager.ApplicationSignInManager
-- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},IOwinContext)
+- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
   name: Create(IdentityFactoryOptions<ApplicationSignInManager>, IOwinContext)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_Create_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__IOwinContext_
-  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},IOwinContext)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_Create_Microsoft_AspNet_Identity_Owin_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__Microsoft_Owin_IOwinContext_
+  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
   name.vb: Create(IdentityFactoryOptions(Of ApplicationSignInManager), IOwinContext)
-  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(IdentityFactoryOptions<Unach.Dath.Postulacion.WebSite.ApplicationSignInManager>, IOwinContext)
-  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(IdentityFactoryOptions(Of Unach.Dath.Postulacion.WebSite.ApplicationSignInManager), IOwinContext)
+  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions<Unach.Dath.Postulacion.WebSite.ApplicationSignInManager>, Microsoft.Owin.IOwinContext)
+  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions(Of Unach.Dath.Postulacion.WebSite.ApplicationSignInManager), Microsoft.Owin.IOwinContext)
   nameWithType: ApplicationSignInManager.Create(IdentityFactoryOptions<ApplicationSignInManager>, IOwinContext)
   nameWithType.vb: ApplicationSignInManager.Create(IdentityFactoryOptions(Of ApplicationSignInManager), IOwinContext)
 - uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create*
@@ -34965,11 +34965,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create
   nameWithType: ApplicationSignInManager.Create
-- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)
+- uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)
   name: CreateUserIdentityAsync(ApplicationUser)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_CreateUserIdentityAsync_ApplicationUser_
-  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)
-  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html#Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_CreateUserIdentityAsync_Unach_Dath_Postulacion_WebSite_Models_ApplicationUser_
+  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)
+  fullName: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)
   nameWithType: ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)
 - uid: Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync*
   name: CreateUserIdentityAsync
@@ -34984,13 +34984,13 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.ApplicationUserManager
   fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager
   nameWithType: ApplicationUserManager
-- uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.#ctor(IUserStore{ApplicationUser})
+- uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.#ctor(Microsoft.AspNet.Identity.IUserStore{Unach.Dath.Postulacion.WebSite.Models.ApplicationUser})
   name: ApplicationUserManager(IUserStore<ApplicationUser>)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html#Unach_Dath_Postulacion_WebSite_ApplicationUserManager__ctor_IUserStore_ApplicationUser__
-  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationUserManager.#ctor(IUserStore{ApplicationUser})
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html#Unach_Dath_Postulacion_WebSite_ApplicationUserManager__ctor_Microsoft_AspNet_Identity_IUserStore_Unach_Dath_Postulacion_WebSite_Models_ApplicationUser__
+  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationUserManager.#ctor(Microsoft.AspNet.Identity.IUserStore{Unach.Dath.Postulacion.WebSite.Models.ApplicationUser})
   name.vb: ApplicationUserManager(IUserStore(Of ApplicationUser))
-  fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.ApplicationUserManager(IUserStore<ApplicationUser>)
-  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.ApplicationUserManager(IUserStore(Of ApplicationUser))
+  fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.ApplicationUserManager(Microsoft.AspNet.Identity.IUserStore<Unach.Dath.Postulacion.WebSite.Models.ApplicationUser>)
+  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.ApplicationUserManager(Microsoft.AspNet.Identity.IUserStore(Of Unach.Dath.Postulacion.WebSite.Models.ApplicationUser))
   nameWithType: ApplicationUserManager.ApplicationUserManager(IUserStore<ApplicationUser>)
   nameWithType.vb: ApplicationUserManager.ApplicationUserManager(IUserStore(Of ApplicationUser))
 - uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.#ctor*
@@ -35000,13 +35000,13 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.ApplicationUserManager
   nameWithType: ApplicationUserManager.ApplicationUserManager
-- uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationUserManager},IOwinContext)
+- uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationUserManager},Microsoft.Owin.IOwinContext)
   name: Create(IdentityFactoryOptions<ApplicationUserManager>, IOwinContext)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html#Unach_Dath_Postulacion_WebSite_ApplicationUserManager_Create_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationUserManager__IOwinContext_
-  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationUserManager},IOwinContext)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html#Unach_Dath_Postulacion_WebSite_ApplicationUserManager_Create_Microsoft_AspNet_Identity_Owin_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationUserManager__Microsoft_Owin_IOwinContext_
+  commentId: M:Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationUserManager},Microsoft.Owin.IOwinContext)
   name.vb: Create(IdentityFactoryOptions(Of ApplicationUserManager), IOwinContext)
-  fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(IdentityFactoryOptions<Unach.Dath.Postulacion.WebSite.ApplicationUserManager>, IOwinContext)
-  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(IdentityFactoryOptions(Of Unach.Dath.Postulacion.WebSite.ApplicationUserManager), IOwinContext)
+  fullName: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions<Unach.Dath.Postulacion.WebSite.ApplicationUserManager>, Microsoft.Owin.IOwinContext)
+  fullName.vb: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions(Of Unach.Dath.Postulacion.WebSite.ApplicationUserManager), Microsoft.Owin.IOwinContext)
   nameWithType: ApplicationUserManager.Create(IdentityFactoryOptions<ApplicationUserManager>, IOwinContext)
   nameWithType.vb: ApplicationUserManager.Create(IdentityFactoryOptions(Of ApplicationUserManager), IOwinContext)
 - uid: Unach.Dath.Postulacion.WebSite.ApplicationUserManager.Create*
@@ -35022,11 +35022,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.BundleConfig
   fullName: Unach.Dath.Postulacion.WebSite.BundleConfig
   nameWithType: BundleConfig
-- uid: Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(BundleCollection)
+- uid: Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)
   name: RegisterBundles(BundleCollection)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.BundleConfig.html#Unach_Dath_Postulacion_WebSite_BundleConfig_RegisterBundles_BundleCollection_
-  commentId: M:Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(BundleCollection)
-  fullName: Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(BundleCollection)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.BundleConfig.html#Unach_Dath_Postulacion_WebSite_BundleConfig_RegisterBundles_System_Web_Optimization_BundleCollection_
+  commentId: M:Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)
+  fullName: Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)
   nameWithType: BundleConfig.RegisterBundles(BundleCollection)
 - uid: Unach.Dath.Postulacion.WebSite.BundleConfig.RegisterBundles*
   name: RegisterBundles
@@ -35060,11 +35060,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.EmailService
   fullName: Unach.Dath.Postulacion.WebSite.EmailService
   nameWithType: EmailService
-- uid: Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(IdentityMessage)
+- uid: Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
   name: SendAsync(IdentityMessage)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.EmailService.html#Unach_Dath_Postulacion_WebSite_EmailService_SendAsync_IdentityMessage_
-  commentId: M:Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(IdentityMessage)
-  fullName: Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(IdentityMessage)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.EmailService.html#Unach_Dath_Postulacion_WebSite_EmailService_SendAsync_Microsoft_AspNet_Identity_IdentityMessage_
+  commentId: M:Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  fullName: Unach.Dath.Postulacion.WebSite.EmailService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
   nameWithType: EmailService.SendAsync(IdentityMessage)
 - uid: Unach.Dath.Postulacion.WebSite.EmailService.SendAsync*
   name: SendAsync
@@ -35091,11 +35091,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.IdentityHelper.CodeKey
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.CodeKey
   nameWithType: IdentityHelper.CodeKey
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(HttpRequest)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(System.Web.HttpRequest)
   name: GetCodeFromRequest(HttpRequest)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetCodeFromRequest_HttpRequest_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(HttpRequest)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(HttpRequest)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetCodeFromRequest_System_Web_HttpRequest_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(System.Web.HttpRequest)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest(System.Web.HttpRequest)
   nameWithType: IdentityHelper.GetCodeFromRequest(HttpRequest)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest*
   name: GetCodeFromRequest
@@ -35104,11 +35104,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetCodeFromRequest
   nameWithType: IdentityHelper.GetCodeFromRequest
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(HttpRequest)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(System.Web.HttpRequest)
   name: GetProviderNameFromRequest(HttpRequest)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetProviderNameFromRequest_HttpRequest_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(HttpRequest)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(HttpRequest)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetProviderNameFromRequest_System_Web_HttpRequest_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(System.Web.HttpRequest)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest(System.Web.HttpRequest)
   nameWithType: IdentityHelper.GetProviderNameFromRequest(HttpRequest)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest*
   name: GetProviderNameFromRequest
@@ -35117,11 +35117,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetProviderNameFromRequest
   nameWithType: IdentityHelper.GetProviderNameFromRequest
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String,HttpRequest)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String,System.Web.HttpRequest)
   name: GetResetPasswordRedirectUrl(String, HttpRequest)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetResetPasswordRedirectUrl_System_String_HttpRequest_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String,HttpRequest)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String, HttpRequest)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetResetPasswordRedirectUrl_System_String_System_Web_HttpRequest_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String,System.Web.HttpRequest)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl(System.String, System.Web.HttpRequest)
   nameWithType: IdentityHelper.GetResetPasswordRedirectUrl(String, HttpRequest)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl*
   name: GetResetPasswordRedirectUrl
@@ -35130,11 +35130,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetResetPasswordRedirectUrl
   nameWithType: IdentityHelper.GetResetPasswordRedirectUrl
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String,System.String,HttpRequest)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String,System.String,System.Web.HttpRequest)
   name: GetUserConfirmationRedirectUrl(String, String, HttpRequest)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetUserConfirmationRedirectUrl_System_String_System_String_HttpRequest_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String,System.String,HttpRequest)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String, System.String, HttpRequest)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetUserConfirmationRedirectUrl_System_String_System_String_System_Web_HttpRequest_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String,System.String,System.Web.HttpRequest)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl(System.String, System.String, System.Web.HttpRequest)
   nameWithType: IdentityHelper.GetUserConfirmationRedirectUrl(String, String, HttpRequest)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl*
   name: GetUserConfirmationRedirectUrl
@@ -35143,11 +35143,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserConfirmationRedirectUrl
   nameWithType: IdentityHelper.GetUserConfirmationRedirectUrl
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(HttpRequest)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(System.Web.HttpRequest)
   name: GetUserIdFromRequest(HttpRequest)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetUserIdFromRequest_HttpRequest_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(HttpRequest)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(HttpRequest)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_GetUserIdFromRequest_System_Web_HttpRequest_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(System.Web.HttpRequest)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest(System.Web.HttpRequest)
   nameWithType: IdentityHelper.GetUserIdFromRequest(HttpRequest)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.GetUserIdFromRequest*
   name: GetUserIdFromRequest
@@ -35162,11 +35162,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.IdentityHelper.ProviderNameKey
   fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.ProviderNameKey
   nameWithType: IdentityHelper.ProviderNameKey
-- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String,HttpResponse)
+- uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String,System.Web.HttpResponse)
   name: RedirectToReturnUrl(String, HttpResponse)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_RedirectToReturnUrl_System_String_HttpResponse_
-  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String,HttpResponse)
-  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String, HttpResponse)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html#Unach_Dath_Postulacion_WebSite_IdentityHelper_RedirectToReturnUrl_System_String_System_Web_HttpResponse_
+  commentId: M:Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String,System.Web.HttpResponse)
+  fullName: Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl(System.String, System.Web.HttpResponse)
   nameWithType: IdentityHelper.RedirectToReturnUrl(String, HttpResponse)
 - uid: Unach.Dath.Postulacion.WebSite.IdentityHelper.RedirectToReturnUrl*
   name: RedirectToReturnUrl
@@ -35263,11 +35263,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.RouteConfig
   fullName: Unach.Dath.Postulacion.WebSite.RouteConfig
   nameWithType: RouteConfig
-- uid: Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(RouteCollection)
+- uid: Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)
   name: RegisterRoutes(RouteCollection)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.RouteConfig.html#Unach_Dath_Postulacion_WebSite_RouteConfig_RegisterRoutes_RouteCollection_
-  commentId: M:Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(RouteCollection)
-  fullName: Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(RouteCollection)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.RouteConfig.html#Unach_Dath_Postulacion_WebSite_RouteConfig_RegisterRoutes_System_Web_Routing_RouteCollection_
+  commentId: M:Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)
+  fullName: Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)
   nameWithType: RouteConfig.RegisterRoutes(RouteCollection)
 - uid: Unach.Dath.Postulacion.WebSite.RouteConfig.RegisterRoutes*
   name: RegisterRoutes
@@ -35389,11 +35389,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.cursoAsyncFileUpload
   nameWithType: CapacitacionUserControl.cursoAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: cursoAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: cursoAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CapacitacionUserControl_cursoAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.cursoAsyncFileUpload_UploadedComplete*
   name: cursoAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CapacitacionUserControl_cursoAsyncFileUpload_UploadedComplete_
@@ -35655,11 +35655,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload
   nameWithType: CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: discapacidadAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: discapacidadAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoDiscapacidadUserControl_discapacidadAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.discapacidadAsyncFileUpload_UploadedComplete*
   name: discapacidadAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoDiscapacidadUserControl_discapacidadAsyncFileUpload_UploadedComplete_
@@ -35780,11 +35780,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload
   nameWithType: CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: enfermedadAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: enfermedadAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoEnfermedadUserControl_enfermedadAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.enfermedadAsyncFileUpload_UploadedComplete*
   name: enfermedadAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoEnfermedadUserControl_enfermedadAsyncFileUpload_UploadedComplete_
@@ -35924,11 +35924,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.heroeAsyncFileUpload
   nameWithType: CertificadoHeroeUserControl.heroeAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: heroeAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: heroeAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoHeroeUserControl_heroeAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.heroeAsyncFileUpload_UploadedComplete*
   name: heroeAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoHeroeUserControl_heroeAsyncFileUpload_UploadedComplete_
@@ -36074,11 +36074,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.migranteAsyncFileUpload
   nameWithType: CertificadoMigranteUserControl.migranteAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: migranteAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: migranteAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoMigranteUserControl_migranteAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.migranteAsyncFileUpload_UploadedComplete*
   name: migranteAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoMigranteUserControl_migranteAsyncFileUpload_UploadedComplete_
@@ -36224,11 +36224,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.sustitutoAsyncFileUpload
   nameWithType: CertificadoSustitutoUserControl.sustitutoAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: sustitutoAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: sustitutoAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoSustitutoUserControl_sustitutoAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.sustitutoAsyncFileUpload_UploadedComplete*
   name: sustitutoAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoSustitutoUserControl_sustitutoAsyncFileUpload_UploadedComplete_
@@ -36280,11 +36280,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.certificadoTituloAsyncFileUpload
   nameWithType: CertificadoTituloUserControl.certificadoTituloAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: certificadoTituloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: certificadoTituloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoTituloUserControl_certificadoTituloAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.certificadoTituloAsyncFileUpload_UploadedComplete*
   name: certificadoTituloAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_CertificadoTituloUserControl_certificadoTituloAsyncFileUpload_UploadedComplete_
@@ -36424,11 +36424,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload
   nameWithType: DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: documentoIdAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: documentoIdAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_DocumentoIdentificacionUserControl_documentoIdAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.documentoIdAsyncFileUpload_UploadedComplete*
   name: documentoIdAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_DocumentoIdentificacionUserControl_documentoIdAsyncFileUpload_UploadedComplete_
@@ -36574,11 +36574,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.experienciaAsyncFileUpload
   nameWithType: ExperienciaUserControl.experienciaAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: experienciaAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: experienciaAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_ExperienciaUserControl_experienciaAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.experienciaAsyncFileUpload_UploadedComplete*
   name: experienciaAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_ExperienciaUserControl_experienciaAsyncFileUpload_UploadedComplete_
@@ -36940,11 +36940,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.idiomaAsyncFileUpload
   nameWithType: IdiomaPersonaUserControl.idiomaAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: idiomaAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: idiomaAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_IdiomaPersonaUserControl_idiomaAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.idiomaAsyncFileUpload_UploadedComplete*
   name: idiomaAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_IdiomaPersonaUserControl_idiomaAsyncFileUpload_UploadedComplete_
@@ -37097,11 +37097,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.capituloAsyncFileUpload
   nameWithType: PublicacionCapitulosUserControl.capituloAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: capituloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: capituloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionCapitulosUserControl_capituloAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.capituloAsyncFileUpload_UploadedComplete*
   name: capituloAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionCapitulosUserControl_capituloAsyncFileUpload_UploadedComplete_
@@ -37496,11 +37496,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.libroAsyncFileUpload
   nameWithType: PublicacionLibrosUserControl.libroAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: libroAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: libroAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionLibrosUserControl_libroAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.libroAsyncFileUpload_UploadedComplete*
   name: libroAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionLibrosUserControl_libroAsyncFileUpload_UploadedComplete_
@@ -37651,11 +37651,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.articuloAsyncFileUpload
   nameWithType: PublicacionUserControl.articuloAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: articuloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: articuloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionUserControl_articuloAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.articuloAsyncFileUpload_UploadedComplete*
   name: articuloAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.html#Unach_Dath_Postulacion_WebSite_Sandbox_Controles_PublicacionUserControl_articuloAsyncFileUpload_UploadedComplete_
@@ -38307,11 +38307,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.actividadesRadGrid
   nameWithType: DetalleOferta.actividadesRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.actividadesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: actividadesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: actividadesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_actividadesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.actividadesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.actividadesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: DetalleOferta.actividadesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: DetalleOferta.actividadesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.actividadesRadGrid_NeedDataSource*
   name: actividadesRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_actividadesRadGrid_NeedDataSource_
@@ -38326,11 +38326,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.asignaturasRadGrid
   nameWithType: DetalleOferta.asignaturasRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.asignaturasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: asignaturasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: asignaturasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_asignaturasRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.asignaturasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.asignaturasRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: DetalleOferta.asignaturasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: DetalleOferta.asignaturasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.asignaturasRadGrid_NeedDataSource*
   name: asignaturasRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_asignaturasRadGrid_NeedDataSource_
@@ -38363,11 +38363,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.horarioRadGrid
   nameWithType: DetalleOferta.horarioRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.horarioRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: horarioRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: horarioRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_horarioRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.horarioRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.horarioRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: DetalleOferta.horarioRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: DetalleOferta.horarioRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.horarioRadGrid_NeedDataSource*
   name: horarioRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_DetalleOferta_horarioRadGrid_NeedDataSource_
@@ -38487,11 +38487,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.IsReusable
   nameWithType: FotoHandler.IsReusable
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(HttpContext)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(System.Web.HttpContext)
   name: ProcessRequest(HttpContext)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.html#Unach_Dath_Postulacion_WebSite_Sandbox_FotoHandler_ProcessRequest_HttpContext_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(HttpContext)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(HttpContext)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.html#Unach_Dath_Postulacion_WebSite_Sandbox_FotoHandler_ProcessRequest_System_Web_HttpContext_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(System.Web.HttpContext)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest(System.Web.HttpContext)
   nameWithType: FotoHandler.ProcessRequest(HttpContext)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.ProcessRequest*
   name: ProcessRequest
@@ -38537,11 +38537,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid
   nameWithType: Informacion.articulosRadGrid
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   name: articulosRadGrid_ItemCommand(Object, GridCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_articulosRadGrid_ItemCommand_System_Object_GridCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object, GridCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_articulosRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
   nameWithType: Informacion.articulosRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand*
   name: articulosRadGrid_ItemCommand
@@ -38550,11 +38550,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_ItemCommand
   nameWithType: Informacion.articulosRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   name: articulosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_articulosRadGrid_NeedDataSource_System_Object_GridNeedDataSourceEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object, GridNeedDataSourceEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_articulosRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
   nameWithType: Informacion.articulosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.articulosRadGrid_NeedDataSource*
   name: articulosRadGrid_NeedDataSource
@@ -38624,11 +38624,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid
   nameWithType: Informacion.capitulosLibroRadGrid
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   name: capitulosLibroRadGrid_ItemCommand(Object, GridCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_capitulosLibroRadGrid_ItemCommand_System_Object_GridCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object, GridCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_capitulosLibroRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
   nameWithType: Informacion.capitulosLibroRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand*
   name: capitulosLibroRadGrid_ItemCommand
@@ -38637,11 +38637,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_ItemCommand
   nameWithType: Informacion.capitulosLibroRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   name: capitulosLibroRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_capitulosLibroRadGrid_NeedDataSource_System_Object_GridNeedDataSourceEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object, GridNeedDataSourceEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_capitulosLibroRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
   nameWithType: Informacion.capitulosLibroRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.capitulosLibroRadGrid_NeedDataSource*
   name: capitulosLibroRadGrid_NeedDataSource
@@ -38843,11 +38843,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid
   nameWithType: Informacion.cursosRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: cursosRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: cursosRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: Informacion.cursosRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: Informacion.cursosRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemCommand*
   name: cursosRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_ItemCommand_
@@ -38855,11 +38855,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemCommand
   nameWithType: Informacion.cursosRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: cursosRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Informacion.cursosRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound*
   name: cursosRadGrid_ItemDataBound
@@ -38869,11 +38869,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_ItemDataBound
   nameWithType: Informacion.cursosRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: cursosRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: cursosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Informacion.cursosRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Informacion.cursosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.cursosRadGrid_NeedDataSource*
   name: cursosRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_cursosRadGrid_NeedDataSource_
@@ -39398,11 +39398,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid
   nameWithType: Informacion.idiomasRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: idiomasRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: idiomasRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: Informacion.idiomasRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: Informacion.idiomasRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemCommand*
   name: idiomasRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_ItemCommand_
@@ -39410,11 +39410,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemCommand
   nameWithType: Informacion.idiomasRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: idiomasRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Informacion.idiomasRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound*
   name: idiomasRadGrid_ItemDataBound
@@ -39424,11 +39424,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_ItemDataBound
   nameWithType: Informacion.idiomasRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: idiomasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: idiomasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Informacion.idiomasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Informacion.idiomasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.idiomasRadGrid_NeedDataSource*
   name: idiomasRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_idiomasRadGrid_NeedDataSource_
@@ -39443,11 +39443,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid
   nameWithType: Informacion.informacionAcademicaRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: informacionAcademicaRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: informacionAcademicaRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: Informacion.informacionAcademicaRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: Informacion.informacionAcademicaRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemCommand*
   name: informacionAcademicaRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_ItemCommand_
@@ -39455,11 +39455,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemCommand
   nameWithType: Informacion.informacionAcademicaRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: informacionAcademicaRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Informacion.informacionAcademicaRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound*
   name: informacionAcademicaRadGrid_ItemDataBound
@@ -39469,11 +39469,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_ItemDataBound
   nameWithType: Informacion.informacionAcademicaRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: informacionAcademicaRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: informacionAcademicaRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Informacion.informacionAcademicaRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Informacion.informacionAcademicaRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.informacionAcademicaRadGrid_NeedDataSource*
   name: informacionAcademicaRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_informacionAcademicaRadGrid_NeedDataSource_
@@ -39505,11 +39505,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid
   nameWithType: Informacion.librosRadGrid
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   name: librosRadGrid_ItemCommand(Object, GridCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_librosRadGrid_ItemCommand_System_Object_GridCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object, GridCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_librosRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
   nameWithType: Informacion.librosRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand*
   name: librosRadGrid_ItemCommand
@@ -39518,11 +39518,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_ItemCommand
   nameWithType: Informacion.librosRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   name: librosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_librosRadGrid_NeedDataSource_System_Object_GridNeedDataSourceEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object, GridNeedDataSourceEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_librosRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
   nameWithType: Informacion.librosRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.librosRadGrid_NeedDataSource*
   name: librosRadGrid_NeedDataSource
@@ -40091,11 +40091,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid
   nameWithType: Informacion.titulosPendientesRadGrid
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   name: titulosPendientesRadGrid_ItemCommand(Object, GridCommandEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_ItemCommand_System_Object_GridCommandEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object,GridCommandEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object, GridCommandEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
   nameWithType: Informacion.titulosPendientesRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand*
   name: titulosPendientesRadGrid_ItemCommand
@@ -40104,11 +40104,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemCommand
   nameWithType: Informacion.titulosPendientesRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: titulosPendientesRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Informacion.titulosPendientesRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound*
   name: titulosPendientesRadGrid_ItemDataBound
@@ -40117,11 +40117,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_ItemDataBound
   nameWithType: Informacion.titulosPendientesRadGrid_ItemDataBound
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   name: titulosPendientesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_NeedDataSource_System_Object_GridNeedDataSourceEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object,GridNeedDataSourceEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object, GridNeedDataSourceEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_titulosPendientesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
   nameWithType: Informacion.titulosPendientesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.titulosPendientesRadGrid_NeedDataSource*
   name: titulosPendientesRadGrid_NeedDataSource
@@ -40149,11 +40149,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid
   nameWithType: Informacion.trayectoriaRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: trayectoriaRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: trayectoriaRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: Informacion.trayectoriaRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: Informacion.trayectoriaRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemCommand*
   name: trayectoriaRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_ItemCommand_
@@ -40161,11 +40161,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemCommand
   nameWithType: Informacion.trayectoriaRadGrid_ItemCommand
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   name: trayectoriaRadGrid_ItemDataBound(Object, GridItemEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_ItemDataBound_System_Object_GridItemEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object,GridItemEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object, GridItemEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
   nameWithType: Informacion.trayectoriaRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound*
   name: trayectoriaRadGrid_ItemDataBound
@@ -40175,11 +40175,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_ItemDataBound
   nameWithType: Informacion.trayectoriaRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: trayectoriaRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: trayectoriaRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Informacion.trayectoriaRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Informacion.trayectoriaRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.trayectoriaRadGrid_NeedDataSource*
   name: trayectoriaRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html#Unach_Dath_Postulacion_WebSite_Sandbox_Informacion_trayectoriaRadGrid_NeedDataSource_
@@ -40297,11 +40297,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid
   nameWithType: MisPostulaciones.postulacionesRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: postulacionesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: postulacionesRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: MisPostulaciones.postulacionesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: MisPostulaciones.postulacionesRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemCommand*
   name: postulacionesRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_ItemCommand_
@@ -40310,11 +40310,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemCommand
   nameWithType: MisPostulaciones.postulacionesRadGrid_ItemCommand
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
-  name: postulacionesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  name: postulacionesRadGrid_ItemDataBound(Object, GridItemEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
-  nameWithType: MisPostulaciones.postulacionesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  nameWithType: MisPostulaciones.postulacionesRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemDataBound*
   name: postulacionesRadGrid_ItemDataBound
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_ItemDataBound_
@@ -40323,11 +40323,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_ItemDataBound
   nameWithType: MisPostulaciones.postulacionesRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: postulacionesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: postulacionesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: MisPostulaciones.postulacionesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: MisPostulaciones.postulacionesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.postulacionesRadGrid_NeedDataSource*
   name: postulacionesRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html#Unach_Dath_Postulacion_WebSite_Sandbox_MisPostulaciones_postulacionesRadGrid_NeedDataSource_
@@ -40379,11 +40379,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox
   nameWithType: Oferta.buscarRadSearchBox
-- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object,SearchBoxButtonEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
   name: buscarRadSearchBox_ButtonCommand(Object, SearchBoxButtonEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_buscarRadSearchBox_ButtonCommand_System_Object_SearchBoxButtonEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object,SearchBoxButtonEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object, SearchBoxButtonEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_buscarRadSearchBox_ButtonCommand_System_Object_Telerik_Web_UI_SearchBoxButtonEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object,Telerik.Web.UI.SearchBoxButtonEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand(System.Object, Telerik.Web.UI.SearchBoxButtonEventArgs)
   nameWithType: Oferta.buscarRadSearchBox_ButtonCommand(Object, SearchBoxButtonEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand*
   name: buscarRadSearchBox_ButtonCommand
@@ -40393,11 +40393,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_ButtonCommand
   nameWithType: Oferta.buscarRadSearchBox_ButtonCommand
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
-  name: buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  name: buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_buscarRadSearchBox_Search_System_Object_Telerik_Web_UI_SearchBoxEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_Search(System.Object,Telerik.Web.UI.SearchBoxEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_Search(System.Object, Telerik.Web.UI.SearchBoxEventArgs)
-  nameWithType: Oferta.buscarRadSearchBox_Search(Object, Telerik.Web.UI.SearchBoxEventArgs)
+  nameWithType: Oferta.buscarRadSearchBox_Search(Object, SearchBoxEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.buscarRadSearchBox_Search*
   name: buscarRadSearchBox_Search
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_buscarRadSearchBox_Search_
@@ -40438,11 +40438,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid
   nameWithType: Oferta.docentesRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
-  name: docentesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  name: docentesRadGrid_ItemCommand(Object, GridCommandEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_ItemCommand_System_Object_Telerik_Web_UI_GridCommandEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemCommand(System.Object,Telerik.Web.UI.GridCommandEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemCommand(System.Object, Telerik.Web.UI.GridCommandEventArgs)
-  nameWithType: Oferta.docentesRadGrid_ItemCommand(Object, Telerik.Web.UI.GridCommandEventArgs)
+  nameWithType: Oferta.docentesRadGrid_ItemCommand(Object, GridCommandEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemCommand*
   name: docentesRadGrid_ItemCommand
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_ItemCommand_
@@ -40451,11 +40451,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemCommand
   nameWithType: Oferta.docentesRadGrid_ItemCommand
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
-  name: docentesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  name: docentesRadGrid_ItemDataBound(Object, GridItemEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_ItemDataBound_System_Object_Telerik_Web_UI_GridItemEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemDataBound(System.Object,Telerik.Web.UI.GridItemEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemDataBound(System.Object, Telerik.Web.UI.GridItemEventArgs)
-  nameWithType: Oferta.docentesRadGrid_ItemDataBound(Object, Telerik.Web.UI.GridItemEventArgs)
+  nameWithType: Oferta.docentesRadGrid_ItemDataBound(Object, GridItemEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemDataBound*
   name: docentesRadGrid_ItemDataBound
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_ItemDataBound_
@@ -40464,11 +40464,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_ItemDataBound
   nameWithType: Oferta.docentesRadGrid_ItemDataBound
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: docentesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: docentesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Oferta.docentesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Oferta.docentesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.docentesRadGrid_NeedDataSource*
   name: docentesRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html#Unach_Dath_Postulacion_WebSite_Sandbox_Oferta_docentesRadGrid_NeedDataSource_
@@ -40508,11 +40508,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.actividadesRadGrid
   nameWithType: Preview.actividadesRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.actividadesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: actividadesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: actividadesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_actividadesRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Preview.actividadesRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.actividadesRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Preview.actividadesRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Preview.actividadesRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.actividadesRadGrid_NeedDataSource*
   name: actividadesRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_actividadesRadGrid_NeedDataSource_
@@ -40546,11 +40546,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.asignaturasRadGrid
   nameWithType: Preview.asignaturasRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.asignaturasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: asignaturasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: asignaturasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_asignaturasRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Preview.asignaturasRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.asignaturasRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Preview.asignaturasRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Preview.asignaturasRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.asignaturasRadGrid_NeedDataSource*
   name: asignaturasRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_asignaturasRadGrid_NeedDataSource_
@@ -40583,11 +40583,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.horarioRadGrid
   nameWithType: Preview.horarioRadGrid
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.horarioRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  name: horarioRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  name: horarioRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_horarioRadGrid_NeedDataSource_System_Object_Telerik_Web_UI_GridNeedDataSourceEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.Preview.horarioRadGrid_NeedDataSource(System.Object,Telerik.Web.UI.GridNeedDataSourceEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.horarioRadGrid_NeedDataSource(System.Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
-  nameWithType: Preview.horarioRadGrid_NeedDataSource(Object, Telerik.Web.UI.GridNeedDataSourceEventArgs)
+  nameWithType: Preview.horarioRadGrid_NeedDataSource(Object, GridNeedDataSourceEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.Preview.horarioRadGrid_NeedDataSource*
   name: horarioRadGrid_NeedDataSource
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html#Unach_Dath_Postulacion_WebSite_Sandbox_Preview_horarioRadGrid_NeedDataSource_
@@ -40707,11 +40707,11 @@ references:
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.fotoPerfilAsyncFileUpload
   nameWithType: PrivateSite.fotoPerfilAsyncFileUpload
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
-  name: fotoPerfilAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  name: fotoPerfilAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.html#Unach_Dath_Postulacion_WebSite_Sandbox_PrivateSite_fotoPerfilAsyncFileUpload_UploadedComplete_System_Object_AjaxControlToolkit_AsyncFileUploadEventArgs_
   commentId: M:Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete(System.Object,AjaxControlToolkit.AsyncFileUploadEventArgs)
   fullName: Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete(System.Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
-  nameWithType: PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete(Object, AjaxControlToolkit.AsyncFileUploadEventArgs)
+  nameWithType: PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete(Object, AsyncFileUploadEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.fotoPerfilAsyncFileUpload_UploadedComplete*
   name: fotoPerfilAsyncFileUpload_UploadedComplete
   href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.html#Unach_Dath_Postulacion_WebSite_Sandbox_PrivateSite_fotoPerfilAsyncFileUpload_UploadedComplete_
@@ -40976,11 +40976,11 @@ references:
   commentId: F:Unach.Dath.Postulacion.WebSite.SiteMaster.scriptManager
   fullName: Unach.Dath.Postulacion.WebSite.SiteMaster.scriptManager
   nameWithType: SiteMaster.scriptManager
-- uid: Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object,LoginCancelEventArgs)
+- uid: Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object,System.Web.UI.WebControls.LoginCancelEventArgs)
   name: Unnamed_LoggingOut(Object, LoginCancelEventArgs)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SiteMaster.html#Unach_Dath_Postulacion_WebSite_SiteMaster_Unnamed_LoggingOut_System_Object_LoginCancelEventArgs_
-  commentId: M:Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object,LoginCancelEventArgs)
-  fullName: Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object, LoginCancelEventArgs)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SiteMaster.html#Unach_Dath_Postulacion_WebSite_SiteMaster_Unnamed_LoggingOut_System_Object_System_Web_UI_WebControls_LoginCancelEventArgs_
+  commentId: M:Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object,System.Web.UI.WebControls.LoginCancelEventArgs)
+  fullName: Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut(System.Object, System.Web.UI.WebControls.LoginCancelEventArgs)
   nameWithType: SiteMaster.Unnamed_LoggingOut(Object, LoginCancelEventArgs)
 - uid: Unach.Dath.Postulacion.WebSite.SiteMaster.Unnamed_LoggingOut*
   name: Unnamed_LoggingOut
@@ -40995,11 +40995,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.SmsService
   fullName: Unach.Dath.Postulacion.WebSite.SmsService
   nameWithType: SmsService
-- uid: Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(IdentityMessage)
+- uid: Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
   name: SendAsync(IdentityMessage)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SmsService.html#Unach_Dath_Postulacion_WebSite_SmsService_SendAsync_IdentityMessage_
-  commentId: M:Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(IdentityMessage)
-  fullName: Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(IdentityMessage)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SmsService.html#Unach_Dath_Postulacion_WebSite_SmsService_SendAsync_Microsoft_AspNet_Identity_IdentityMessage_
+  commentId: M:Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  fullName: Unach.Dath.Postulacion.WebSite.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
   nameWithType: SmsService.SendAsync(IdentityMessage)
 - uid: Unach.Dath.Postulacion.WebSite.SmsService.SendAsync*
   name: SendAsync
@@ -41014,11 +41014,11 @@ references:
   commentId: T:Unach.Dath.Postulacion.WebSite.Startup
   fullName: Unach.Dath.Postulacion.WebSite.Startup
   nameWithType: Startup
-- uid: Unach.Dath.Postulacion.WebSite.Startup.Configuration(IAppBuilder)
+- uid: Unach.Dath.Postulacion.WebSite.Startup.Configuration(Owin.IAppBuilder)
   name: Configuration(IAppBuilder)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.html#Unach_Dath_Postulacion_WebSite_Startup_Configuration_IAppBuilder_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Startup.Configuration(IAppBuilder)
-  fullName: Unach.Dath.Postulacion.WebSite.Startup.Configuration(IAppBuilder)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.html#Unach_Dath_Postulacion_WebSite_Startup_Configuration_Owin_IAppBuilder_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Startup.Configuration(Owin.IAppBuilder)
+  fullName: Unach.Dath.Postulacion.WebSite.Startup.Configuration(Owin.IAppBuilder)
   nameWithType: Startup.Configuration(IAppBuilder)
 - uid: Unach.Dath.Postulacion.WebSite.Startup.Configuration*
   name: Configuration
@@ -41027,11 +41027,11 @@ references:
   isSpec: "True"
   fullName: Unach.Dath.Postulacion.WebSite.Startup.Configuration
   nameWithType: Startup.Configuration
-- uid: Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(IAppBuilder)
+- uid: Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(Owin.IAppBuilder)
   name: ConfigureAuth(IAppBuilder)
-  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.html#Unach_Dath_Postulacion_WebSite_Startup_ConfigureAuth_IAppBuilder_
-  commentId: M:Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(IAppBuilder)
-  fullName: Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(IAppBuilder)
+  href: api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.html#Unach_Dath_Postulacion_WebSite_Startup_ConfigureAuth_Owin_IAppBuilder_
+  commentId: M:Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(Owin.IAppBuilder)
+  fullName: Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth(Owin.IAppBuilder)
   nameWithType: Startup.ConfigureAuth(IAppBuilder)
 - uid: Unach.Dath.Postulacion.WebSite.Startup.ConfigureAuth*
   name: ConfigureAuth

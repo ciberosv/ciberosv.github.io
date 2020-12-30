@@ -110,11 +110,12 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_SERVIDOR_INFORMACION_CONYUGE_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentModel.INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract(Name = &quot;SERVIDOR_INFORMACION_CONYUGE&quot;, Namespace = &quot;http://schemas.datacontract.org/2004/07/Unach.Dath.Gestion.Persistencia&quot;)]
+[Serializable]
+public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +127,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ApellidoConyuge { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ApellidoConyuge { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +153,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtensionDataObject ExtensionData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ExtensionDataObject ExtensionData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +179,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? FechaAudd { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime? FechaAudd { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +205,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int InformacionConyugeID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int InformacionConyugeID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +231,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombreConyuge { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NombreConyuge { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +257,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumeroDocumento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NumeroDocumento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +283,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR SERVIDOR { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR SERVIDOR { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +309,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ServidorID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int ServidorID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +335,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_DE_RELACION_CONYUGUE TIPO_DE_RELACION_CONYUGUE { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_DE_RELACION_CONYUGUE TIPO_DE_RELACION_CONYUGUE { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +361,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_DOCUMENTO_PERSONAS TIPO_DOCUMENTO_PERSONAS { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_DOCUMENTO_PERSONAS TIPO_DOCUMENTO_PERSONAS { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +387,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int TipoDocumentoId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int TipoDocumentoId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +413,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int TipoRelacionId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int TipoRelacionId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +439,8 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UsuarioAudd { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string UsuarioAudd { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,7 +495,7 @@ public class SERVIDOR_INFORMACION_CONYUGE : IExtensibleDataObject, ComponentMode
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event ComponentModel.PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

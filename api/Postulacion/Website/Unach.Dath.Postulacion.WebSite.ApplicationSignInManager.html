@@ -78,20 +78,94 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ApplicationSignInManager</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.html">ApplicationUser</a>, <span class="xref">System.String</span>&gt;</div>
+    <div class="level2"><span class="xref">ApplicationSignInManager</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.ConvertIdToString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.ConvertIdFromString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.SignInAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.SendTwoFactorCodeAsync(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.GetVerifiedUserIdAsync()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.HasBeenVerifiedAsync()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.TwoFactorSignInAsync(System.String, System.String, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.PasswordSignInAsync(System.String, System.String, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.AuthenticationType</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.UserManager</span>
+    </div>
+    <div>
+      <span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.AuthenticationManager</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.WebSite.html">Unach.Dath.Postulacion.WebSite</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.WebSite.dll</h6>
   <h5 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ApplicationSignInManager : SignInManager&lt;ApplicationUser, string&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ApplicationSignInManager : SignInManager&lt;ApplicationUser, string&gt;, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__ctor_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor*"></a>
-  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__ctor_Unach_Dath_Postulacion_WebSite_ApplicationUserManager_IAuthenticationManager_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,IAuthenticationManager)">ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)</h4>
+  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__ctor_Unach_Dath_Postulacion_WebSite_ApplicationUserManager_Microsoft_Owin_Security_IAuthenticationManager_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.#ctor(Unach.Dath.Postulacion.WebSite.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)">ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -114,7 +188,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IAuthenticationManager</span></td>
+        <td><span class="xref">Microsoft.Owin.Security.IAuthenticationManager</span></td>
         <td><span class="parametername">authenticationManager</span></td>
         <td></td>
       </tr>
@@ -125,7 +199,7 @@
   
   
   <a id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_Create_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create*"></a>
-  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_Create_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__IOwinContext_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},IOwinContext)">Create(IdentityFactoryOptions&lt;ApplicationSignInManager&gt;, IOwinContext)</h4>
+  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_Create_Microsoft_AspNet_Identity_Owin_IdentityFactoryOptions_Unach_Dath_Postulacion_WebSite_ApplicationSignInManager__Microsoft_Owin_IOwinContext_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{Unach.Dath.Postulacion.WebSite.ApplicationSignInManager},Microsoft.Owin.IOwinContext)">Create(IdentityFactoryOptions&lt;ApplicationSignInManager&gt;, IOwinContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,12 +217,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IdentityFactoryOptions</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html">ApplicationSignInManager</a>&gt;</td>
+        <td><span class="xref">Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html">ApplicationSignInManager</a>&gt;</td>
         <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IOwinContext</span></td>
+        <td><span class="xref">Microsoft.Owin.IOwinContext</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -172,7 +246,7 @@
   
   
   <a id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_CreateUserIdentityAsync_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync*"></a>
-  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_CreateUserIdentityAsync_ApplicationUser_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)">CreateUserIdentityAsync(ApplicationUser)</h4>
+  <h4 id="Unach_Dath_Postulacion_WebSite_ApplicationSignInManager_CreateUserIdentityAsync_Unach_Dath_Postulacion_WebSite_Models_ApplicationUser_" data-uid="Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)">CreateUserIdentityAsync(ApplicationUser)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -190,7 +264,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ApplicationUser</span></td>
+        <td><a class="xref" href="Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.html">ApplicationUser</a></td>
         <td><span class="parametername">user</span></td>
         <td></td>
       </tr>
@@ -206,11 +280,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">ClaimsIdentity</span>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Security.Claims.ClaimsIdentity</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.AspNet.Identity.Owin.SignInManager&lt;Unach.Dath.Postulacion.WebSite.Models.ApplicationUser, System.String&gt;.CreateUserIdentityAsync(Unach.Dath.Postulacion.WebSite.Models.ApplicationUser)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
 </article>
           </div>
           

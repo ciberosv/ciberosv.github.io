@@ -110,11 +110,12 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_SERVIDOR_INFORMACION_PERSONAL_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentModel.INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract(Name = &quot;SERVIDOR_INFORMACION_PERSONAL&quot;, Namespace = &quot;http://schemas.datacontract.org/2004/07/Unach.Dath.Gestion.Persistencia&quot;)]
+[Serializable]
+public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +127,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? AniosResidencia { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? AniosResidencia { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +153,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ApellidoMaterno { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ApellidoMaterno { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +179,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ApellidoPaterno { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ApellidoPaterno { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +205,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AreasColaboracion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string AreasColaboracion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +231,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CarnetConadisPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CarnetConadisPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +257,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CedulaPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CedulaPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +283,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CertificadoCapacidadEspecialPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CertificadoCapacidadEspecialPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +309,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CertificadoDeclaracionJuradaPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CertificadoDeclaracionJuradaPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +335,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CertificadoEnfermedadPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CertificadoEnfermedadPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +361,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CertificadoGestacionPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CertificadoGestacionPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +387,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ContactoApellido { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ContactoApellido { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +413,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ContactoNombre { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ContactoNombre { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +439,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ContactoTelefono { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ContactoTelefono { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,7 +465,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ContactoTelefonoCelular { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ContactoTelefonoCelular { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,7 +491,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ContratoServidor[] ContratoServidor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ContratoServidor[] ContratoServidor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -501,7 +517,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CorreoElectronico { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CorreoElectronico { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,7 +543,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CorreoElectronicoTmp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CorreoElectronicoTmp { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,7 +569,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DireccionCallePrincipal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string DireccionCallePrincipal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -576,7 +595,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DireccionCalleSecundaria { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string DireccionCalleSecundaria { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -601,7 +621,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DireccionCantonId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? DireccionCantonId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,7 +647,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DireccionNumero { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string DireccionNumero { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -651,7 +673,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DireccionPaisID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? DireccionPaisID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -676,7 +699,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DireccionParroquiaId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? DireccionParroquiaId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -701,7 +725,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? DireccionProvinciaId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? DireccionProvinciaId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -726,7 +751,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DireccionReferencia { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string DireccionReferencia { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -751,7 +777,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? Discapacidad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? Discapacidad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -776,7 +803,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? EnfermedadCatastrofica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? EnfermedadCatastrofica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -801,7 +829,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ESTADO_CIVIL ESTADO_CIVIL { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ESTADO_CIVIL ESTADO_CIVIL { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -826,7 +855,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? EstadoCivilId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? EstadoCivilId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -851,7 +881,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? EtapaGestacionLactancia { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? EtapaGestacionLactancia { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -876,7 +907,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtensionDataObject ExtensionData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ExtensionDataObject ExtensionData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -901,7 +933,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? FechaAudd { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime? FechaAudd { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -926,7 +959,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? FechaIngresoIES { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime? FechaIngresoIES { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -951,7 +985,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime FechaNacimiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime FechaNacimiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -976,7 +1011,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? FechaNotariaBienes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime? FechaNotariaBienes { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1001,7 +1037,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Firma { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Firma { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1026,7 +1063,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FotoRuta { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string FotoRuta { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1051,7 +1089,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? GeneroID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? GeneroID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1076,7 +1115,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? IdentificacionEtnicaId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? IdentificacionEtnicaId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1101,7 +1141,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? IdPaisNacimiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? IdPaisNacimiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1126,7 +1167,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? IdServidorRevisa { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? IdServidorRevisa { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1151,7 +1193,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IdUsuarioReloj { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string IdUsuarioReloj { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1176,7 +1219,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string InformacionAdicional { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string InformacionAdicional { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1201,7 +1245,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int InformacionPersonalID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int InformacionPersonalID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1226,7 +1271,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsCapacitacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsCapacitacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1251,7 +1297,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsDesempeno { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsDesempeno { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1276,7 +1323,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsInformacionAcademica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsInformacionAcademica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1301,7 +1349,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsInformacionFamiliar { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsInformacionFamiliar { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1326,7 +1375,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsInformacionPersonal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsInformacionPersonal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1351,7 +1401,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsInformacionPuesto { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsInformacionPuesto { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1376,7 +1427,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsSaludOcupacional { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsSaludOcupacional { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1401,7 +1453,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsTrayectoriaLaboral { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? IsTrayectoriaLaboral { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1426,7 +1479,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? LicenciaOfficeAsignada { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public bool? LicenciaOfficeAsignada { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1451,7 +1505,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? LugarNotariaBienesCantonId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? LugarNotariaBienesCantonId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1476,7 +1531,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? LugarNotariaBienesProvinciaID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? LugarNotariaBienesProvinciaID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1501,7 +1557,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NACIONALIDAD NACIONALIDAD { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public NACIONALIDAD NACIONALIDAD { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1526,7 +1583,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? NacionalidadId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? NacionalidadId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1551,7 +1609,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? NacionalidadIndigenaId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? NacionalidadIndigenaId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1576,7 +1635,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombreFamiliar { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NombreFamiliar { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1601,7 +1661,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Nombres { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Nombres { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1626,7 +1687,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombresCompletos { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NombresCompletos { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1651,7 +1713,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombresCompletosFormal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NombresCompletosFormal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1676,7 +1739,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumeroCarnetConadis { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NumeroCarnetConadis { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1701,7 +1765,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumeroDocumento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NumeroDocumento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1726,7 +1791,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumeroLibretaMilitar { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NumeroLibretaMilitar { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1751,7 +1817,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte? NumeroNotariaBienes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public byte? NumeroNotariaBienes { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1776,7 +1843,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumeroRegistroCertificado { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string NumeroRegistroCertificado { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1801,7 +1869,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ObservacionRevision { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string ObservacionRevision { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1826,7 +1895,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PAIS PAIS { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public PAIS PAIS { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1851,7 +1921,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PAIS PAIS1 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public PAIS PAIS1 { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1876,7 +1947,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PapeletaVotacionPath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string PapeletaVotacionPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1901,7 +1973,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PARROQUIA PARROQUIA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public PARROQUIA PARROQUIA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1926,7 +1999,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Perfil { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Perfil { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1951,7 +2025,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SAUC_NACIONALIDAD_INDIGENA SAUC_NACIONALIDAD_INDIGENA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SAUC_NACIONALIDAD_INDIGENA SAUC_NACIONALIDAD_INDIGENA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1976,7 +2051,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SAUC_TIPO_DE_ETNIA SAUC_TIPO_DE_ETNIA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SAUC_TIPO_DE_ETNIA SAUC_TIPO_DE_ETNIA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2001,7 +2077,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SAUC_TIPO_GENERO SAUC_TIPO_GENERO { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SAUC_TIPO_GENERO SAUC_TIPO_GENERO { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2026,7 +2103,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SERVIDOR SERVIDOR { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public SERVIDOR SERVIDOR { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2051,7 +2129,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ServidorCarrera { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? ServidorCarrera { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2076,7 +2155,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ServidorID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int ServidorID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2101,7 +2181,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ServidorPasanteConvenio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? ServidorPasanteConvenio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2126,7 +2207,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SexoId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int SexoId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2151,7 +2233,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? Sustituto { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? Sustituto { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2176,7 +2259,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TelefonoCelular { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TelefonoCelular { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2201,7 +2285,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TelefonoDomicilio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TelefonoDomicilio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2226,7 +2311,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TelefonoExtension { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TelefonoExtension { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2251,7 +2337,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TelefonoTrabajo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TelefonoTrabajo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2276,7 +2363,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_DE_SANGRE TIPO_DE_SANGRE { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_DE_SANGRE TIPO_DE_SANGRE { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2301,7 +2389,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_DISCAPACIDAD TIPO_DISCAPACIDAD { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_DISCAPACIDAD TIPO_DISCAPACIDAD { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2326,7 +2415,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_DOCUMENTO_PERSONAS TIPO_DOCUMENTO_PERSONAS { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_DOCUMENTO_PERSONAS TIPO_DOCUMENTO_PERSONAS { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2351,7 +2441,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_ENFERMEDAD TIPO_ENFERMEDAD { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_ENFERMEDAD TIPO_ENFERMEDAD { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2376,7 +2467,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TIPO_SEXO TIPO_SEXO { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public TIPO_SEXO TIPO_SEXO { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2401,7 +2493,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TipoDiscapacidadId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TipoDiscapacidadId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2426,7 +2519,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TipoDocumentoID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TipoDocumentoID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2451,7 +2545,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TipoEnfermedadId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TipoEnfermedadId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2476,7 +2571,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TipoSangreId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TipoSangreId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2501,7 +2597,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tratamiento Tratamiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public Tratamiento Tratamiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2526,7 +2623,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TratamientoId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TratamientoId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2551,7 +2649,8 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UsuarioAudd { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string UsuarioAudd { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2606,7 +2705,7 @@ public class SERVIDOR_INFORMACION_PERSONAL : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event ComponentModel.PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

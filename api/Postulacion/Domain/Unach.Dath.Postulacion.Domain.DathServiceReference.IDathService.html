@@ -76,10 +76,11 @@
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_IDathService_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDathService</code></pre>
+    <pre><code class="lang-csharp hljs">[ServiceContract(ConfigurationName = &quot;DathServiceReference.IDathService&quot;)]
+public interface IDathService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -91,7 +92,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">FACULTAD[] GetAllFacultades()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAllFacultades&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAllFacultadesResponse&quot;)]
+FACULTAD[] GetAllFacultades()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,7 +118,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;FACULTAD[]&gt; GetAllFacultadesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAllFacultades&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAllFacultadesResponse&quot;)]
+Task&lt;FACULTAD[]&gt; GetAllFacultadesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,7 +144,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DATH_OFERTAS[] GetAllOfertasByIdPeriodos()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAllOfertasByIdPeriodos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAllOfertasByIdPeriodosResponse&quot;)]
+DATH_OFERTAS[] GetAllOfertasByIdPeriodos()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,7 +170,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;DATH_OFERTAS[]&gt; GetAllOfertasByIdPeriodosAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAllOfertasByIdPeriodos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAllOfertasByIdPeriodosResponse&quot;)]
+Task&lt;DATH_OFERTAS[]&gt; GetAllOfertasByIdPeriodosAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,7 +196,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AreaConocimiento[] GetAreasConocimiento()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAreasConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAreasConocimientoResponse&quot;)]
+AreaConocimiento[] GetAreasConocimiento()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,7 +222,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;AreaConocimiento[]&gt; GetAreasConocimientoAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetAreasConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetAreasConocimientoResponse&quot;)]
+Task&lt;AreaConocimiento[]&gt; GetAreasConocimientoAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -241,7 +248,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">CampoConocimiento[] GetCamposConocimiento(int idSubArea)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetCamposConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetCamposConocimientoResponse&quot;)]
+CampoConocimiento[] GetCamposConocimiento(int idSubArea)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +291,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;CampoConocimiento[]&gt; GetCamposConocimientoAsync(int idSubArea)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetCamposConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetCamposConocimientoResponse&quot;)]
+Task&lt;CampoConocimiento[]&gt; GetCamposConocimientoAsync(int idSubArea)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -325,7 +334,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ESTADO_CIVIL GetEstadoCivil(int idEstadoCivil)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEstadoCivil&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEstadoCivilResponse&quot;)]
+ESTADO_CIVIL GetEstadoCivil(int idEstadoCivil)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -367,7 +377,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ESTADO_CIVIL&gt; GetEstadoCivilAsync(int idEstadoCivil)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEstadoCivil&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEstadoCivilResponse&quot;)]
+Task&lt;ESTADO_CIVIL&gt; GetEstadoCivilAsync(int idEstadoCivil)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,7 +420,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ESTADO_CIVIL[] GetEstadosCiviles()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEstadosCiviles&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEstadosCivilesResponse&quot;)]
+ESTADO_CIVIL[] GetEstadosCiviles()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,7 +446,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ESTADO_CIVIL[]&gt; GetEstadosCivilesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEstadosCiviles&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEstadosCivilesResponse&quot;)]
+Task&lt;ESTADO_CIVIL[]&gt; GetEstadosCivilesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -459,7 +472,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SAUC_TIPO_DE_ETNIA GetEtnia(int idEtnia)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEtnia&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEtniaResponse&quot;)]
+SAUC_TIPO_DE_ETNIA GetEtnia(int idEtnia)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -501,7 +515,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SAUC_TIPO_DE_ETNIA&gt; GetEtniaAsync(int idEtnia)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEtnia&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEtniaResponse&quot;)]
+Task&lt;SAUC_TIPO_DE_ETNIA&gt; GetEtniaAsync(int idEtnia)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -543,7 +558,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SAUC_TIPO_DE_ETNIA[] GetEtnias()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEtnias&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEtniasResponse&quot;)]
+SAUC_TIPO_DE_ETNIA[] GetEtnias()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -568,7 +584,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SAUC_TIPO_DE_ETNIA[]&gt; GetEtniasAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetEtnias&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetEtniasResponse&quot;)]
+Task&lt;SAUC_TIPO_DE_ETNIA[]&gt; GetEtniasAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -593,7 +610,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">FACULTAD[] GetFacultadesPostulacion()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetFacultadesPostulacion&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetFacultadesPostulacionResponse&quot;)]
+FACULTAD[] GetFacultadesPostulacion()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -618,7 +636,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;FACULTAD[]&gt; GetFacultadesPostulacionAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetFacultadesPostulacion&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetFacultadesPostulacionResponse&quot;)]
+Task&lt;FACULTAD[]&gt; GetFacultadesPostulacionAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -643,7 +662,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GetHistorialDocentesNN_Result[] GetHistorialDocentesNNByPeriodoFacultad(int idPeriodo, int idFacultad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHistorialDocentesNNByPeriodoFacultad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHistorialDocentesNNByPeriodoFacultadResponse&quot;)]
+GetHistorialDocentesNN_Result[] GetHistorialDocentesNNByPeriodoFacultad(int idPeriodo, int idFacultad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -690,7 +710,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;GetHistorialDocentesNN_Result[]&gt; GetHistorialDocentesNNByPeriodoFacultadAsync(int idPeriodo, int idFacultad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHistorialDocentesNNByPeriodoFacultad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHistorialDocentesNNByPeriodoFacultadResponse&quot;)]
+Task&lt;GetHistorialDocentesNN_Result[]&gt; GetHistorialDocentesNNByPeriodoFacultadAsync(int idPeriodo, int idFacultad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -737,7 +758,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">HorarioDocenteNN[] GetHorarioDocenteNN(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorarioDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorarioDocenteNNResponse&quot;)]
+HorarioDocenteNN[] GetHorarioDocenteNN(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -779,7 +801,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;HorarioDocenteNN[]&gt; GetHorarioDocenteNNAsync(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorarioDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorarioDocenteNNResponse&quot;)]
+Task&lt;HorarioDocenteNN[]&gt; GetHorarioDocenteNNAsync(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -821,7 +844,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DathOfertaDetalle[] GetHorariofertaByIdDocenteNN(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorariofertaByIdDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorariofertaByIdDocenteNNResponse&quot;)]
+DathOfertaDetalle[] GetHorariofertaByIdDocenteNN(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -863,7 +887,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;DathOfertaDetalle[]&gt; GetHorariofertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorariofertaByIdDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorariofertaByIdDocenteNNResponse&quot;)]
+Task&lt;DathOfertaDetalle[]&gt; GetHorariofertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -905,7 +930,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">HorasAcademicasDocenteNN[] GetHorasAcademicasDocenteNN(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorasAcademicasDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorasAcademicasDocenteNNResponse&quot;)]
+HorasAcademicasDocenteNN[] GetHorasAcademicasDocenteNN(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -947,7 +973,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;HorasAcademicasDocenteNN[]&gt; GetHorasAcademicasDocenteNNAsync(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorasAcademicasDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorasAcademicasDocenteNNResponse&quot;)]
+Task&lt;HorasAcademicasDocenteNN[]&gt; GetHorasAcademicasDocenteNNAsync(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -989,7 +1016,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">HorasActividadesDocenteNN[] GetHorasActividadesDocenteNN(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorasActividadesDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorasActividadesDocenteNNResponse&quot;)]
+HorasActividadesDocenteNN[] GetHorasActividadesDocenteNN(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1031,7 +1059,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;HorasActividadesDocenteNN[]&gt; GetHorasActividadesDocenteNNAsync(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetHorasActividadesDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetHorasActividadesDocenteNNResponse&quot;)]
+Task&lt;HorasActividadesDocenteNN[]&gt; GetHorasActividadesDocenteNNAsync(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1073,7 +1102,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Idioma[] GetIdiomas()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetIdiomas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetIdiomasResponse&quot;)]
+Idioma[] GetIdiomas()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1098,7 +1128,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Idioma[]&gt; GetIdiomasAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetIdiomas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetIdiomasResponse&quot;)]
+Task&lt;Idioma[]&gt; GetIdiomasAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1123,7 +1154,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NACIONALIDAD GetNacionalidad(int idNacionalidad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadResponse&quot;)]
+NACIONALIDAD GetNacionalidad(int idNacionalidad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1165,7 +1197,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;NACIONALIDAD&gt; GetNacionalidadAsync(int idNacionalidad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadResponse&quot;)]
+Task&lt;NACIONALIDAD&gt; GetNacionalidadAsync(int idNacionalidad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1207,7 +1240,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NACIONALIDAD[] GetNacionalidades()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidades&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadesResponse&quot;)]
+NACIONALIDAD[] GetNacionalidades()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1232,7 +1266,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;NACIONALIDAD[]&gt; GetNacionalidadesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidades&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadesResponse&quot;)]
+Task&lt;NACIONALIDAD[]&gt; GetNacionalidadesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1257,7 +1292,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SAUC_NACIONALIDAD_INDIGENA[] GetNacionalidadesIndigenas(int idEtnia)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidadesIndigenas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadesIndigenasResponse&quot;)]
+SAUC_NACIONALIDAD_INDIGENA[] GetNacionalidadesIndigenas(int idEtnia)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1299,7 +1335,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SAUC_NACIONALIDAD_INDIGENA[]&gt; GetNacionalidadesIndigenasAsync(int idEtnia)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidadesIndigenas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadesIndigenasResponse&quot;)]
+Task&lt;SAUC_NACIONALIDAD_INDIGENA[]&gt; GetNacionalidadesIndigenasAsync(int idEtnia)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1341,7 +1378,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SAUC_NACIONALIDAD_INDIGENA GetNacionalidadIndigena(int idNacionalidadIndigena)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidadIndigena&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadIndigenaResponse&quot;)]
+SAUC_NACIONALIDAD_INDIGENA GetNacionalidadIndigena(int idNacionalidadIndigena)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1383,7 +1421,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SAUC_NACIONALIDAD_INDIGENA&gt; GetNacionalidadIndigenaAsync(int idNacionalidadIndigena)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetNacionalidadIndigena&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetNacionalidadIndigenaResponse&quot;)]
+Task&lt;SAUC_NACIONALIDAD_INDIGENA&gt; GetNacionalidadIndigenaAsync(int idNacionalidadIndigena)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1425,7 +1464,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">DATH_OFERTAS GetOfertaByIdDocenteNN(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertaByIdDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertaByIdDocenteNNResponse&quot;)]
+DATH_OFERTAS GetOfertaByIdDocenteNN(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1467,7 +1507,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;DATH_OFERTAS&gt; GetOfertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertaByIdDocenteNN&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertaByIdDocenteNNResponse&quot;)]
+Task&lt;DATH_OFERTAS&gt; GetOfertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1509,7 +1550,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GetDocentesNN_Result[] GetOfertas()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertasResponse&quot;)]
+GetDocentesNN_Result[] GetOfertas()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1534,7 +1576,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;GetDocentesNN_Result[]&gt; GetOfertasAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertas&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertasResponse&quot;)]
+Task&lt;GetDocentesNN_Result[]&gt; GetOfertasAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1559,7 +1602,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GetDocentesNN_Result[] GetOfertasPendientes()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertasPendientes&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertasPendientesResponse&quot;)]
+GetDocentesNN_Result[] GetOfertasPendientes()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1584,7 +1628,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;GetDocentesNN_Result[]&gt; GetOfertasPendientesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetOfertasPendientes&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetOfertasPendientesResponse&quot;)]
+Task&lt;GetDocentesNN_Result[]&gt; GetOfertasPendientesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1609,7 +1654,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">PAIS GetPais(int idPais)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPais&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPaisResponse&quot;)]
+PAIS GetPais(int idPais)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1651,7 +1697,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;PAIS&gt; GetPaisAsync(int idPais)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPais&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPaisResponse&quot;)]
+Task&lt;PAIS&gt; GetPaisAsync(int idPais)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1693,7 +1740,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">PAIS[] GetPaises()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPaises&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPaisesResponse&quot;)]
+PAIS[] GetPaises()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1718,7 +1766,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;PAIS[]&gt; GetPaisesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPaises&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPaisesResponse&quot;)]
+Task&lt;PAIS[]&gt; GetPaisesAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1743,7 +1792,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">PERIODO[] GetPeridosByFacultad(int idFacultad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeridosByFacultad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeridosByFacultadResponse&quot;)]
+PERIODO[] GetPeridosByFacultad(int idFacultad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1785,7 +1835,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;PERIODO[]&gt; GetPeridosByFacultadAsync(int idFacultad)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeridosByFacultad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeridosByFacultadResponse&quot;)]
+Task&lt;PERIODO[]&gt; GetPeridosByFacultadAsync(int idFacultad)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1827,7 +1878,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SG_PeriodoActualVigente[] GetPeriodosAcademicos()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeriodosAcademicos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeriodosAcademicosResponse&quot;)]
+SG_PeriodoActualVigente[] GetPeriodosAcademicos()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1852,7 +1904,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SG_PeriodoActualVigente[]&gt; GetPeriodosAcademicosAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeriodosAcademicos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeriodosAcademicosResponse&quot;)]
+Task&lt;SG_PeriodoActualVigente[]&gt; GetPeriodosAcademicosAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1877,7 +1930,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">PERIODO_UA_SE[] GetPeriodosDefinicionHorario()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeriodosDefinicionHorario&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeriodosDefinicionHorarioResponse&quot;)]
+PERIODO_UA_SE[] GetPeriodosDefinicionHorario()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1902,7 +1956,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;PERIODO_UA_SE[]&gt; GetPeriodosDefinicionHorarioAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPeriodosDefinicionHorario&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPeriodosDefinicionHorarioResponse&quot;)]
+Task&lt;PERIODO_UA_SE[]&gt; GetPeriodosDefinicionHorarioAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1927,7 +1982,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GetPostulacionesByPersona_Result[] GetPostulantesByPersona(string idPersona)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPostulantesByPersona&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPostulantesByPersonaResponse&quot;)]
+GetPostulacionesByPersona_Result[] GetPostulantesByPersona(string idPersona)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1969,7 +2025,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;GetPostulacionesByPersona_Result[]&gt; GetPostulantesByPersonaAsync(string idPersona)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetPostulantesByPersona&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetPostulantesByPersonaResponse&quot;)]
+Task&lt;GetPostulacionesByPersona_Result[]&gt; GetPostulantesByPersonaAsync(string idPersona)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2011,7 +2068,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SubareaConocimiento[] GetSubAreasConocimiento(int idArea)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetSubAreasConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetSubAreasConocimientoResponse&quot;)]
+SubareaConocimiento[] GetSubAreasConocimiento(int idArea)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2053,7 +2111,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;SubareaConocimiento[]&gt; GetSubAreasConocimientoAsync(int idArea)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetSubAreasConocimiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetSubAreasConocimientoResponse&quot;)]
+Task&lt;SubareaConocimiento[]&gt; GetSubAreasConocimientoAsync(int idArea)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2095,7 +2154,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TIPO_DISCAPACIDAD[] GetTiposDiscapacidad()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTiposDiscapacidad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTiposDiscapacidadResponse&quot;)]
+TIPO_DISCAPACIDAD[] GetTiposDiscapacidad()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2120,7 +2180,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;TIPO_DISCAPACIDAD[]&gt; GetTiposDiscapacidadAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTiposDiscapacidad&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTiposDiscapacidadResponse&quot;)]
+Task&lt;TIPO_DISCAPACIDAD[]&gt; GetTiposDiscapacidadAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2145,7 +2206,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TIPO_SEXO GetTipoSexo(int idSexo)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTipoSexo&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTipoSexoResponse&quot;)]
+TIPO_SEXO GetTipoSexo(int idSexo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2187,7 +2249,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;TIPO_SEXO&gt; GetTipoSexoAsync(int idSexo)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTipoSexo&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTipoSexoResponse&quot;)]
+Task&lt;TIPO_SEXO&gt; GetTipoSexoAsync(int idSexo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2229,7 +2292,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Tratamiento GetTratamiento(int idTratamiento)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTratamiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTratamientoResponse&quot;)]
+Tratamiento GetTratamiento(int idTratamiento)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2271,7 +2335,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Tratamiento&gt; GetTratamientoAsync(int idTratamiento)</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTratamiento&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTratamientoResponse&quot;)]
+Task&lt;Tratamiento&gt; GetTratamientoAsync(int idTratamiento)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2313,7 +2378,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Tratamiento[] GetTratamientos()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTratamientos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTratamientosResponse&quot;)]
+Tratamiento[] GetTratamientos()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2338,7 +2404,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Tratamiento[]&gt; GetTratamientosAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">[OperationContract(Action = &quot;http://tempuri.org/IDathService/GetTratamientos&quot;, ReplyAction = &quot;http://tempuri.org/IDathService/GetTratamientosResponse&quot;)]
+Task&lt;Tratamiento[]&gt; GetTratamientosAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

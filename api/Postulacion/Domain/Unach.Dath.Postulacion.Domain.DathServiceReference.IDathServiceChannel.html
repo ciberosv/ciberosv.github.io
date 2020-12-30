@@ -275,12 +275,114 @@
     <div>
       <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.html#Unach_Dath_Postulacion_Domain_DathServiceReference_IDathService_GetEtniaAsync_System_Int32_">IDathService.GetEtniaAsync(Int32)</a>
     </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.DisplayInitializationUI()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.BeginDisplayInitializationUI(System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.EndDisplayInitializationUI(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.AllowInitializationUI</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.DidInteractiveInitialization</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.Via</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IClientChannel.UnknownMessageReceived</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.AllowOutputBatching</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.InputSession</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.LocalAddress</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.OperationTimeout</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.OutputSession</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.RemoteAddress</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IContextChannel.SessionId</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.Channels.IChannel.GetProperty&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Abort()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Close()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Close(System.TimeSpan)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.BeginClose(System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.BeginClose(System.TimeSpan, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.EndClose(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Open()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Open(System.TimeSpan)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.BeginOpen(System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.BeginOpen(System.TimeSpan, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.EndOpen(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.State</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Closed</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Closing</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Faulted</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Opened</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject.Opening</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.IContextChannel&gt;.Extensions</span>
+    </div>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_IDathServiceChannel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDathServiceChannel : IDathService, ServiceModel.IClientChannel</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDathServiceChannel : IDathService, IClientChannel, IContextChannel, IChannel, ICommunicationObject, IExtensibleObject&lt;IContextChannel&gt;, IDisposable</code></pre>
   </div>
 </article>
           </div>

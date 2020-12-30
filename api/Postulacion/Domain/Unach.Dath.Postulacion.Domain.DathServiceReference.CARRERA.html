@@ -110,11 +110,12 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_CARRERA_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract(Name = &quot;CARRERA&quot;, Namespace = &quot;http://schemas.datacontract.org/2004/07/Unach.Dath.Gestion.Persistencia&quot;)]
+[Serializable]
+public class CARRERA : IExtensibleDataObject, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +127,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AreaEstudio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string AreaEstudio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +153,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CarreraCodigo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CarreraCodigo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +179,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CarreraID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int CarreraID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +205,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Ciudad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Ciudad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +231,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CursoCarrera[] CursoCarrera { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public CursoCarrera[] CursoCarrera { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +257,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Direccion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Direccion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +283,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Email { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Email { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +309,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ESCUELA ESCUELA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public ESCUELA ESCUELA { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +335,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int EscuelaID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int EscuelaID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +361,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Extension { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Extension { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +387,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtensionDataObject ExtensionData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ExtensionDataObject ExtensionData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +413,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FACULTAD FACULTAD { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public FACULTAD FACULTAD { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +439,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Fax { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Fax { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,7 +465,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime FechaCreacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime FechaCreacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,7 +491,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime FechaTransaccion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public DateTime FechaTransaccion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -501,7 +517,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? IdFacultad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? IdFacultad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -526,7 +543,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IdUnidadOrganica { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string IdUnidadOrganica { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,7 +569,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Mision { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Mision { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -576,7 +595,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ModalidadEstudiosID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int ModalidadEstudiosID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -601,7 +621,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Nivel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Nivel { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,7 +647,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short? NivelFormacionID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public short? NivelFormacionID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -651,7 +673,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Nombre { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Nombre { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -676,7 +699,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? NumeroHorasPracticas { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? NumeroHorasPracticas { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -701,7 +725,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? PorcentajeMallaPracticas { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? PorcentajeMallaPracticas { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -726,7 +751,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Sistema { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Sistema { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -751,7 +777,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Situacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Situacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -776,7 +803,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SubAreaEstudio { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string SubAreaEstudio { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -801,7 +829,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Telefono1 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Telefono1 { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -826,7 +855,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Telefono2 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Telefono2 { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -851,7 +881,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? TipoCarreraId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? TipoCarreraId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -876,7 +907,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string us_cod_usuario { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string us_cod_usuario { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -901,7 +933,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int UsuarioID { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int UsuarioID { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -926,7 +959,8 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Vision { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Vision { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -981,7 +1015,7 @@ public class CARRERA : IExtensibleDataObject, ComponentModel.INotifyPropertyChan
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event ComponentModel.PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

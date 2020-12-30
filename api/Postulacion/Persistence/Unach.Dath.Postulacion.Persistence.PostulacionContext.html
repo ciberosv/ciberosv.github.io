@@ -78,13 +78,91 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PostulacionContext</span></div>
+    <div class="level1"><span class="xref">System.Data.Entity.DbContext</span></div>
+    <div class="level2"><span class="xref">PostulacionContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set&lt;TEntity&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.GetValidationErrors()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary&lt;System.Object, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Database</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ChangeTracker</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Persistence.html">Unach.Dath.Postulacion.Persistence</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Persistence.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Persistence_PostulacionContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PostulacionContext : DbContext</code></pre>
+    <pre><code class="lang-csharp hljs">public class PostulacionContext : DbContext, IDisposable, IObjectContextAdapter</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -120,7 +198,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetRoles.html">AspNetRoles</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetRoles.html">AspNetRoles</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -145,7 +223,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetUserRoles.html">AspNetUserRoles</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetUserRoles.html">AspNetUserRoles</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -170,7 +248,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetUsers.html">AspNetUsers</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.AspNetUsers.html">AspNetUsers</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -195,7 +273,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Capacitacion.html">Capacitacion</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Capacitacion.html">Capacitacion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -220,7 +298,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.EstadoPostulacion.html">EstadoPostulacion</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.EstadoPostulacion.html">EstadoPostulacion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -245,7 +323,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.ExistePostulaciones.html">ExistePostulaciones</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.ExistePostulaciones.html">ExistePostulaciones</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -270,7 +348,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Experiencia.html">Experiencia</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Experiencia.html">Experiencia</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -295,7 +373,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.FormacionAcademica.html">FormacionAcademica</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.FormacionAcademica.html">FormacionAcademica</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -320,7 +398,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.IdiomaPersona.html">IdiomaPersona</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.IdiomaPersona.html">IdiomaPersona</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -345,7 +423,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Parametro.html">Parametro</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Parametro.html">Parametro</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -370,7 +448,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Persona.html">Persona</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Persona.html">Persona</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -395,7 +473,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PersonaPostulacion.html">PersonaPostulacion</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PersonaPostulacion.html">PersonaPostulacion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -420,7 +498,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Publicacion.html">Publicacion</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.Publicacion.html">Publicacion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -445,7 +523,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PublicacionArticulo.html">PublicacionArticulo</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PublicacionArticulo.html">PublicacionArticulo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -470,7 +548,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PublicacionLibro.html">PublicacionLibro</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.PublicacionLibro.html">PublicacionLibro</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -495,7 +573,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoCapacitacion.html">TipoCapacitacion</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoCapacitacion.html">TipoCapacitacion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -520,7 +598,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoExperiencia.html">TipoExperiencia</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoExperiencia.html">TipoExperiencia</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -545,7 +623,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoImpacto.html">TipoImpacto</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.TipoImpacto.html">TipoImpacto</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -594,7 +672,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectResult</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.GetPersonasPostulacion_Result.html">GetPersonasPostulacion_Result</a>&gt;</td>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Persistence.GetPersonasPostulacion_Result.html">GetPersonasPostulacion_Result</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -636,7 +714,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -678,7 +756,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -720,7 +798,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -762,7 +840,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="xref">System.Data.Entity.Core.Objects.ObjectResult</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -770,7 +848,7 @@
   
   
   <a id="Unach_Dath_Postulacion_Persistence_PostulacionContext_OnModelCreating_" data-uid="Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating*"></a>
-  <h4 id="Unach_Dath_Postulacion_Persistence_PostulacionContext_OnModelCreating_DbModelBuilder_" data-uid="Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(DbModelBuilder)">OnModelCreating(DbModelBuilder)</h4>
+  <h4 id="Unach_Dath_Postulacion_Persistence_PostulacionContext_OnModelCreating_System_Data_Entity_DbModelBuilder_" data-uid="Unach.Dath.Postulacion.Persistence.PostulacionContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">OnModelCreating(DbModelBuilder)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -788,12 +866,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbModelBuilder</span></td>
+        <td><span class="xref">System.Data.Entity.DbModelBuilder</span></td>
         <td><span class="parametername">modelBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span>
+  </div>
 </article>
           </div>
           

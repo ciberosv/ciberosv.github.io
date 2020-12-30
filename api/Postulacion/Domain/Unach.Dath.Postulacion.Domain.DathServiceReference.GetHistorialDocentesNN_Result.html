@@ -110,11 +110,12 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
   <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_GetHistorialDocentesNN_Result_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentModel.INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract(Name = &quot;GetHistorialDocentesNN_Result&quot;, Namespace = &quot;http://schemas.datacontract.org/2004/07/Unach.Dath.Gestion.Persistencia&quot;)]
+[Serializable]
+public class GetHistorialDocentesNN_Result : IExtensibleDataObject, INotifyPropertyChanged</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +127,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CampoConocimiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string CampoConocimiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +153,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Descripcion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Descripcion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +179,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Docente { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Docente { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +205,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double? EstadoDistributivo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public double? EstadoDistributivo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +231,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? EstadoPostulacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int? EstadoPostulacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +257,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtensionDataObject ExtensionData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ExtensionDataObject ExtensionData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,7 +283,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Facultad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Facultad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,7 +309,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IdDocenteNN { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int IdDocenteNN { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +335,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IdFacultad { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int IdFacultad { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,7 +361,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int IdPeriodo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public int IdPeriodo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +387,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Periodo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Periodo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +413,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TiempoDedicacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TiempoDedicacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,7 +439,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TienePostulacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TienePostulacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,7 +465,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TituloCuartoNivel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TituloCuartoNivel { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,7 +491,8 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TituloTercerNivel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string TituloTercerNivel { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -531,7 +547,7 @@ public class GetHistorialDocentesNN_Result : IExtensibleDataObject, ComponentMod
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event ComponentModel.PropertyChangedEventHandler PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
