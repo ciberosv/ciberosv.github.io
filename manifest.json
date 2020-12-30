@@ -2,27 +2,3222 @@
   "homepages": [],
   "source_base_path": "E:/Workspaces/MsdnWS/Codesi.Msdn/Codesi.Msdn.Dath.Postulacion",
   "xrefmap": "xrefmap.yml",
-  "files": [],
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Codesi.Msdn.Dath.Postulacion.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Codesi.Msdn.Dath.Postulacion.Class1.html",
+          "hash": "QZ6P4//UBQhRy+GV5liE+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Codesi.Msdn.Dath.Postulacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Codesi.Msdn.Dath.Postulacion.html",
+          "hash": "Gjrjlc/hwtv4YfB1brfStg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.CapacitacionDomain.html",
+          "hash": "9KxI7xLr/e/VigQcP8VjbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.AnalistaFacultad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.AnalistaFacultad.html",
+          "hash": "AGChDu26iW2wl0Hb9TGA+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.AreaConocimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.AreaConocimiento.html",
+          "hash": "PfaBbQ+C+38u1IdhdmcVGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Aval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Aval.html",
+          "hash": "+98k0WUU4CVkQau8RQti5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CANTON.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CANTON.html",
+          "hash": "h0oualTW9KFpuGJpnU5wZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CARRERA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CARRERA.html",
+          "hash": "pH/Hz/DXiDMyI/6MkH6gIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CampoConocimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CampoConocimiento.html",
+          "hash": "nDAqZ3zel+WHDqXJz8Ed1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CampusUniversitario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CampusUniversitario.html",
+          "hash": "6dq/PQnfXV3SipO4VqIImg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CapacitacionExterna.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CapacitacionExterna.html",
+          "hash": "8IeMtioNOf3PbLhhmKKyzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CapacitacionInterna.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CapacitacionInterna.html",
+          "hash": "Vm6bV4dFV9zNpBTgR5A4Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CondicionSocioeconomica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CondicionSocioeconomica.html",
+          "hash": "2ywgXRvJ7/dXmzbxW7+dgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoAdministrativoConcurso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoAdministrativoConcurso.html",
+          "hash": "QFpeEoXTJc1EbnhNXLyxGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoDocenteConcurso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoDocenteConcurso.html",
+          "hash": "jaS6a3YeQJfo5wr3H26TDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoServidor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ContratoServidor.html",
+          "hash": "Duv+6UrjrF3jff5CnpIJ5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Credo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Credo.html",
+          "hash": "cQEmla38xhRP1N8D6y4L5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Curso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Curso.html",
+          "hash": "sI5lehB+sz31IW4JjLgMOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CursoCarrera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.CursoCarrera.html",
+          "hash": "sbbjavAwwz9blFqHM4o4Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.html",
+          "hash": "6MPwATc8qjh1ScZaBi1DJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE.html",
+          "hash": "fZyHAVyAa/DKsIO49v7/zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_CATEGORIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_CATEGORIA.html",
+          "hash": "AisrDP0FA7uRJDDbUFrDNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_CONTRATO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_CONTRATO.html",
+          "hash": "2Yg+pgl9aC4rW4igpNOqRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_TIEMPO_DEDICACION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DOCENTE_TIEMPO_DEDICACION.html",
+          "hash": "aioG2xYWxVNpPMCKU3ouGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathOfertaDetalle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathOfertaDetalle.html",
+          "hash": "F1vw2fF1KpyRxtJQT2bYRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.html",
+          "hash": "6rzZLJQ/TwCUgoq/qyMCAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DenominacionPuesto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DenominacionPuesto.html",
+          "hash": "Gdy4kFrWjSh3IVvmIPTT2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DispositivoBiometrico.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DispositivoBiometrico.html",
+          "hash": "nOfv3UQl2QuX9BhLQTU7xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DispositivoBiometricoServidor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DispositivoBiometricoServidor.html",
+          "hash": "YYzm2z+6WLaFuJ5HxK8MRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DocenteNN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.DocenteNN.html",
+          "hash": "8Ovtu3u2zWpqnUjLu/DHVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ESCUELA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ESCUELA.html",
+          "hash": "dkI33PYhiW390+TxeCOlMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.html",
+          "hash": "KO0nhKOrWPukygA8IEy2IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EnFormacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EnFormacion.html",
+          "hash": "6LOhDMsMGVniyxknXMVyKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EscalaOcupacional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EscalaOcupacional.html",
+          "hash": "r1MT7ewUPhsJAqtX4Z2Qfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EvaluacionRendimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EvaluacionRendimiento.html",
+          "hash": "Feju6nQqGStyUFW3U05UYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EventoFormacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.EventoFormacion.html",
+          "hash": "Q3CDT/zOHx3IDdDZUfsl/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Excelencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Excelencia.html",
+          "hash": "qABAM4Ngag+gKXBamYv/Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Expectativa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Expectativa.html",
+          "hash": "5xxzXOPcT7v9umDzODGVgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Experto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Experto.html",
+          "hash": "elXZb2pGuOa9rWkiHE+ywg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.html",
+          "hash": "dCWm4Ok0035FDTUdt1x6sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FacilitadorExterno.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FacilitadorExterno.html",
+          "hash": "LZUTCoXPBYqiqxSidIntpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FamiliarSustituto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FamiliarSustituto.html",
+          "hash": "rl302YjePNtqUXwYI/lN/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormacionBasica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormacionBasica.html",
+          "hash": "HI5IgiUdslQHSkGFeqSQrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormacionUniversitaria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormacionUniversitaria.html",
+          "hash": "w3IQYf69AIx6FA/fuIXpww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormularioSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.FormularioSIU.html",
+          "hash": "RLVer3IByWxJ0dngezReaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.html",
+          "hash": "h38to7NTt1/IPGIxKCxb2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetHistorialDocentesNN_Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetHistorialDocentesNN_Result.html",
+          "hash": "q152nrfwigo1DPRooX8G/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetPostulacionesByPersona_Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GetPostulacionesByPersona_Result.html",
+          "hash": "8m8zH5rOv1+EUNW2iaNaxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Grado.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Grado.html",
+          "hash": "wmTq7w/TumxP0J9JjxGLHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Grupo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Grupo.html",
+          "hash": "W6+9AVoO9/pdtNXqFlKgNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GrupoContrato.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.GrupoContrato.html",
+          "hash": "0pa9XgkxBPMq3hrxy1i68w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Horario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Horario.html",
+          "hash": "QlqL6a+EMVf1Gub9zCYYEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioDocenteNN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioDocenteNN.html",
+          "hash": "h1HW5FUbUXDE/izT2/qCBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioServidor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioServidor.html",
+          "hash": "/g3p64OmYmZfXLgQTP3TTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorasAcademicasDocenteNN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorasAcademicasDocenteNN.html",
+          "hash": "9waY5/k4wyhGu3fkAGclaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorasActividadesDocenteNN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.HorasActividadesDocenteNN.html",
+          "hash": "lI0/QTfEiAJYA5oo0lH4kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.html",
+          "hash": "OF/NVG/6+fDbhs++o8Pd2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IDathServiceChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IDathServiceChannel.html",
+          "hash": "uGCqYnEkAb7YdhUr2mCwUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IdentidadCultural.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.IdentidadCultural.html",
+          "hash": "Qf4gntPbmdDnS3VV+QOjmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Idioma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Idioma.html",
+          "hash": "2xPSq3ZhCb+Qyt67sLKDFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.InformacionHorarioServidor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.InformacionHorarioServidor.html",
+          "hash": "HcupSJS9w5YdvZxgGwE4uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Integrante.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Integrante.html",
+          "hash": "ifCk4Sjaykguzi+M7R8P+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Jefe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Jefe.html",
+          "hash": "JUFIVj8AaktmsEE2Gz9fbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MOTIVO_INGRESO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MOTIVO_INGRESO.html",
+          "hash": "2yhv4NntiiCzocOvx1YaXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MOTIVO_SALIDA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MOTIVO_SALIDA.html",
+          "hash": "Of+AcY469S0ko446rQzYhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ModalidadLaboral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ModalidadLaboral.html",
+          "hash": "S2ZoG3Gk/lqkUAu0OnJKhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ModuloSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ModuloSIU.html",
+          "hash": "KAPz+IxLz/GGG7Yx473M6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Motivo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Motivo.html",
+          "hash": "ZbS56M6ZcgvtMUfqLDSllQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MotivoNombramiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MotivoNombramiento.html",
+          "hash": "73AwD2WAVi3DxstHIEvKPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MovimientoPersonal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.MovimientoPersonal.html",
+          "hash": "LOeAHZZr34vjFhowVr6ejQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.html",
+          "hash": "Z1GvlK7oNtlyC5MTaxA1tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NIVEL_DE_INSTRUCCION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NIVEL_DE_INSTRUCCION.html",
+          "hash": "atWyhcxPWrHrdShYzVeGfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NivelAudiencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NivelAudiencia.html",
+          "hash": "xwZDZaWwtQhnB7YY+Z5jsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NivelOcupacional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.NivelOcupacional.html",
+          "hash": "AF3Lm/MLbKUocuzfnPuBVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.OfertaCapacitacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.OfertaCapacitacion.html",
+          "hash": "u4vaLyR5PJP1nH/ZjJIbgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.html",
+          "hash": "xP7DYWOEqZgw146SbdVZeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PARROQUIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PARROQUIA.html",
+          "hash": "h3QCwEZfCeP3XuBaGCB7XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO.html",
+          "hash": "V0+W+ZBUXgB9FEni2NwX8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO_UA_SE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO_UA_SE.html",
+          "hash": "lLKN/OhzzG9KiB3ZRotmJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PROVINCIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PROVINCIA.html",
+          "hash": "08exImxP62CpoFiw4QjcAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Permiso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Permiso.html",
+          "hash": "2/dLpNY1QS8huVxaSZqUkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PermisoServidor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PermisoServidor.html",
+          "hash": "zXm3jHhpOjNUPl1bnncNDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PlantillaContrato.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PlantillaContrato.html",
+          "hash": "qTa9vQDSFsTSx1oJS5XSag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PreferenciaPolitica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PreferenciaPolitica.html",
+          "hash": "lk1tnyhc4SR5NzJ+8U82jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PuestoAdicional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.PuestoAdicional.html",
+          "hash": "OEBPCpxSPtfr6KoCvTBw3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RELACION_LABORAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RELACION_LABORAL.html",
+          "hash": "m2j/SYxsIt2Ra3rKJpMT7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RegimenLaboral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RegimenLaboral.html",
+          "hash": "eqBVWsWKeWUHZQPHIUPyew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RegistroAsistencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RegistroAsistencia.html",
+          "hash": "njJgquAaXfA3Tv4UY4Sg2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolFormularioSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolFormularioSIU.html",
+          "hash": "4G+BGM4EpWOY/DPLIKFWLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolSIU.html",
+          "hash": "E+zDzM+wsLVdNe9KsGUQDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolUsuarioSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.RolUsuarioSIU.html",
+          "hash": "GjJLx/vG+lirnc2F8dEemQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.html",
+          "hash": "PQpQt2+H6jLMGxzdQt4dNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.html",
+          "hash": "rjpmFZGjhkchrxWHMTAVUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_GENERO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_GENERO.html",
+          "hash": "TGbiF4bTISsbeYZcGwc81Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR.html",
+          "hash": "TPjYJ5e5cIlFbi5l0M3OHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_ACADEMICA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_ACADEMICA.html",
+          "hash": "NMzoQyx4Faa0jNpvpGZNRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_BANCARIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_BANCARIA.html",
+          "hash": "OIN/fYFt7pETo3oRIMivyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_CONYUGE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_CONYUGE.html",
+          "hash": "xlaOE972n+S9Q/cb4dni9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_FAMILIAR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_FAMILIAR.html",
+          "hash": "mR7uW3rHNX4IBoevNPVRoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_FAMILIAR_INSTITUCION.html",
+          "hash": "LQ9a2xLm6MmhpcxXHm5Z/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_PERSONAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_INFORMACION_PERSONAL.html",
+          "hash": "pr5t5EKLcuyf9whkFhSbSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_TRAYECTORIA_LABORAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SERVIDOR_TRAYECTORIA_LABORAL.html",
+          "hash": "/59dfhVnWdH+Pfrn1/4IGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGDC_TIPO_TRAYECTORIA_LABORAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGDC_TIPO_TRAYECTORIA_LABORAL.html",
+          "hash": "pYktYVVNaUEefBoh6MGT1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGEC_INSTITUCION_FINANCIERA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGEC_INSTITUCION_FINANCIERA.html",
+          "hash": "i9RF6MF1Rz/IQSwA+btNhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGEC_TIPO_CUENTA_BANCARIA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SGEC_TIPO_CUENTA_BANCARIA.html",
+          "hash": "1MpjkF+iiMmmr+52gBgCow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SG_PeriodoActualVigente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SG_PeriodoActualVigente.html",
+          "hash": "ZJLv+efJaaF4vrU56nsPVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SISTEMA_ESTUDIOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SISTEMA_ESTUDIOS.html",
+          "hash": "dzvAa/omD5mvxLz4lMH4ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCondicionSocioeconomica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCondicionSocioeconomica.html",
+          "hash": "b9qHelqsUskgRVHRfiooRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCredo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCredo.html",
+          "hash": "cdHh1gX3ahRmqWi4pOf2hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCurso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorCurso.html",
+          "hash": "qJjYvfLIlZ2FNs0Z8vxqBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorDiscapacidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorDiscapacidad.html",
+          "hash": "29uhQpR0KLZdS+OyG44pzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorEnfermedad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorEnfermedad.html",
+          "hash": "kRcakWtn0nRVC4colh0EPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorGestacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorGestacion.html",
+          "hash": "JiHQGLE7eepXwrobx0F2Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorGrupoContrato.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorGrupoContrato.html",
+          "hash": "Nhg+NB1REV/rmEMFLNImFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorIdentidadCultural.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorIdentidadCultural.html",
+          "hash": "iZIxDJzAwdmsyoXYqFJ6+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorIdioma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorIdioma.html",
+          "hash": "13WQyPgulv6Qco8zUzbZ6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorInformacionPuesto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorInformacionPuesto.html",
+          "hash": "TVnZXglc2mB42/KFcTlNqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorLactancia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorLactancia.html",
+          "hash": "iwl5lpOxh5PYzmUDkoTwgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorPreferenciaPolitica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorPreferenciaPolitica.html",
+          "hash": "jr5xL8ZsbWuf/ySbc4yqTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorPublicaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorPublicaciones.html",
+          "hash": "GtnoCcafU35Hf4BiHE/ZZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorRelacionLaboral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorRelacionLaboral.html",
+          "hash": "rm5Dr2cIYqrEJ4/Rlzb/vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorUnidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ServidorUnidad.html",
+          "hash": "dUij0TD4HaVHcZip2jB8gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SubareaConocimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.SubareaConocimiento.html",
+          "hash": "4ReSC3UDbrdUjbHeyg0CWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_CERTIFICACION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_CERTIFICACION.html",
+          "hash": "BNm8bggUld6soDL9HCZ6dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_INSTITUCION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_INSTITUCION.html",
+          "hash": "VOcxYnVdaIX5iDtUc4OUWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_PERIODO_DE_ESTUDIO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_PERIODO_DE_ESTUDIO.html",
+          "hash": "lp6LQ51kutos8pJhfONhoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_RELACION_CONYUGUE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_RELACION_CONYUGUE.html",
+          "hash": "AoHP3dzaYF24QUUuzcYusQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_SANGRE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DE_SANGRE.html",
+          "hash": "CHw6/aOGtK9lhYyhhHhw8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DISCAPACIDAD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DISCAPACIDAD.html",
+          "hash": "3ahXI26GeG+VmAoMiIQzWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DOCUMENTO_PERSONAS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DOCUMENTO_PERSONAS.html",
+          "hash": "gtYuKuehF/jXIbZZgSVhmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_ENFERMEDAD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_ENFERMEDAD.html",
+          "hash": "SFjvPllLF7HZF+iWDHkMAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_EVENTO_CAPACITACION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_EVENTO_CAPACITACION.html",
+          "hash": "yDRYOL+sL72O9TTATikL0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_RELACION_FAMILIAR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_RELACION_FAMILIAR.html",
+          "hash": "VOztdfLOWH4Z+7Wrtc+F0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SERVIDOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SERVIDOR.html",
+          "hash": "vDGjKf7AH+IhciYUB5B2Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SEXO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SEXO.html",
+          "hash": "xEosmkCrBh6rSBCw7el1Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoAccesoSIU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoAccesoSIU.html",
+          "hash": "oVuUM9eEE6tjhyJrzCJ6nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCalificacionRendimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCalificacionRendimiento.html",
+          "hash": "jrwJ+tMmN7b0HsG95OrdMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCertificado.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCertificado.html",
+          "hash": "IjNnFx1IU/oKuaP15f4X1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoContrato.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoContrato.html",
+          "hash": "+SRSYNaASGY+c6HJAs0oXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCurso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoCurso.html",
+          "hash": "ZdcgwP9dJZa5xaLCgO5ZOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoEstado.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoEstado.html",
+          "hash": "rRvuuEm6aT5wS3LjtVfcUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoModalidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoModalidad.html",
+          "hash": "7zc9e9xafe5yWIj60o2njw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoPermiso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoPermiso.html",
+          "hash": "S8EcLJZn1wpsxrXhLsf2bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoRelacionLaboral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoRelacionLaboral.html",
+          "hash": "w5LirB+/OhHyC/EvtR2L7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoValidacionCV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoValidacionCV.html",
+          "hash": "pTsBtVRt4v3L95TTW+mTBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoValor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoValor.html",
+          "hash": "X11mbwJhDkPDCU0qeZrxMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoZonaHoraria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TipoZonaHoraria.html",
+          "hash": "NPCowFk2V9BV9WDKhFAHrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TituloCampoConocimiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.TituloCampoConocimiento.html",
+          "hash": "vn7Cz+6HS6lgpIRDoqNDOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.html",
+          "hash": "jQHl6o3YLtjdCWNNfh2TOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UNIDAD_ACADEMICA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UNIDAD_ACADEMICA.html",
+          "hash": "UD7HISZwqrtmK1HtfhXHIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Unidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Unidad.html",
+          "hash": "mQ5vT6dY2Rtwb77m2Nqcxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UnidadDepartamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UnidadDepartamento.html",
+          "hash": "WiX2edDnlhqqsxc9dFlIJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UnidadOrganica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.UnidadOrganica.html",
+          "hash": "iJPwl9t8fxQ2XMmUluyPCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Universidad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Universidad.html",
+          "hash": "KNHLWZ/qNZOcP4UyTsx5TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Vacaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.Vacaciones.html",
+          "hash": "/hcLKLquhlddPeHznZgTRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ValidacionCV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ValidacionCV.html",
+          "hash": "vrk+9iRGfo4YoIyzbzIhxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ZonaHoraria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.ZonaHoraria.html",
+          "hash": "lQP20gc0A0jN970EK4L6WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.DathServiceReference.html",
+          "hash": "1Qrr/5zFanGP8Hb7SVJklg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ExperienciaDomain.html",
+          "hash": "/cedd1aWTIBkvI0Jo2BQrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.FormacionAcademicaDomain.html",
+          "hash": "cHo1wS8ASgwPRf/bbc0G/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IdiomaPersonaDomain.html",
+          "hash": "Ed5YNepms2i3/RTYmEY6aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IntegracionDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.IntegracionDomain.html",
+          "hash": "NTcoA7560qSGkznkbLf7uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ParamDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.ParamDomain.html",
+          "hash": "gdXK0gHoSKy7V0LGJCWsSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaDomain.html",
+          "hash": "lxr0uG9gqDHg1rMSZJEoyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PersonaPostulacionDominio.html",
+          "hash": "sSggz64s8OrLtlcAzVgzXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.PublicacionDomain.html",
+          "hash": "Y/kS15CsQ1zsEfPmd8D6eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.RolDominio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.RolDominio.html",
+          "hash": "GqTF0tZ4WHBDiE33dF4i2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/Unach.Dath.Postulacion.Domain.html",
+          "hash": "vYTLralPmhOaisEpFYaIQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Postulacion/Domain/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Domain/toc.html",
+          "hash": "Y7Yca/5NEK40A3asMNc1kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetRoles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetRoles.html",
+          "hash": "Adjz4LjVRySAnrXLsgGLJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetUserRoles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetUserRoles.html",
+          "hash": "fLtiE67g4KZ1CbsGxeUKsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetUsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.AspNetUsers.html",
+          "hash": "o/pgI35Izv5yaBKa1HIkLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Capacitacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Capacitacion.html",
+          "hash": "hiN5UqAiOnyE1WKvOvWfCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.EstadoPostulacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.EstadoPostulacion.html",
+          "hash": "TgH6EPvCWQVg6iVc5hFU6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.ExistePostulaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.ExistePostulaciones.html",
+          "hash": "XeP+O3KhjCwdBiHYAiNssw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Experiencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Experiencia.html",
+          "hash": "APTSLQ6xiewf1DiYqZ8SrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.FormacionAcademica.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.FormacionAcademica.html",
+          "hash": "z3I1zHz3T8eYWRQRfJxtLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.GetPersonasPostulacion_Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.GetPersonasPostulacion_Result.html",
+          "hash": "lu+bXOSuVB0r84JDysUbog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.IdiomaPersona.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.IdiomaPersona.html",
+          "hash": "uL60Fw6cMBlXQJp334R/nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Parametro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Parametro.html",
+          "hash": "BbGcg73D/Df4+ORxHblFnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Persona.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Persona.html",
+          "hash": "YEdUDrEltn6/riZSRRhRFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PersonaPostulacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PersonaPostulacion.html",
+          "hash": "jq1nIGEMFdgHMqkC7lAtyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PostulacionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PostulacionContext.html",
+          "hash": "/K8pgjIzppK6QoRju6XlQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Publicacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.Publicacion.html",
+          "hash": "FMbmr9B4JK1Zw+V/+lL2zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PublicacionArticulo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PublicacionArticulo.html",
+          "hash": "wG4RymNOR5z56K766yfBEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PublicacionLibro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.PublicacionLibro.html",
+          "hash": "v0+1W7lCmfA9hwBurr72Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoCapacitacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoCapacitacion.html",
+          "hash": "Jt7iDjWYfs/9+ZlafZVcUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoExperiencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoExperiencia.html",
+          "hash": "ZFekXZSp6Io2SB+ASLdhBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoImpacto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.TipoImpacto.html",
+          "hash": "hgDf8fVYemv8+CvivUUVnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/Unach.Dath.Postulacion.Persistence.html",
+          "hash": "43+o81Kbp5uPGigzmW+W1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Postulacion/Persistence/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Persistence/toc.html",
+          "hash": "uLZGabSp1bAnv6ubf3FopA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/SqlServerTypes.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/SqlServerTypes.Utilities.html",
+          "hash": "T3flOP75Henc1mfnCIxVYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/SqlServerTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/SqlServerTypes.html",
+          "hash": "8wrWZDC7iQBN/bZGtU/udA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.About.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.About.html",
+          "hash": "41MGd17PswvlSFsD3UC6xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.AddPhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.AddPhoneNumber.html",
+          "hash": "pa6+g5iR2y03Grycckbw5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Confirm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Confirm.html",
+          "hash": "0t7j7Y1wPyePMWBpEJSjSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ForgotPassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ForgotPassword.html",
+          "hash": "1Kin6ivKnmcCPRVXpxJ1sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Lockout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Lockout.html",
+          "hash": "rUn4eBpuXJNHeBwtqw+3fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Manage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.Manage.html",
+          "hash": "YU65JmAklxxjMnX9CtYz6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ManageLogins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ManageLogins.html",
+          "hash": "/sz5XHI5FjQtpoCosVprgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ManagePassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ManagePassword.html",
+          "hash": "5Jk0XOsbCxeQM+o7FYl1Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.OpenAuthProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.OpenAuthProviders.html",
+          "hash": "DfTpp3B/qbIO55Y0IIJ4rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.RegisterExternalLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.RegisterExternalLogin.html",
+          "hash": "r/O7nFc2JgZQYAsjAp0S1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ResetPassword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ResetPassword.html",
+          "hash": "ZZqST9AgdQFAuXKB29HZ5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ResetPasswordConfirmation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.ResetPasswordConfirmation.html",
+          "hash": "LSGeCY8wOB36I/m3cGJhog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.TwoFactorAuthenticationSignIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.TwoFactorAuthenticationSignIn.html",
+          "hash": "cdwrPU8FMElSm0ZTruIpWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.VerifyPhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.VerifyPhoneNumber.html",
+          "hash": "DI5reX79V1XYAqwvEkvUIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Account.html",
+          "hash": "w+Ly9O824YEe7C81uxRKhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.AdminSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.AdminSite.html",
+          "hash": "8s6qrhng9ffZKrJ3BgkeGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Default.html",
+          "hash": "Uk32GwiSiOu1qCw3wE0a9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.DefinirTiempos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.DefinirTiempos.html",
+          "hash": "zSSFm7CNgUT2bmCStS+jcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.FotoPostulanteHandler.html",
+          "hash": "IrkmoQq1FR9wTol5UgLBtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Ofertas.html",
+          "hash": "IoAU4zWYCvg24pNJsmdg4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.PerfilPostulante.html",
+          "hash": "RqYtUsLDgmbYcK0q1smX8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.Postulantes.html",
+          "hash": "DsT1vxgZWVaJhJ8pG8MSaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.ReportViewerCredentials.html",
+          "hash": "GOzoida/bLiZ3A5+tQ4TZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Admin.html",
+          "hash": "LNnyccxzi++obRw+m+0BWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationSignInManager.html",
+          "hash": "i7gLgZ6tQ/Ai4gaxDU6z1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.ApplicationUserManager.html",
+          "hash": "8HuhnG9Ymr2t5aFU3Yhp/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.BundleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.BundleConfig.html",
+          "hash": "rjrKkwZeK0AXRmNInQj0GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Contact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Contact.html",
+          "hash": "HlxkVKl7KvZh/DDdQSKExA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.EmailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.EmailService.html",
+          "hash": "IiF3Q+GGQ2Ul5rBTTCgwXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Global.html",
+          "hash": "u2eB1ChElOlbsM+0W1Qwtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.IdentityHelper.html",
+          "hash": "qwc+WNUQWDBIyk8qtFIXDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.ApplicationDbContext.html",
+          "hash": "BG9VHGbyDsTk0/VYLompLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.ApplicationUser.html",
+          "hash": "2xn1rgyrl/gCaiKXPq3cPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Models.html",
+          "hash": "rN+4RquTJfUwpdhFkHQDdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.RouteConfig.html",
+          "hash": "tyXs3cAxvUjRuBJRQdv++w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Aplicar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Aplicar.html",
+          "hash": "YRIiWxR17aZRnmPamZ90Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CapacitacionUserControl.html",
+          "hash": "Y1tYc/R6r0vOfDy20PuTxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoDiscapacidadUserControl.html",
+          "hash": "LVbvwOCmyrNPMLfjPsaj3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoEnfermedadUserControl.html",
+          "hash": "akXha3Ph6PqZ5oczgSdiKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoHeroeUserControl.html",
+          "hash": "/EJiEDK2su2wIYg5DOchsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoMigranteUserControl.html",
+          "hash": "BjXis2mHfnp8uKxxShP0Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoSustitutoUserControl.html",
+          "hash": "ZxhiN7lVc/k0mgRPtTZGeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.CertificadoTituloUserControl.html",
+          "hash": "nRpIG4VYUY2yfzFerdM15A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.DocumentoIdentificacionUserControl.html",
+          "hash": "MSkCGSvGQpTFRYF3PD04Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.ExperienciaUserControl.html",
+          "hash": "kTn1OtTNrHRiQDSwqQmzgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.IdiomaPersonaUserControl.html",
+          "hash": "Gn+JKLOScf6NcOY7MbTf9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionCapitulosUserControl.html",
+          "hash": "hK3DAC+4hOzlWUlVaX4V8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionLibrosUserControl.html",
+          "hash": "oic7arCSb3G1wrOMXweHVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.PublicacionUserControl.html",
+          "hash": "R7gVtjmDXFMwKv/akuQfUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.TitulosUserControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.TitulosUserControl.html",
+          "hash": "pu7UF+NoaarJIhYFQdI3GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Controles.html",
+          "hash": "pmexMPtxqyxbyXZaMKzWEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Default.html",
+          "hash": "lH53mkV3eUP2hzPhHqrTJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.DetalleOferta.html",
+          "hash": "xlEiY6algW7ajQgVkszrZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Download.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Download.html",
+          "hash": "tcPJw5+9sbtNUP9y3GwZVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.FotoHandler.html",
+          "hash": "oVubaI4Q39f+FOMEikKt0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Informacion.html",
+          "hash": "5GjfbK02ExQjo3w21GaCpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.MisPostulaciones.html",
+          "hash": "nYboPFcL5QY4qZ8Xo247nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Oferta.html",
+          "hash": "P7nvwf3xovZrjzc/DvD7Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.Preview.html",
+          "hash": "nejC6wozx1Bi1tY1q891Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.PrivateSite.html",
+          "hash": "MD04dlAqJmNwUoeOpxyaLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Sandbox.html",
+          "hash": "7EnQgBUSAeaCnHJlAARt7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SiteMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SiteMaster.html",
+          "hash": "Cp037GL1lRlQVe/bP9V4Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.SmsService.html",
+          "hash": "TFuklQoM1wmnuxgISG+i0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.Startup.html",
+          "hash": "yLrnlbOph09DYQIKEKobpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite._Default.html",
+          "hash": "uMfvzdOz/n+d2ASk5d8ISA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/Unach.Dath.Postulacion.WebSite.html",
+          "hash": "nAyszbDUePW+prAfyMrveQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Postulacion/Website/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Postulacion/Website/toc.html",
+          "hash": "8c34ORWLoqxliJbKaBMbnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "OZ5t+7p7ZQtg8U25InnO0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ZCTWN7dqED6PeeZYBJ6ihQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "U+9DN2j0pNnhgUp3MUR8Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "j0dc8lLaVm7TY/NN9nwrrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 257,
-          "skipped_file_count": 257
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -35,8 +3230,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
