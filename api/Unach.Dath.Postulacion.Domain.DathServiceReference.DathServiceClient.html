@@ -1,0 +1,2659 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DathServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DathServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient">
+  
+  
+  <h1 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient" class="text-break">Class DathServiceClient
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.ServiceModel.ClientBase</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.html">IDathService</a>&gt;</div>
+    <div class="level2"><span class="xref">DathServiceClient</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ServiceModel.ICommunicationObject</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.html">IDathService</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.GetDefaultValueForInitialization&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.Open()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.Abort()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.Close()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.DisplayInitializationUI()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.CreateChannel()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.IDisposable.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Open(System.TimeSpan)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Close(System.TimeSpan)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.BeginClose(System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.BeginClose(System.TimeSpan, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.EndClose(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.BeginOpen(System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.BeginOpen(System.TimeSpan, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.EndOpen(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.InvokeAsync(System.ServiceModel.ClientBase.BeginOperationDelegate&lt;&gt;, System.Object[], System.ServiceModel.ClientBase.EndOperationDelegate&lt;&gt;, System.Threading.SendOrPostCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.Channel</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.CacheSetting</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.ChannelFactory</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.ClientCredentials</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.State</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.InnerChannel</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.Endpoint</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Closed</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Closing</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Faulted</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Opened</span>
+    </div>
+    <div>
+      <span class="xref">System.ServiceModel.ClientBase&lt;Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService&gt;.System.ServiceModel.ICommunicationObject.Opening</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.html">Unach.Dath.Postulacion.Domain.DathServiceReference</a></h6>
+  <h6><strong>Assembly</strong>: Unach.Dath.Postulacion.Domain.dll</h6>
+  <h5 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DathServiceClient : ClientBase&lt;IDathService&gt;, ICommunicationObject, IDisposable, IDathService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor">DathServiceClient()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathServiceClient()</code></pre>
+  </div>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_ServiceModel_Channels_Binding_System_ServiceModel_EndpointAddress_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">DathServiceClient(Binding, EndpointAddress)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathServiceClient(Binding binding, EndpointAddress remoteAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ServiceModel.Channels.Binding</span></td>
+        <td><span class="parametername">binding</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ServiceModel.EndpointAddress</span></td>
+        <td><span class="parametername">remoteAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String)">DathServiceClient(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathServiceClient(string endpointConfigurationName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">endpointConfigurationName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_System_ServiceModel_EndpointAddress_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String,System.ServiceModel.EndpointAddress)">DathServiceClient(String, EndpointAddress)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathServiceClient(string endpointConfigurationName, EndpointAddress remoteAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">endpointConfigurationName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ServiceModel.EndpointAddress</span></td>
+        <td><span class="parametername">remoteAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient__ctor_System_String_System_String_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.#ctor(System.String,System.String)">DathServiceClient(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathServiceClient(string endpointConfigurationName, string remoteAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">endpointConfigurationName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remoteAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllFacultades_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllFacultades*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllFacultades" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllFacultades">GetAllFacultades()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FACULTAD[] GetAllFacultades()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.html">FACULTAD</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllFacultadesAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllFacultadesAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllFacultadesAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllFacultadesAsync">GetAllFacultadesAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;FACULTAD[]&gt; GetAllFacultadesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.html">FACULTAD</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllOfertasByIdPeriodos_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllOfertasByIdPeriodos*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllOfertasByIdPeriodos" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllOfertasByIdPeriodos">GetAllOfertasByIdPeriodos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DATH_OFERTAS[] GetAllOfertasByIdPeriodos()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.html">DATH_OFERTAS</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllOfertasByIdPeriodosAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllOfertasByIdPeriodosAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAllOfertasByIdPeriodosAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAllOfertasByIdPeriodosAsync">GetAllOfertasByIdPeriodosAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DATH_OFERTAS[]&gt; GetAllOfertasByIdPeriodosAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.html">DATH_OFERTAS</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAreasConocimiento_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAreasConocimiento*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAreasConocimiento" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAreasConocimiento">GetAreasConocimiento()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AreaConocimiento[] GetAreasConocimiento()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.AreaConocimiento.html">AreaConocimiento</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAreasConocimientoAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAreasConocimientoAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetAreasConocimientoAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetAreasConocimientoAsync">GetAreasConocimientoAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;AreaConocimiento[]&gt; GetAreasConocimientoAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.AreaConocimiento.html">AreaConocimiento</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetCamposConocimiento_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetCamposConocimiento*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetCamposConocimiento_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetCamposConocimiento(System.Int32)">GetCamposConocimiento(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampoConocimiento[] GetCamposConocimiento(int idSubArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idSubArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.CampoConocimiento.html">CampoConocimiento</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetCamposConocimientoAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetCamposConocimientoAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetCamposConocimientoAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetCamposConocimientoAsync(System.Int32)">GetCamposConocimientoAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;CampoConocimiento[]&gt; GetCamposConocimientoAsync(int idSubArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idSubArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.CampoConocimiento.html">CampoConocimiento</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadoCivil_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadoCivil*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadoCivil_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadoCivil(System.Int32)">GetEstadoCivil(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ESTADO_CIVIL GetEstadoCivil(int idEstadoCivil)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEstadoCivil</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.html">ESTADO_CIVIL</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadoCivilAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadoCivilAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadoCivilAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadoCivilAsync(System.Int32)">GetEstadoCivilAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ESTADO_CIVIL&gt; GetEstadoCivilAsync(int idEstadoCivil)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEstadoCivil</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.html">ESTADO_CIVIL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadosCiviles_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadosCiviles*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadosCiviles" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadosCiviles">GetEstadosCiviles()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ESTADO_CIVIL[] GetEstadosCiviles()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.html">ESTADO_CIVIL</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadosCivilesAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadosCivilesAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEstadosCivilesAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEstadosCivilesAsync">GetEstadosCivilesAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ESTADO_CIVIL[]&gt; GetEstadosCivilesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.ESTADO_CIVIL.html">ESTADO_CIVIL</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtnia_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtnia*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtnia_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtnia(System.Int32)">GetEtnia(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SAUC_TIPO_DE_ETNIA GetEtnia(int idEtnia)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEtnia</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.html">SAUC_TIPO_DE_ETNIA</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtniaAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtniaAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtniaAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtniaAsync(System.Int32)">GetEtniaAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SAUC_TIPO_DE_ETNIA&gt; GetEtniaAsync(int idEtnia)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEtnia</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.html">SAUC_TIPO_DE_ETNIA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtnias_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtnias*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtnias" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtnias">GetEtnias()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SAUC_TIPO_DE_ETNIA[] GetEtnias()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.html">SAUC_TIPO_DE_ETNIA</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtniasAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtniasAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetEtniasAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetEtniasAsync">GetEtniasAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SAUC_TIPO_DE_ETNIA[]&gt; GetEtniasAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_TIPO_DE_ETNIA.html">SAUC_TIPO_DE_ETNIA</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetFacultadesPostulacion_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetFacultadesPostulacion*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetFacultadesPostulacion" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetFacultadesPostulacion">GetFacultadesPostulacion()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FACULTAD[] GetFacultadesPostulacion()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.html">FACULTAD</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetFacultadesPostulacionAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetFacultadesPostulacionAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetFacultadesPostulacionAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetFacultadesPostulacionAsync">GetFacultadesPostulacionAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;FACULTAD[]&gt; GetFacultadesPostulacionAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.FACULTAD.html">FACULTAD</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHistorialDocentesNNByPeriodoFacultad_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHistorialDocentesNNByPeriodoFacultad*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHistorialDocentesNNByPeriodoFacultad_System_Int32_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHistorialDocentesNNByPeriodoFacultad(System.Int32,System.Int32)">GetHistorialDocentesNNByPeriodoFacultad(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetHistorialDocentesNN_Result[] GetHistorialDocentesNNByPeriodoFacultad(int idPeriodo, int idFacultad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idPeriodo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idFacultad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetHistorialDocentesNN_Result.html">GetHistorialDocentesNN_Result</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHistorialDocentesNNByPeriodoFacultadAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHistorialDocentesNNByPeriodoFacultadAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHistorialDocentesNNByPeriodoFacultadAsync_System_Int32_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHistorialDocentesNNByPeriodoFacultadAsync(System.Int32,System.Int32)">GetHistorialDocentesNNByPeriodoFacultadAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetHistorialDocentesNN_Result[]&gt; GetHistorialDocentesNNByPeriodoFacultadAsync(int idPeriodo, int idFacultad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idPeriodo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idFacultad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetHistorialDocentesNN_Result.html">GetHistorialDocentesNN_Result</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorarioDocenteNN_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorarioDocenteNN*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorarioDocenteNN_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorarioDocenteNN(System.Int32)">GetHorarioDocenteNN(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorarioDocenteNN[] GetHorarioDocenteNN(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioDocenteNN.html">HorarioDocenteNN</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorarioDocenteNNAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorarioDocenteNNAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorarioDocenteNNAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorarioDocenteNNAsync(System.Int32)">GetHorarioDocenteNNAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HorarioDocenteNN[]&gt; GetHorarioDocenteNNAsync(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorarioDocenteNN.html">HorarioDocenteNN</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorariofertaByIdDocenteNN_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorariofertaByIdDocenteNN*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorariofertaByIdDocenteNN_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorariofertaByIdDocenteNN(System.Int32)">GetHorariofertaByIdDocenteNN(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DathOfertaDetalle[] GetHorariofertaByIdDocenteNN(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DathOfertaDetalle.html">DathOfertaDetalle</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorariofertaByIdDocenteNNAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorariofertaByIdDocenteNNAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorariofertaByIdDocenteNNAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorariofertaByIdDocenteNNAsync(System.Int32)">GetHorariofertaByIdDocenteNNAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DathOfertaDetalle[]&gt; GetHorariofertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DathOfertaDetalle.html">DathOfertaDetalle</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasAcademicasDocenteNN_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasAcademicasDocenteNN*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasAcademicasDocenteNN_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasAcademicasDocenteNN(System.Int32)">GetHorasAcademicasDocenteNN(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorasAcademicasDocenteNN[] GetHorasAcademicasDocenteNN(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorasAcademicasDocenteNN.html">HorasAcademicasDocenteNN</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasAcademicasDocenteNNAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasAcademicasDocenteNNAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasAcademicasDocenteNNAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasAcademicasDocenteNNAsync(System.Int32)">GetHorasAcademicasDocenteNNAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HorasAcademicasDocenteNN[]&gt; GetHorasAcademicasDocenteNNAsync(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorasAcademicasDocenteNN.html">HorasAcademicasDocenteNN</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasActividadesDocenteNN_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasActividadesDocenteNN*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasActividadesDocenteNN_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasActividadesDocenteNN(System.Int32)">GetHorasActividadesDocenteNN(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorasActividadesDocenteNN[] GetHorasActividadesDocenteNN(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorasActividadesDocenteNN.html">HorasActividadesDocenteNN</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasActividadesDocenteNNAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasActividadesDocenteNNAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetHorasActividadesDocenteNNAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetHorasActividadesDocenteNNAsync(System.Int32)">GetHorasActividadesDocenteNNAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;HorasActividadesDocenteNN[]&gt; GetHorasActividadesDocenteNNAsync(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.HorasActividadesDocenteNN.html">HorasActividadesDocenteNN</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetIdiomas_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetIdiomas*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetIdiomas" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetIdiomas">GetIdiomas()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Idioma[] GetIdiomas()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Idioma.html">Idioma</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetIdiomasAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetIdiomasAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetIdiomasAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetIdiomasAsync">GetIdiomasAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Idioma[]&gt; GetIdiomasAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Idioma.html">Idioma</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidad_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidad*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidad_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidad(System.Int32)">GetNacionalidad(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NACIONALIDAD GetNacionalidad(int idNacionalidad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idNacionalidad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.html">NACIONALIDAD</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadAsync(System.Int32)">GetNacionalidadAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;NACIONALIDAD&gt; GetNacionalidadAsync(int idNacionalidad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idNacionalidad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.html">NACIONALIDAD</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidades_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidades*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidades" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidades">GetNacionalidades()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NACIONALIDAD[] GetNacionalidades()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.html">NACIONALIDAD</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesAsync">GetNacionalidadesAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;NACIONALIDAD[]&gt; GetNacionalidadesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.NACIONALIDAD.html">NACIONALIDAD</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesIndigenas_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesIndigenas*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesIndigenas_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesIndigenas(System.Int32)">GetNacionalidadesIndigenas(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SAUC_NACIONALIDAD_INDIGENA[] GetNacionalidadesIndigenas(int idEtnia)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEtnia</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.html">SAUC_NACIONALIDAD_INDIGENA</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesIndigenasAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesIndigenasAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadesIndigenasAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadesIndigenasAsync(System.Int32)">GetNacionalidadesIndigenasAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SAUC_NACIONALIDAD_INDIGENA[]&gt; GetNacionalidadesIndigenasAsync(int idEtnia)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idEtnia</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.html">SAUC_NACIONALIDAD_INDIGENA</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadIndigena_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadIndigena*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadIndigena_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadIndigena(System.Int32)">GetNacionalidadIndigena(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SAUC_NACIONALIDAD_INDIGENA GetNacionalidadIndigena(int idNacionalidadIndigena)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idNacionalidadIndigena</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.html">SAUC_NACIONALIDAD_INDIGENA</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadIndigenaAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadIndigenaAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetNacionalidadIndigenaAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetNacionalidadIndigenaAsync(System.Int32)">GetNacionalidadIndigenaAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SAUC_NACIONALIDAD_INDIGENA&gt; GetNacionalidadIndigenaAsync(int idNacionalidadIndigena)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idNacionalidadIndigena</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SAUC_NACIONALIDAD_INDIGENA.html">SAUC_NACIONALIDAD_INDIGENA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertaByIdDocenteNN_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertaByIdDocenteNN*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertaByIdDocenteNN_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertaByIdDocenteNN(System.Int32)">GetOfertaByIdDocenteNN(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DATH_OFERTAS GetOfertaByIdDocenteNN(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.html">DATH_OFERTAS</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertaByIdDocenteNNAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertaByIdDocenteNNAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertaByIdDocenteNNAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertaByIdDocenteNNAsync(System.Int32)">GetOfertaByIdDocenteNNAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DATH_OFERTAS&gt; GetOfertaByIdDocenteNNAsync(int idDocenteNN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idDocenteNN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.DATH_OFERTAS.html">DATH_OFERTAS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertas_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertas*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertas" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertas">GetOfertas()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetDocentesNN_Result[] GetOfertas()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.html">GetDocentesNN_Result</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasAsync">GetOfertasAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetDocentesNN_Result[]&gt; GetOfertasAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.html">GetDocentesNN_Result</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasPendientes_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasPendientes*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasPendientes" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasPendientes">GetOfertasPendientes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetDocentesNN_Result[] GetOfertasPendientes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.html">GetDocentesNN_Result</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasPendientesAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasPendientesAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetOfertasPendientesAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetOfertasPendientesAsync">GetOfertasPendientesAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetDocentesNN_Result[]&gt; GetOfertasPendientesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetDocentesNN_Result.html">GetDocentesNN_Result</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPais_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPais*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPais_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPais(System.Int32)">GetPais(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PAIS GetPais(int idPais)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idPais</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.html">PAIS</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaisAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaisAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaisAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaisAsync(System.Int32)">GetPaisAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PAIS&gt; GetPaisAsync(int idPais)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idPais</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.html">PAIS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaises_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaises*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaises" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaises">GetPaises()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PAIS[] GetPaises()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.html">PAIS</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaisesAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaisesAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPaisesAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPaisesAsync">GetPaisesAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PAIS[]&gt; GetPaisesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PAIS.html">PAIS</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeridosByFacultad_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeridosByFacultad*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeridosByFacultad_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeridosByFacultad(System.Int32)">GetPeridosByFacultad(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PERIODO[] GetPeridosByFacultad(int idFacultad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idFacultad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO.html">PERIODO</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeridosByFacultadAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeridosByFacultadAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeridosByFacultadAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeridosByFacultadAsync(System.Int32)">GetPeridosByFacultadAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PERIODO[]&gt; GetPeridosByFacultadAsync(int idFacultad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idFacultad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO.html">PERIODO</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosAcademicos_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosAcademicos*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosAcademicos" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosAcademicos">GetPeriodosAcademicos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SG_PeriodoActualVigente[] GetPeriodosAcademicos()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SG_PeriodoActualVigente.html">SG_PeriodoActualVigente</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosAcademicosAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosAcademicosAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosAcademicosAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosAcademicosAsync">GetPeriodosAcademicosAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SG_PeriodoActualVigente[]&gt; GetPeriodosAcademicosAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SG_PeriodoActualVigente.html">SG_PeriodoActualVigente</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosDefinicionHorario_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosDefinicionHorario*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosDefinicionHorario" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosDefinicionHorario">GetPeriodosDefinicionHorario()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PERIODO_UA_SE[] GetPeriodosDefinicionHorario()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO_UA_SE.html">PERIODO_UA_SE</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosDefinicionHorarioAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosDefinicionHorarioAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPeriodosDefinicionHorarioAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPeriodosDefinicionHorarioAsync">GetPeriodosDefinicionHorarioAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PERIODO_UA_SE[]&gt; GetPeriodosDefinicionHorarioAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.PERIODO_UA_SE.html">PERIODO_UA_SE</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPostulantesByPersona_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPostulantesByPersona*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPostulantesByPersona_System_String_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPostulantesByPersona(System.String)">GetPostulantesByPersona(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GetPostulacionesByPersona_Result[] GetPostulantesByPersona(string idPersona)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idPersona</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetPostulacionesByPersona_Result.html">GetPostulacionesByPersona_Result</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPostulantesByPersonaAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPostulantesByPersonaAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetPostulantesByPersonaAsync_System_String_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetPostulantesByPersonaAsync(System.String)">GetPostulantesByPersonaAsync(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetPostulacionesByPersona_Result[]&gt; GetPostulantesByPersonaAsync(string idPersona)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idPersona</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.GetPostulacionesByPersona_Result.html">GetPostulacionesByPersona_Result</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetSubAreasConocimiento_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetSubAreasConocimiento*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetSubAreasConocimiento_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetSubAreasConocimiento(System.Int32)">GetSubAreasConocimiento(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubareaConocimiento[] GetSubAreasConocimiento(int idArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SubareaConocimiento.html">SubareaConocimiento</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetSubAreasConocimientoAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetSubAreasConocimientoAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetSubAreasConocimientoAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetSubAreasConocimientoAsync(System.Int32)">GetSubAreasConocimientoAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SubareaConocimiento[]&gt; GetSubAreasConocimientoAsync(int idArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.SubareaConocimiento.html">SubareaConocimiento</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTiposDiscapacidad_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTiposDiscapacidad*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTiposDiscapacidad" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTiposDiscapacidad">GetTiposDiscapacidad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TIPO_DISCAPACIDAD[] GetTiposDiscapacidad()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DISCAPACIDAD.html">TIPO_DISCAPACIDAD</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTiposDiscapacidadAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTiposDiscapacidadAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTiposDiscapacidadAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTiposDiscapacidadAsync">GetTiposDiscapacidadAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TIPO_DISCAPACIDAD[]&gt; GetTiposDiscapacidadAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_DISCAPACIDAD.html">TIPO_DISCAPACIDAD</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTipoSexo_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTipoSexo*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTipoSexo_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTipoSexo(System.Int32)">GetTipoSexo(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TIPO_SEXO GetTipoSexo(int idSexo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idSexo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SEXO.html">TIPO_SEXO</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTipoSexoAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTipoSexoAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTipoSexoAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTipoSexoAsync(System.Int32)">GetTipoSexoAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TIPO_SEXO&gt; GetTipoSexoAsync(int idSexo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idSexo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.TIPO_SEXO.html">TIPO_SEXO</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamiento_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamiento*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamiento_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamiento(System.Int32)">GetTratamiento(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tratamiento GetTratamiento(int idTratamiento)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idTratamiento</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.html">Tratamiento</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientoAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientoAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientoAsync_System_Int32_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientoAsync(System.Int32)">GetTratamientoAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Tratamiento&gt; GetTratamientoAsync(int idTratamiento)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">idTratamiento</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.html">Tratamiento</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientos_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientos*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientos" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientos">GetTratamientos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tratamiento[] GetTratamientos()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.html">Tratamiento</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientosAsync_" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientosAsync*"></a>
+  <h4 id="Unach_Dath_Postulacion_Domain_DathServiceReference_DathServiceClient_GetTratamientosAsync" data-uid="Unach.Dath.Postulacion.Domain.DathServiceReference.DathServiceClient.GetTratamientosAsync">GetTratamientosAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Tratamiento[]&gt; GetTratamientosAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.Tratamiento.html">Tratamiento</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ServiceModel.ICommunicationObject</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="Unach.Dath.Postulacion.Domain.DathServiceReference.IDathService.html">IDathService</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
